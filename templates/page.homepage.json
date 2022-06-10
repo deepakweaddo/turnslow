@@ -2,39 +2,8 @@
   "sections": {
     "16548418301371ca7f": {
       "type": "homepagesection",
-      "blocks": {
-        "16548418300d2b5e7f-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "16548418300d2b5e7f-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "16548418300d2b5e7f-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "16548418300d2b5e7f-0",
-        "16548418300d2b5e7f-1",
-        "16548418300d2b5e7f-2"
-      ],
       "settings": {
+        "image_2": "shopify:\/\/shop_images\/homeslider1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
