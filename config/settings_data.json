@@ -106,9 +106,9 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-2",
-          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo": "shopify:\/\/shop_images\/sb-logo.png",
           "logo_width": 90,
-          "logo_position": "middle-left",
+          "logo_position": "top-center",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
