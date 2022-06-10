@@ -5,6 +5,19 @@
   src: url(https://use.typekit.net/tcn4pid.css);
 }
 
+/* shopify start css */
+
+.header-wrapper { 
+  position: fixed;
+  background-color: transparent;
+  width: 100%;
+}
+
+/* shopify end css */
+
+
+
+
 .main-bg{
     background-image: url(../images/main_bg.jpg);
     background-size: cover;
