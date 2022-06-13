@@ -5,6 +5,8 @@
 <link rel="stylesheet" href="{{ 'component-cart-items.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'custom.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'carousel.min.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
 {%- if settings.predictive_search_enabled -%}
   <link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="{{ 'component-loading-overlay.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -298,6 +300,7 @@
 
     {%- if section.settings.logo_position == 'top-center' or section.settings.menu == blank -%}
       <details-modal class="header__search">
+      
         <details>
           <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
             <span>
@@ -494,7 +497,8 @@
     {%- endif -%}
 -->
     <div class="header__icons">
-      <details-modal class="header__search">
+     
+      <details-modal class="header__search"> 
         <details>
           <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
             <span>
@@ -581,15 +585,12 @@
           </span>
         </a>
       {%- endif -%}
+       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
+       <span class="icon icon-cart-empty"><i class="fal fa-heart"></i></span>
+       </a>
 
-      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
-        {%- liquid
-          if cart == empty
-            render 'icon-cart-empty'
-          else
-            render 'icon-cart'
-          endif
-        -%}
+      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="shop-icon-bubble">
+        <span class="icon icon-cart-empty"><i class="fal fa-shopping-bag"></i></span>
         <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
         {%- if cart != empty -%}
           <div class="cart-count-bubble">
@@ -600,6 +601,15 @@
           </div>
         {%- endif -%}
       </a>
+ <a href="" class="header__icon header__icon--cart link focus-inset" id="user-icon-bubble">
+       <span class="icon icon-cart-empty"><i class="fal fa-user usericon"></i></span>
+  </a>
+
+   <a href="" class="menuicon header__icon header__icon--cart link focus-inset" id="drawer__menu-icon-bubble">
+       <span class="icon icon-cart-empty"> <i class="fal fa-bars"> </i><p>Menu</p></span>
+  </a>
+
+ 
     </div>
   </header>
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
