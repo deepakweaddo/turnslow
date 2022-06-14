@@ -132,7 +132,7 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Join me on a journey of Slow Discovery",
               "menu": "footer"
             }
           },
@@ -144,10 +144,10 @@
               "menu": "footer"
             }
           },
-          "footer-2": {
+          "0e3e34d7-be5b-4653-b45e-9eb952e1c1e8": {
             "type": "text",
             "settings": {
-              "heading": "Our mission",
+              "heading": "Heading",
               "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
             }
           }
@@ -156,7 +156,7 @@
           "961c0276-ea1f-4142-9b63-8642bde3f51d",
           "footer-0",
           "footer-1",
-          "footer-2"
+          "0e3e34d7-be5b-4653-b45e-9eb952e1c1e8"
         ],
         "settings": {
           "color_scheme": "background-1",

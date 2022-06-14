@@ -1,19 +1,59 @@
 {
   "sections": {
-    "16548418301371ca7f": {
-      "type": "homepagesection",
+    "16551901340edfbe4e": {
+      "type": "video",
       "settings": {
-        "image_2": "shopify:\/\/shop_images\/homeslider1.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "heading": "",
+        "heading_size": "h0",
+        "cover_image": "shopify:\/\/shop_images\/homeslider1.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": true,
         "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16551922780cf3b2db": {
+      "type": "rich-text",
+      "blocks": {
+        "165519227822b8b6e1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Aur bhi bahut kahaaniyan hai, Join karein Slow Movement and Slow Down your life​<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "165519227822b8b6e1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>#BacktoBasics<\/p>"
+          }
+        },
+        "165519227822b8b6e1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Join the Slow Movement",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "165519227822b8b6e1-0",
+        "165519227822b8b6e1-1",
+        "165519227822b8b6e1-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "main": {
@@ -23,6 +63,7 @@
         "padding_bottom": 36
       }
     },
+<<<<<<< HEAD
     "165518836638dc186d": {
       "type": "custom-liquid",
       "settings": {
@@ -32,6 +73,8 @@
         "padding_bottom": 52
       }
     },
+=======
+>>>>>>> bc835d08974ea1104fb6c95267b35be5e7173481
     "165519013443de72b4": {
       "type": "multicolumn",
       "blocks": {
@@ -77,7 +120,11 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
+<<<<<<< HEAD
         "background_style": "primary",
+=======
+        "background_style": "none",
+>>>>>>> bc835d08974ea1104fb6c95267b35be5e7173481
         "button_label": "Button label",
         "button_link": "",
         "color_scheme": "background-1",
@@ -89,9 +136,15 @@
     }
   },
   "order": [
+<<<<<<< HEAD
     "16548418301371ca7f",
     "main",
     "165518836638dc186d",
+=======
+    "16551901340edfbe4e",
+    "16551922780cf3b2db",
+    "main",
+>>>>>>> bc835d08974ea1104fb6c95267b35be5e7173481
     "165519013443de72b4"
   ]
 }
