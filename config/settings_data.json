@@ -121,6 +121,14 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "961c0276-ea1f-4142-9b63-8642bde3f51d": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/NM-footer-img.png",
+              "image_width": 200,
+              "alignment": "right"
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
@@ -130,6 +138,7 @@
           },
           "footer-1": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "heading": "Info",
               "menu": "footer"
@@ -144,6 +153,7 @@
           }
         },
         "block_order": [
+          "961c0276-ea1f-4142-9b63-8642bde3f51d",
           "footer-0",
           "footer-1",
           "footer-2"
