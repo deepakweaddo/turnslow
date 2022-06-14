@@ -22,10 +22,76 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "165518836638dc186d": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "165519013443de72b4": {
+      "type": "multicolumn",
+      "blocks": {
+        "16551901342d8530ec-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/thousand_logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16551901342d8530ec-1": {
+          "type": "column",
+          "settings": {
+            "title": "Introducing the 10,000 Creators Project initiative by Slow Bazar",
+            "text": "<p>Introducing the 10,0000 CreatorsDiscover the stories behind the many creations you can experience at Slow Bazaar. Learn how we follow the long lost traditions in bringing products that promise the integrity, honesty and quality only enjoyed in the times gone by.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16551901342d8530ec-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sb-logo_836eeba6-727d-43a0-bef2-3155a5078627.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16551901342d8530ec-0",
+        "16551901342d8530ec-1",
+        "16551901342d8530ec-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "16548418301371ca7f",
-    "main"
+    "main",
+    "165518836638dc186d",
+    "165519013443de72b4"
   ]
 }
