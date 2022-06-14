@@ -37,6 +37,14 @@
 .menuicon {
   margin: 0 0 0 28px;
 }
+.header__heading-logo {
+  max-width: 120px;
+}
+
+header-drawer {
+  display: block!important;
+}
+
 
 /* shopify end css */
 
