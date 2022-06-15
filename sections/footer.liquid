@@ -36,10 +36,14 @@
   }
 {%- endstyle -%}
 
-<footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+<footer class="footer-div footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
-    <div class="footer__content-top page-width">
-      {%- if section.blocks.size > 0 -%}
+  
+    <div class="footer__content-top page-width"> 
+      <div class="foot-container row mx-auto">
+<div class="col-sm-3 niles-pic">1</div>
+<div class="col-sm-5">
+   {%- if section.blocks.size > 0 -%}
         {%- liquid
           if section.blocks.size == 9
             assign footer_grid_class = 'grid--3-col-tablet'
@@ -54,6 +58,8 @@
             <div class="footer-block grid__item{% if block.type == 'link_list' and block.settings.heading != blank %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
               {%- if block.settings.heading != blank -%}
                 <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2>
+            <div>asdas</div>
+            
               {%- endif -%}
 
               {%- case block.type -%}
@@ -95,7 +101,9 @@
           {%- endfor -%}
         </div>
       {%- endif -%}
-
+</div>
+<div class="col-sm-4">1</div>
+     </div>
       <div class="footer-block--newsletter">
         {%- if section.settings.newsletter_enable -%}
           <div class="footer-block__newsletter">
