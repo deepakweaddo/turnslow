@@ -7,11 +7,11 @@
 
 /* shopify start css */
 
-.header-wrapper { 
+/* .header-wrapper { 
   position: fixed;
   background-color: transparent;
   width: 100%;
-}
+} */
 
 .header__icon, .header__icon--cart .icon { 
   font-size: 18px;
@@ -115,10 +115,10 @@ header-drawer a {
   height: 4.7rem!important;
   width: 4.7rem!important; 
 }
-.header-wrapper--border-bottom {
+/* .header-wrapper--border-bottom {
   border-bottom: none;
 }
-
+ */
 
 .search__button .icon { 
   color: #fff;
