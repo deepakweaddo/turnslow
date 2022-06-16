@@ -35,7 +35,8 @@
 <!--     //If the content of the page has an <img tag in it then proceed to the next step -->
       {% assign src = link_item.content | split: 'src="' %}
 <!--     //Create a new variable for link_item.content and use src='"' substring as a parameter -->
-      {% assign src = src[1] | split: '"' | first | replace: '//cdn', 'http://cdn' | replace: 'http:http://', 'http://' | remove: 'https:'  %}//Create a new variable for src[1] use '"' substring as a parameter and replace '//cdn' with 'http://cdn' then replace 'http:http://' then finally remove 'https:'
+      {% assign src = src[1] | split: '"' | first | replace: '//cdn', 'http://cdn' | replace: 'http:http://', 'http://' | remove: 'https:'  %}
+<!--     //Create a new variable for src[1] use '"' substring as a parameter and replace '//cdn' with 'http://cdn' then replace 'http:http://' then finally remove 'https:' -->
       {% if src %}
 <!--     //if there is a src  -->
         {% assign link_image = src %}
