@@ -211,7 +211,7 @@
     </script>
   </head>
 
-  <body class="gradient">
+  <body class="gradient template-index">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
@@ -269,5 +269,34 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+    <script> 
+      
+      	var stored = localStorage['sliderid'];
+		if (stored) myVar = JSON.parse(stored);
+		else myVar = {slide: [1, 2]};
+      
+      localStorage['sliderid'] = JSON.stringify(myVar);
+      
+      console.log(localStorage['sliderid']);
+      
+      var findclass = $('body').find('.slider-mobile-gutter');
+      var findclasslen = $('body').find('.slider-mobile-gutter').length;
+      var findid = $('[id*="Slider-template-"]');
+      console.log(findid);
+      
+      let x = Math.floor((Math.random() * 2) + 0);
+      
+      console.log(findid[x]);
+      
+      $(findid[x]).hide();
+
+      </script>
+    <style>
+    .slideshow__controls {
+    	display: none;
+	}
+    </style>
   </body>
 </html>
