@@ -172,7 +172,10 @@
       </h1>
     {%- endif -%}
 
-    {%- if section.settings.menu == blank -%}
+    {%- if section.settings.menu != blank -%}
+        
+    {%- if section.settings.horizontal_menu -%}
+        
       {%- if section.settings.menu_type_desktop == 'dropdown' -%}
      <nav class="header__inline-menu">
           <ul class="list-menu list-menu--inline" role="list">
@@ -270,6 +273,7 @@
           </ul>
         </nav>
       {%- endif -%}
+    {%- endif -%}
     {%- endif -%}
     <div class="header__icons">
      
