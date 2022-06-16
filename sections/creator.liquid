@@ -1,12 +1,8 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
+{% assign linklist = linklists["creator"] %}
+{% assign collections_per_row = settings.frontpage_collections_per_row %}
 
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
+<div class="twelve columns collection-list">
+  <h1 class="page-title">{{page.title | escape}}</h1>
+    {{ page.content }}
+    {% include 'collection-within-collection' %}
+</div>
