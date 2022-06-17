@@ -102,7 +102,14 @@
         },
         "c1594196-e5e8-4b66-a796-69f2690908d1": {
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {
+          }
+        },
+        "00b07535-e342-4ce5-bb9c-99e15caaaf76": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
           }
         }
       },
@@ -121,7 +128,8 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
-        "c1594196-e5e8-4b66-a796-69f2690908d1"
+        "c1594196-e5e8-4b66-a796-69f2690908d1",
+        "00b07535-e342-4ce5-bb9c-99e15caaaf76"
       ],
       "settings": {
         "enable_sticky_info": true,
