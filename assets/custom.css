@@ -220,8 +220,7 @@ nav.header__inline-menu {
 /*categories section*/
   .categoriesContainer {
   background: url(background_1.png);
-  width: 100%;
-  padding-top: 180px;
+  width: 100%; 
   background-size: cover;
   }
   .categoriesContainer .title--primary {
@@ -229,7 +228,7 @@ nav.header__inline-menu {
     text-align: left;
     color: #000;
     font-family: freight-big-pro!important;
-    margin: 20px 0 40px 0;
+    margin: 10px 0 40px 0;
 }
 .categoriesContainer .collection-list .collection-list__item .card__media .media img {
   height: auto;
@@ -306,9 +305,8 @@ nav.header__inline-menu {
 /* product start */
 .product-grid-container {
   background: url(background_1.png);
-    width: 100%;
-    padding-top: 180px;
-    background-size: cover;
+  width: 100%; 
+  background-size: cover;
 }
 
 .product-grid .card__inner {
@@ -357,7 +355,7 @@ nav.header__inline-menu {
   color: #000;
   font-family: freight-big-pro!important;
 }
-.caption-with-letter-spacing {
+#product-grid .caption-with-letter-spacing {
   letter-spacing: 0;
   text-transform: inherit;
   font-size: 18px;
@@ -365,11 +363,65 @@ nav.header__inline-menu {
   font-family: freight-big-pro!important;
   text-decoration: underline;
 }
+#product-grid .shortdescp p {
+  color: #000;
+  font-size: 16px;
+  line-height: 20px;
+}
+#product-grid .quick-add__submit {
+  display: inline-block;
+  font-size: 19px;
+  background-image: url(addtocart.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: freight-big-pro;
+  padding: 5px 19px!important;
+  margin: 0;
+  width: auto!important;
+  border: 0!important;
+  min-width: auto!important;
+  background-color: transparent;
+  text-transform: capitalize;
+} 
+#product-grid .card__content { 
+  flex-grow: inherit;
+}
+#product-grid span.rating-star.color-icon-text {
+  font-size: 19px;
+  letter-spacing: 4px;
+}
+.collection-hero__title {
+  margin:10px 0!important;
+  font-size: 50px;
+  text-align: left;
+  color: #000;
+  font-family: freight-big-pro!important; 
+}
+.card__information { 
+  position: relative;
+}
+
+.shoplist{ position: absolute;
+  right: 0;
+  width: 20px;
+  font-size: 20px;
+  top: 20px;}
 
 
 /* product end */
-
-
+/* breadcrumb */
+ 
+nav.breadcrumb {
+  margin: 170px 0 0 0;
+  font-size: 13px;
+  font-family: freight-big-pro!important;
+}
+nav.breadcrumb a {
+  color: #000;
+}
+nav.breadcrumb span {
+  padding: 0 4px;
+}
 /* shopify end css */
 
 /* responsive */
