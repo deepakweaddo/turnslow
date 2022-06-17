@@ -207,10 +207,118 @@ header-drawer a {
   padding-bottom: 56.25%!important;
 }
 
+/*categories section*/
+  .categoriesContainer {
+  background: url(background_1.png);
+  width: 100%;
+  padding-top: 180px;
+  background-size: cover;
+  }
+  .categoriesContainer .title--primary {
+    font-size: 50px;
+    text-align: left;
+    color: #000;
+    font-family: freight-big-pro!important;
+    margin: 20px 0 40px 0;
+}
+.collection-list .collection-list__item .card__media .media img {
+  height: auto;
+  object-fit: initial;
+  object-position: right;
+  width: auto;
+}
+.card__content {
+  width: 50%!important;
+  float: left;
+  padding: 30px 30px 0 30px!important;
+}
+.collection-list .collection-list__item .card {
+  background-image: url(categories_bg.png)!important;
+  width: 100%;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  border-radius: 0!important;
+  background-size: 100% 100%!important;
+  background-position: center;
+  background: #cb6f4f;
+  padding: 50px 30px;
+  height: auto!important;
+  border-radius: 0!important;
+  margin: 0px!important;
+  display: inline-block;
+  border: none;
+}
+
+.collection-list .collection-list__item .card__inner {
+    width: 50%;
+    float: right;
+    background: transparent;
+    position: relative;
+    top: 25px;
+    right: 10px;
+}
+.collection-list .collection-list__item .card__heading a{
+  font-size: 30px;
+  text-align: left;
+  color: #fff;
+  font-family: freight-big-pro!important; 
+}
+
+.collection-list li:nth-child(1) .card {
+  background: #287246;
+}
+   
+.collection-list li:nth-child(odd) .card { background-color:#a64b2b; }
+.collection-list li:nth-child(even) .card { background-color: #23653f; }
+.collection-list li:nth-child(3n) .card { background-color: #48302b; }
+.collection-list li:nth-child(4n) .card { background-color: #b18822; }
+.collection-list li:nth-child(5n) .card { background-color: #2a343b; }
+.collection-list li:nth-child(6n) .card { background-color: #783a39; } 
+ 
+.btn1 {
+  display: inline-block;
+  font-size: 15px;
+  background-image: url(btb_bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border: 0;
+  font-family: freight-big-pro;
+  padding: 8px 20px;
+  margin: 20px 0 0 0;
+}
+.btn1:hover{
+  background: #000;
+}
+.collection-list .collection-list__item .card__heading a:hover .btn1{
+  background: #000;
+}
 /* shopify end css */
 
+/* responsive */
 
+@media (min-width:320px) and (max-width:767px){
+  .card__content {
+    width: 100%!important;
+    float: left;
+    padding: 0px!important;
+  }
+  .collection-list .collection-list__item .card__inner {
+    width: 85%;
+    float: inherit; 
+    position: relative;
+    top: 10px;
+    right: 0;
+}
+.collection-list .collection-list__item .card__heading a {
+  font-size: 25px; 
+  display: grid;
+}
+.btn1 { 
+  text-align: center;
+}
+}
 
+/* responsive end css */
 
 .main-bg{
     background-image: url(../images/main_bg.jpg);
