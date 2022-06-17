@@ -206,6 +206,12 @@ header-drawer a {
   position: relative;
   padding-bottom: 56.25%!important;
 }
+/* header menu start */
+nav.header__inline-menu {
+  background: #e1680f;
+  text-align: center; 
+}
+/* header menu end */
 
 /*categories section*/
   .categoriesContainer {
@@ -292,6 +298,40 @@ header-drawer a {
 .collection-list .collection-list__item .card__heading a:hover .btn1{
   background: #000;
 }
+
+/* product start */
+.product-grid-container {
+  background: url(background_1.png);
+    width: 100%;
+    padding-top: 180px;
+    background-size: cover;
+}
+
+.product-grid .card__inner {
+  background-image: url(productframe_bg1.png)!important;
+  width: 100%;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  border-radius: 0!important;
+  background-size: 100% 100%!important;
+  background-position: center;
+  background: #cb6f4f;
+  padding: 50px 30px;
+  height: auto!important;
+  border-radius: 0!important;
+  margin: 0px!important;
+  display: inline-block;
+  border: none;
+}
+.product-grid .card { 
+  background-color: transparent; 
+  border: 0px solid rgba(0,0,0,.125);
+  border-radius: 0;
+}
+
+/* product end */
+
+
 /* shopify end css */
 
 /* responsive */
