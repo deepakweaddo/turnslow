@@ -90,6 +90,11 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "c1594196-e5e8-4b66-a796-69f2690908d1": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -105,7 +110,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "c1594196-e5e8-4b66-a796-69f2690908d1"
       ],
       "settings": {
         "enable_sticky_info": true,
