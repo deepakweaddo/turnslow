@@ -106,9 +106,9 @@
         "type": "header",
         "settings": {
           "color_scheme": "accent-1",
-          "transparent_header": true,
+          "transparent_header": false,
           "content_color": "#f3f3f3",
-          "show_horizontal_menu": false,
+          "show_horizontal_menu": true,
           "logo": "shopify:\/\/shop_images\/logo_bbf9eb96-7eb2-49dd-a820-fd80351a4934.png",
           "logo_width": 90,
           "logo_position": "top-center",
