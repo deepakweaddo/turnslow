@@ -130,10 +130,26 @@
               "heading": "Join me on a journey of Slow Discovery",
               "menu": "main-menu"
             }
+          },
+          "2f082082-23bc-47e6-9496-d9753eecd249": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "0118616c-5d16-4b0b-9c6e-c04a4ff9656f": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
           }
         },
         "block_order": [
-          "d96a8ad0-3d91-4beb-9ff0-787474a4bc40"
+          "d96a8ad0-3d91-4beb-9ff0-787474a4bc40",
+          "2f082082-23bc-47e6-9496-d9753eecd249",
+          "0118616c-5d16-4b0b-9c6e-c04a4ff9656f"
         ],
         "settings": {
           "color_scheme": "background-1",
