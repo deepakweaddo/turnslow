@@ -130,18 +130,10 @@
               "heading": "Join me on a journey of Slow Discovery",
               "menu": "main-menu"
             }
-          },
-          "8fdbb5a2-b0b9-4c04-9110-a770563fe1aa": {
-            "type": "text",
-            "settings": {
-              "heading": "Download the Slow App",
-              "subtext": ""
-            }
           }
         },
         "block_order": [
-          "d96a8ad0-3d91-4beb-9ff0-787474a4bc40",
-          "8fdbb5a2-b0b9-4c04-9110-a770563fe1aa"
+          "d96a8ad0-3d91-4beb-9ff0-787474a4bc40"
         ],
         "settings": {
           "color_scheme": "background-1",
