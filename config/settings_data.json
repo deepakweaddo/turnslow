@@ -127,29 +127,21 @@
           "d96a8ad0-3d91-4beb-9ff0-787474a4bc40": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Join me on a journey of Slow Discovery",
               "menu": "main-menu"
             }
           },
-          "03638d8b-74f4-460f-9eec-54f6408cc0a0": {
-            "type": "link_list",
+          "8fdbb5a2-b0b9-4c04-9110-a770563fe1aa": {
+            "type": "text",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
-            }
-          },
-          "0611ccb6-4855-42e1-b78e-6f165170d5c2": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
+              "heading": "Download the Slow App",
+              "subtext": ""
             }
           }
         },
         "block_order": [
           "d96a8ad0-3d91-4beb-9ff0-787474a4bc40",
-          "03638d8b-74f4-460f-9eec-54f6408cc0a0",
-          "0611ccb6-4855-42e1-b78e-6f165170d5c2"
+          "8fdbb5a2-b0b9-4c04-9110-a770563fe1aa"
         ],
         "settings": {
           "color_scheme": "background-1",
