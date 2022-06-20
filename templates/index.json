@@ -1,11 +1,5 @@
 {
   "sections": {
-    "pagefly-home": {
-      "type": "pagefly-home",
-      "disabled": true,
-      "settings": {
-      }
-    },
     "1654843925f7b105bf": {
       "type": "slideshow",
       "blocks": {
@@ -81,7 +75,6 @@
     }
   },
   "order": [
-    "pagefly-home",
     "1654843925f7b105bf"
   ]
 }
