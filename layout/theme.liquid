@@ -230,11 +230,15 @@
 	{% endif %}
     
     <main id="MainContent" class="content-for-layout focus-none innerpagelayout" role="main" tabindex="-1">
+      {% unless template == 'cart' %}
       <div class="cartBg">
         <div class="page-width">
+          {% endunless%}
       {{ content_for_layout }}
+          {% unless template == 'cart' %}
       </div>   
     </div>
+       {% endunless%}
     </main>
     {% section 'footer' %}
 
