@@ -220,7 +220,6 @@
       {%- render 'cart-drawer' -%}
     {%- endif -%}
 
-    {% unless template contains 'index'%}
 
     {% section 'announcement-bar' %}
     
@@ -230,14 +229,11 @@
 		{% section 'header-bg' %}
 	{% endif %}
     
-    {% endunless %}
     <main id="MainContent" class="content-for-layout focus-none innerpagelayout" role="main" tabindex="-1">
      
       {{ content_for_layout }}
     </main>
-    {% unless template contains 'index'%}
     {% section 'footer' %}
-    {% endunless %}
 
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
