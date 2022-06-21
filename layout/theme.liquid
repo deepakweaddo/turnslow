@@ -220,17 +220,15 @@
       {%- render 'cart-drawer' -%}
     {%- endif -%}
 
-    {% unless template contains 'index'%}
 
     {% section 'announcement-bar' %}
     
-    {% if page.handle == 'home' %}
+    {% if template contains 'index' %}
 		{% section 'header' %}
 	{% else %}
 		{% section 'header-bg' %}
 	{% endif %}
     
-    {% endunless %}
     <main id="MainContent" class="content-for-layout focus-none innerpagelayout" role="main" tabindex="-1">
       <div class="cartBg">
         <div class="page-width">
@@ -238,9 +236,7 @@
       </div>   
     </div>
     </main>
-    {% unless template contains 'index'%}
     {% section 'footer' %}
-    {% endunless %}
 
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
@@ -289,30 +285,30 @@
         }); 
       });
       
-      	var stored = localStorage['sliderid'];
-		if (stored) myVar = JSON.parse(stored);
-		else myVar = {slide: [1, 2]};
+//       	var stored = localStorage['sliderid'];
+// 		if (stored) myVar = JSON.parse(stored);
+// 		else myVar = {slide: [1, 2]};
       
-      localStorage['sliderid'] = JSON.stringify(myVar);
+//       localStorage['sliderid'] = JSON.stringify(myVar);
       
-      console.log(localStorage['sliderid']);
+//       console.log(localStorage['sliderid']);
       
-      var findclass = $('body').find('.slider-mobile-gutter');
-      var findclasslen = $('body').find('.slider-mobile-gutter').length;
-      var findid = $('[id*="Slider-template-"]');
-      console.log(findid);
+//       var findclass = $('body').find('.slider-mobile-gutter');
+//       var findclasslen = $('body').find('.slider-mobile-gutter').length;
+//       var findid = $('[id*="Slider-template-"]');
+//       console.log(findid);
       
-      let x = Math.floor((Math.random() * 2) + 0);
+//       let x = Math.floor((Math.random() * 2) + 0);
       
-      console.log(findid[x]);
+//       console.log(findid[x]);
       
-      $(findid[x]).hide();
+//       $(findid[x]).hide();
 
       </script>
     <style>
-    .slideshow__controls {
+/*     .slideshow__controls {
     	display: none;
-	}
+	} */
     </style>
   </body>
 </html>

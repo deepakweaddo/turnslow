@@ -272,9 +272,9 @@ header-drawer a {
   background: url(header_bg1.jpg) 0% 0% / cover;
 }
 /* header menu start */
-.innerpagelayout {
+/* .innerpagelayout {
   margin: 162px 0 0 0;
-}
+} */
 .header-wrapper { 
   z-index: 9;
 }
