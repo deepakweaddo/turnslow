@@ -1,80 +1,54 @@
 {
   "sections": {
-    "1654843925f7b105bf": {
-      "type": "slideshow",
+    "165579586625d0be56": {
+      "type": "homepagesection",
       "blocks": {
-        "16548439257c5261ce-0": {
-          "type": "slide",
+        "1655795866922389d4-0": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slide1.webp",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "heading": "Image banner",
+            "heading_size": "h1"
           }
         },
-        "16548439257c5261ce-1": {
-          "type": "slide",
+        "1655795866922389d4-1": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slide2.webp",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
           }
         },
-        "e87f5bb9-fe7b-405e-898d-0760da894a70": {
-          "type": "slide",
+        "1655795866922389d4-2": {
+          "type": "buttons",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slide3.webp",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "16548439257c5261ce-0",
-        "16548439257c5261ce-1",
-        "e87f5bb9-fe7b-405e-898d-0760da894a70"
+        "1655795866922389d4-0",
+        "1655795866922389d4-1",
+        "1655795866922389d4-2"
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
   "order": [
-    "1654843925f7b105bf"
+    "165579586625d0be56"
   ]
 }
