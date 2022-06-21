@@ -11,7 +11,7 @@
         "ba055e2f-d02f-4dad-9b43-628bccf155bb": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<!-- custom html -->\n        <div class=\"creatorWrap\">\n        <div class=\"container\">\n        <div class=\"row\"> \n            <div class=\"col-12 col-md-9\">\n              <div class=\"creator_pdp\">\n                <h3>Creator<\/h3>\n                  <\/div>\n                <\/div>\n            <div class=\"col-12 col-md-3\"><h4>SKU: SP00213<\/h4><\/div> \n        <\/div> \n      <\/div>    \n    <\/div>"
+            "custom_liquid": "<!-- custom html -->\n        <div class=\"creatorWrap\">\n        <div class=\"container\">\n        <div class=\"row\"> \n            <div class=\"col-12 col-md-9\">\n              <div class=\"creator_pdp\">\n<div class=\"creatorImg\">sdsM<\/div> \n <h3>Creator<\/h3>\n                  <\/div>\n                <\/div>\n            <div class=\"col-12 col-md-3\"><h4>SKU: SP00213<\/h4><\/div> \n        <\/div> \n      <\/div>    \n    <\/div>"
           }
         },
         "vendor": {
