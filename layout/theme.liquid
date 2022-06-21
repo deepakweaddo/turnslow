@@ -223,7 +223,7 @@
 
     {% section 'announcement-bar' %}
     
-    {% if page.handle == 'home' %}
+    {% if template contains 'index' %}
 		{% section 'header' %}
 	{% else %}
 		{% section 'header-bg' %}
