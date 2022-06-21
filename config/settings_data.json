@@ -97,6 +97,8 @@
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
     "cart_type": "drawer",
+    "checkout_body_background_image": "shopify:\/\/shop_images\/MicrosoftTeams-image_5.png",
+    "checkout_body_background_color": "#ffffff",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
