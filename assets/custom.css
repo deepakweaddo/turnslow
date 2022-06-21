@@ -116,6 +116,10 @@ h2.footer-block__heading {
 .foot-container{
   width: 100%;
 }
+.footer {
+  margin-top: 0!important;
+  border: none!important;
+}
 header-drawer { 
   margin-left: 0!important;
 }
@@ -732,9 +736,12 @@ aside {
 /* side cart */
 
 /*  cart page */
-.background_2 {
+.cartBg {
   width: 100%;
   background: url(background_1.png) 0% 0% / cover;
+  display: block;
+  float: left;
+  padding:20px 0 40px 0;
 }
 .title-wrapper-with-link .title { 
   font-size: 40px;
@@ -743,7 +750,7 @@ aside {
   font-family: freight-big-pro!important;
 }
 .title-wrapper-with-link {
-  margin: 2rem 0 3rem;
+  margin:4rem 0 1.5rem 0;
 }
 
 .backbtn {
@@ -760,7 +767,7 @@ aside {
   font-size: 16px;
 }
 .cartList {
-  width: 50%;
+  width: 100%;
 }
 .cart-item .cart-item__quantity {
   padding-left: 0!important;
@@ -798,6 +805,7 @@ aside {
 .cartfooterpage {
   width: 50%;
   float: left;
+  padding: 0 20px!important;
 }
 
 .cart__footer {
@@ -824,7 +832,9 @@ aside {
 .cart__footer {
   display: block!important;
   justify-content: initial!important;
-  border: 0!important;    padding: 50px!important;
+  border: 0!important;   
+  padding:50px 60px!important;
+  margin:150px 0 0 0!important;
 }
  
 .avaiableofferwarp { 
@@ -834,7 +844,8 @@ aside {
   font-size: 25px;
   text-align: left;
   color: #fff;
-  font-family: freight-big-pro!important; 
+  font-family: freight-big-pro!important;
+  padding: 0 0 15px 0;
 }
 
 .avaiableofferwarp ul li {
@@ -844,14 +855,14 @@ aside {
   font-family: freight-big-pro!important; 
 }
 
-.totals {
+.cartfooterpage .totals {
   justify-content: inherit;
   display: -ms-flexbox!important;
   display: flex!important;
   -ms-flex-pack: justify!important;
   justify-content: space-between!important;
 }
-.totals > h2 {
+.cartfooterpage .totals > h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   color: #fff;
@@ -863,6 +874,35 @@ aside {
   color: #fff;
   font-weight: 500;
   margin: 0!important;
+}
+.cartleft{
+  width: 50%;
+  float: left; 
+  padding: 0 36px 0 0!important;
+}
+hr.line1 {
+  background-color: #ffffff;
+  margin: 40px 0;
+  opacity: 0.6;
+}
+
+.cartfooterpage .cart__blocks {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.cartfooterpage .cart__ctas button {
+  width: auto;
+  background-image: url(btb_bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border: 0;
+  font-family: freight-big-pro;
+  position: relative;
+  background-color: #e1680f;
+  font-size: 25px;
+  padding: 10px 50px;
+  margin: 35px auto 0px auto;
 }
 
 /* cart page */
@@ -959,7 +999,9 @@ min-height: 500px;
       width: auto !important;
       border: 0px !important;
       float: left;}
-
+      .product.product--small {
+        margin: 30px 0 0 0;
+    }
 /* PDP end */
 
 /* creator page start */
