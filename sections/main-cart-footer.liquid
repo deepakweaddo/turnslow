@@ -3,9 +3,22 @@
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
 
-<div class="page-width{% if cart == empty %} is-empty{% endif %}" id="main-cart-footer" data-id="{{ section.id }}">
+<div class="cartfooterpage page-width{% if cart == empty %} is-empty{% endif %}" id="main-cart-footer" data-id="{{ section.id }}">
   <div>
     <div class="cart__footer">
+
+      <!-- Custom -->
+<div class="avaiableofferwarp"> 
+  <h2> Available offers </h2>
+  <ul>
+    <li>Morbi maximus dui vitae nisl tristique molestie.</li>
+    <li>Integer at nunc quis ipsum vestibulum aliquet.</li>
+  </ul>
+    </div>
+ <!-- Custom -->
+
+
+
       {%- if settings.show_cart_note -%}
         <cart-note class="cart__note field">
           <label for="Cart-note">{{ 'sections.cart.note' | t }}</label>

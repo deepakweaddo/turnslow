@@ -276,9 +276,15 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <script> 
+      $(document).ready(function(){ 
+        $('#video-id,.demo-play-btn').click(function(){ 
+          $('#video-id').get(0).paused ? $('#video-id').get(0).play() : $('#video-id').get(0).pause(); 
+          $(".demo-play-btn").toggle();
+        }); 
+      });
       
       	var stored = localStorage['sliderid'];
 		if (stored) myVar = JSON.parse(stored);
