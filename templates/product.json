@@ -156,36 +156,36 @@
         "16557133154eb09838-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Q. This is a dummy question?",
+            "icon": "none",
+            "row_content": "<p>Pellentesque nec efficitur lorem. Vivamus maximus nisi in velit tempor ultricies. Aliquam sagittis commodo fermentum. Duis consequat nunc metus. <\/p>",
             "page": ""
           }
         },
         "16557133154eb09838-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Q. This is a dummy question?",
+            "icon": "none",
+            "row_content": "<p>Pellentesque nec efficitur lorem. Vivamus maximus nisi in velit tempor ultricies. Aliquam sagittis commodo fermentum. Duis consequat nunc metus. <\/p>",
             "page": ""
           }
         },
         "16557133154eb09838-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Q. This is a dummy question?",
+            "icon": "none",
+            "row_content": "<p>Pellentesque nec efficitur lorem. Vivamus maximus nisi in velit tempor ultricies. Aliquam sagittis commodo fermentum. Duis consequat nunc metus. <\/p>",
             "page": ""
           }
         },
         "16557133154eb09838-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Q. This is a dummy question?",
+            "icon": "none",
+            "row_content": "<p>Pellentesque nec efficitur lorem. Vivamus maximus nisi in velit tempor ultricies. Aliquam sagittis commodo fermentum. Duis consequat nunc metus. <\/p>",
             "page": ""
           }
         }
@@ -198,14 +198,14 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "FAQ’s",
+        "heading": "FAQ’s1",
         "heading_size": "h1",
         "heading_alignment": "left",
         "layout": "none",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
-        "image": "shopify:\/\/shop_images\/faq_bg.jpg",
+        "open_first_collapsible_row": true,
+        "image": "shopify:\/\/shop_images\/faq_bg.png",
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 20,
