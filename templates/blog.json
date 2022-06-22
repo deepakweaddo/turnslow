@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-blog",
-      "disabled": true,
       "settings": {
         "layout": "grid",
         "show_image": true,
@@ -15,6 +14,7 @@
     },
     "165589521713ced8bb": {
       "type": "pagefly-section",
+      "disabled": true,
       "settings": {
         "section_id": "pf-09588fe1"
       }
