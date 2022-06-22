@@ -288,6 +288,12 @@
           $(".demo-play-btn").toggle();
         }); 
       });
+
+      $(window).on("load", function() {
+        $("#preloader").length && $("#preloader").delay(100).fadeOut("slow", function() {
+          $(this).remove()
+        })
+      });
       
 //       	var stored = localStorage['sliderid'];
 // 		if (stored) myVar = JSON.parse(stored);

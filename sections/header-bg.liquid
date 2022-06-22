@@ -6,11 +6,13 @@
 <link rel="stylesheet" href="{{ 'custom.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'carousel.min.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-
-        
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+      
 {%- if settings.predictive_search_enabled -%}
   <link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="{{ 'component-loading-overlay.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -132,22 +134,19 @@
 </svg>
 <{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} {% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
   <header id="site-header" class="innerheader header-bg header header--{{ section.settings.logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %} {% if section.settings.transparent_header %}site-header-transparent{% endif %}">
-    
+    <a href="" class="slowbtn"><i class="far fa-long-arrow-left"></i> Discover The Slow Movement</a>
 
     {%- if section.settings.logo_position == 'top-center' or section.settings.menu == blank -%}
-      <form class="search search-field" action="/search">
+    <!--  <form class="search search-field" action="/search">
         <input type="text" placeholder="What are you looking for" name="q" value="{{ search.terms | escape }}"  />
        
         <button type="submit" class="search__button field__button" aria-label="Search">
               <svg class="icon icon-search">
                 <use xlink:href="#icon-search">
               </svg>
-            </button>
-
-
-      </form>
-
-      
+            </button> 
+      </form> 
+       -->
     {%- endif -%}
 
     {%- if request.page_type == 'index' -%}
@@ -176,7 +175,7 @@
     
     <div class="header__icons">
      
-       <details-modal id="header-search" class="header__search"> 
+       <details-modal id="header-search" class="header__search searchicon"> 
         <details>
           <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
             <span>

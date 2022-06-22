@@ -5,6 +5,55 @@
   src: url(https://use.typekit.net/tcn4pid.css);
 }
 
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	overflow: hidden;
+	background: #fff;
+}
+
+#preloader:before {
+	content: "";
+	position: fixed;
+	top: calc(50% - 30px);
+	left: calc(50% - 30px);
+	border: 6px solid #f2f2f2;
+	border-top: 6px solid #2db2bc;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	-webkit-animation: animate-preloader 1s linear infinite;
+	animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+	0 {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes animate-preloader {
+	0 {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
 /* shopify start css */
 
 /* .header-wrapper { 
@@ -12,23 +61,34 @@
   background-color: transparent;
   width: 100%;
 } */
-
+.header__icon span {
+  height: 100%;
+  margin: 8px 0 0 0;
+}
 .innerpagelayout {
-  margin: 160px 0 0 0;
+  margin: 140px 0 0 0;
 }
 .innerheader i {
   color: #000;
 }
 .innerheader .usericon {
   background: #000;
-  padding: 6px;
-  border-radius: 50px;color: #fff!important;
-} 
-.innerheader header-drawer p {
+  padding: 7px 8px;
+  border-radius: 50px;
+  color: #fff!important;
   font-size: 16px;
+  width: 30px;
+  height: 30px;
+  margin: 0 0 0 10px;
+}
+.innerheader header-drawer p {
+  font-size: 15px;
   color: #000;
-  margin: -2px 0 0 70px;
+  margin: -3px 0 0 70px;
   text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0px;
+  font-weight: 500;
 }
 .innerheader .header__icon {
   color: #000;
@@ -44,6 +104,22 @@
   padding: 6px;
   border-radius: 50px;}
 
+.header__menu-item.header__menu-item {
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none!important;
+    font-family: 'Poppins', sans-serif;
+    padding: 14px 18px;
+}
+.header__active-menu-item { 
+  text-decoration: none; 
+}
+.header__menu-item:hover span {
+  text-decoration: none; 
+}
+.header__menu-item .icon-caret {
+  right: 0.4rem;
+}
 
   .menuicon{font-size: 12px;
   color: #fff;
@@ -61,17 +137,21 @@
 .header__heading-logo {
   max-width: 120px!important;
 }
-
+.header {
+  padding-top: 10px!important;
+  padding-bottom: 10px!important;
+}
 header-drawer {
   display: block!important;
 }
 .footer-div {
-  background-image: url(footer-bg.jpg);
-  background-size: 100% 100%;
+  background-image: url(footerbg1.jpg);
+  background-size: 100%;
   background-repeat: no-repeat;
   padding-top: 70px!important;
   padding-bottom: 0!important;
   border: 0px;
+  background-position: bottom;
 }
 .niles-pic{
   background-image: url(NM-footer-img.png);
@@ -141,8 +221,8 @@ h2.footer-block__heading {
   margin-top: 0!important;
   border: none!important;
 }
-header-drawer { 
-  margin-left: 0!important;
+header-drawer {
+  margin-left: 12px!important;
 }
 .link, .customer a{  text-decoration: none!important;}
 header-drawer p {
@@ -194,9 +274,70 @@ header-drawer a {
   /* border-left: 0px; */
 }
 .header__icon, .header__icon--cart .icon {
-  height: 4.7rem!important;
-  width: 4.7rem!important; 
+  height: 4.8rem!important;
+  width: 4.8rem!important;
 }
+.header .cart-count-bubble {
+  background-color: #000;
+  color: #fff;
+  height: 1.7rem;
+  width: 1.7rem;
+  bottom: 0.1rem;
+  line-height: 0;
+}
+.cart-count-bubble span {
+  margin: 0 0 0 0;
+}
+
+.header:not(.header--top-center) > .header__search, .header--top-center * > .header__search {
+  display: block;
+}
+.searchicon {
+  margin-right: -10px;
+  margin-top: -2px;
+}
+
+.search-modal.modal__content {
+  background: #000;
+}
+
+details[open] .modal-overlay::after {
+  position: absolute;
+  content: '';
+  background-color: #000;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  opacity: 0.5;
+}
+.slowbtn {
+  font-size: 17px;
+  background-image: url(btb_bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: 'freight-big-pro';
+  color: #fff;
+  margin: 0;
+  background-color: #000;
+  text-transform: capitalize;
+  padding: 10px 10px 10px 15px;
+  width: auto;
+  border: 0px;
+  text-align: center;
+}
+.search__button {
+  right: 0!important;
+  top:  0!important;
+}
+.slowbtn i {
+  color: #fff;
+  position: relative;
+  left: -7px;
+  top: 1px;
+}
+
+.slowbtn:hover{ color: #fff;}
 /* .header-wrapper--border-bottom {
   border-bottom: none;
 }
@@ -1200,6 +1341,8 @@ h2.product-recommendations__heading.h2{
   line-height: 35px;
   text-align: center;
 }
+.pdpFaqs {width: 100%;
+  background: url(faq_bg.jpg) 0% 0% / cover;}
 /* PDP end */
 
 /* checkout page */
