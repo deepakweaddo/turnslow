@@ -13,6 +13,27 @@
   width: 100%;
 } */
 
+.innerpagelayout {
+  margin: 160px 0 0 0;
+}
+.innerheader i {
+  color: #000;
+}
+.innerheader .usericon {
+  background: #000;
+  padding: 6px;
+  border-radius: 50px;color: #fff!important;
+} 
+.innerheader header-drawer p {
+  font-size: 16px;
+  color: #000;
+  margin: -2px 0 0 70px;
+  text-decoration: none;
+}
+.innerheader .header__icon {
+  color: #000;
+}
+
 .header__icon, .header__icon--cart .icon { 
   font-size: 18px;
 }
@@ -925,6 +946,7 @@ min-height: 500px;
 .product__media img{padding: 100px;}
 
 .product__title h1 {
+  margin: 0 0 20px 0;
   font-size: 35px;
   text-align: left;
   color: #000;
@@ -937,7 +959,7 @@ min-height: 500px;
   width: 100%;
   background: url(background_2.png) 0% 0% / cover;
 }
-.creator_pdp{ }
+ 
 .creator_pdp h3{    color: #000;
   font-family: freight-big-pro!important;}
   .creator_pdp p {
@@ -952,7 +974,8 @@ min-height: 500px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
-    padding: 20px 0 0 0;
+    padding: 0 0 0 0;
+    text-align: right;
 }
 .price .price-item {
   font-size: 28px;
@@ -971,7 +994,8 @@ min-height: 500px;
 }
 
 
-.product-form__submit{display: inline-block;
+.product-form__submit{ 
+  display: inline-block;
   font-size: 19px;
   background-image: url(addtocart.png);
   background-size: 100% 100%;
@@ -980,10 +1004,14 @@ min-height: 500px;
   margin: 0 10px 0 0px;
   background-color: transparent;
   text-transform: capitalize;
-  padding: 5px 19px !important;
+  padding: 4px 26px !important;
   width: auto !important;
   border: 0px !important;
-  float: left;}
+  float: left;
+  line-height: 0;
+  height: 45px;
+  letter-spacing: 0;}
+
     .shopify-payment-button{ float: left;}
     .shopify-payment-button__button{display: inline-block;
       font-size: 19px!important;
@@ -1002,7 +1030,188 @@ min-height: 500px;
       .product.product--small {
         margin: 30px 0 0 0;
     }
+
+    .creatorImg img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+  }
+  .creatorImg {
+    text-align: center;
+    position: relative;
+    padding-bottom: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #f4b408;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px 10px 0;
+    float: left;
+    border: 1px solid #000;
+}
+.product__info-wrapper .product__text {
+  color: #000;
+  font-family: freight-big-pro!important;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+}
+.creatorWrap {
+  margin: 0 0!important;
+}
+.product__info-wrapper .price .price-item {
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif!important;
+  font-weight: 500;
+  letter-spacing: 0px;
+}
+
+.product__info-wrapper .product-form__input .form__label {
+  display: inline-block;
+  float: left;
+  padding: 0px 22px 0 0;
+  font-size: 18px;
+  font-family: freight-big-pro!important;
+}
+.product__info-wrapper .select {
+  background-image: none!important; 
+}
+
+.product__info-wrapper select {
+  background: transparent;
+  border-bottom: 1px solid;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif!important;
+  height: 33px;
+  padding: 0 10px;
+}
+.product-form__input.product-form__input--dropdown {
+  margin-right: 10px!important;
+}
+.pdpWrap {
+  float: left;
+  width: 100%;
+  display: block;
+  margin: 0!important;
+  padding: 0;
+}
+.sizepdp {
+  width: 28%;
+  float: left;
+}
+
+.quantitypdp {
+/*  width: 28%;
+  float: left;*/
+}
+.instock { width: 100%;}
+.instock p { color: #000;
+    font-family: freight-big-pro!important;
+    font-size: 20px;}
+
+.pincodewrap label {
+  color: #000;
+  font-family: freight-big-pro!important;
+  font-size: 15px;
+  margin: 0 5px 0 0;
+  }
+
+  .pincodewrap input.pincode-code {
+    border-top: 0;
+    background: transparent;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #a2a0a0;
+    color: #000;
+    font-size: 17px;
+    padding: 10px 14px;
+    width: 90px;
+}
+form.pincodewrap {
+  width:60%;
+  display: inline-block;
+  float: left;
+}
+
+input.pincode-check.pincode-button { 
+  font-size: 19px!important;
+  background-image: url(addtocart.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: freight-big-pro!important;
+  color: #000!important;
+  margin:0;
+  background-color: transparent!important;
+  text-transform: capitalize;
+  padding: 3px 19px !important;
+  width: auto !important;
+  border: 0px !important; 
+}
+
+.estimateddelivery {
+  display: inline-block;
+  width: 40%;
+  padding: 0 0 0 10px;
+}
+.estimateddelivery p {
+  color: #000;
+  font-family: freight-big-pro!important;
+  font-size: 14px;
+  line-height: 17px;
+}
+.supportmsg {
+  margin: 15px 0 0 0;
+}
+.supportmsg p {
+  font-size: 20px;
+  color: #303030;
+  font-family: 'Poppins', sans-serif!important;
+  font-weight: 500;
+}
+.linehr2 {
+  margin: 0 0 20px 0;
+  float: left;
+  width: 100%;
+}
+.iconCartpdp {
+  position: relative;
+}
+.innerposition {
+  position: absolute;
+  right: 0;
+} 
+.iconCartpdp i {
+  font-size: 20px;
+  margin: 10px 5px 8px 5px;
+}
+.product-form {
+  margin:0 0 85px 0!important;
+}
+h2.product-recommendations__heading.h2{
+  margin: 0;
+  margin-bottom: 6rem;
+  font-size: 35px;
+  color: #000;
+  font-family: freight-big-pro!important;
+  line-height: 35px;
+  text-align: center;
+}
 /* PDP end */
+
+/* checkout page */
+
+.sidebar::after { 
+  background: transparent!important;
+}
+.main .field__input {
+  background-color: #000; 
+}
+
+/* checkout page */
 
 /* creator page start */
 h1.page-title {
