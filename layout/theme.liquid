@@ -229,7 +229,7 @@
 		{% section 'header-bg' %}
 	{% endif %}
     
-    <main id="MainContent" class="content-for-layout focus-none innerpagelayout" role="main" tabindex="-1">
+    <main id="MainContent" class="content-for-layout focus-none {% unless template contains 'index' %} innerpagelayout {% endunless %}" role="main" tabindex="-1">
       {% if template == 'cart' %}
       <div class="cartBg">
         <div class="page-width">
