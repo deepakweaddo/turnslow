@@ -1470,7 +1470,7 @@ h1.page-title {
   }
   
   .homerow1 {
-    width: 70%;
+    width: 80%;
     margin: 80px auto auto!important;
   }
   .homerow2 {
@@ -1481,6 +1481,7 @@ h1.page-title {
     width: 43%;
     margin: 0 auto 45px auto!important;
   }
+.homebtn:hover{background-color: #e1680f!important;}
 
 /* pagefly home */
 
