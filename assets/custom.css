@@ -66,7 +66,7 @@
   margin: 8px 0 0 0;
 }
 .innerpagelayout {
-  margin: 140px 0 0 0;
+  margin: 135px 0 0 0;
 }
 
 .mainheader i {
@@ -1436,6 +1436,124 @@ h1.page-title {
     width: 100%;
 }
 /* creator page end */
+/* blog */
+.blog-articles {
+  width: 100%;
+  float: left;
+  display: block!important;
+}
+.blog-articles__article.article {
+  width: 33.3%;
+  float: left;
+}
+.blogListing{
+margin: 10px 0!important;
+font-size: 50px;
+text-align: left;
+color: #000;
+font-family: freight-big-pro!important;
+}
+.blogListing h1{margin: 10px 0!important;
+  font-size: 50px;
+  text-align: left;
+  color: #000;
+  font-family: freight-big-pro!important;}
+
+  .blogListing {
+    width: 100%;
+    float: left;
+    display: block;
+    background: url(blogBg1.jpg); 
+    background-size: cover;
+}
+.article-card__image img{
+font-size: 17px;
+background-image: url(blogwrap.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+font-family: 'freight-big-pro';
+color: #fff;
+margin: 0; 
+text-transform: capitalize;
+padding: 10px 10px 10px 15px;
+width: auto;
+border: 0px;
+text-align: center;}
+.article-card__image{
+  font-size: 17px;
+  background-image: url(blogwrap.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: 'freight-big-pro';
+  color: #fff;
+  margin: 0; 
+  text-transform: capitalize;
+  padding: 10px 10px 10px 15px;
+  width: auto;
+  border: 0px;
+  text-align: center;}
+.blogListing .card:hover .media.media--hover-effect > img:first-child:only-child, 
+.blogListing .card-wrapper:hover .media.media--hover-effect > img:first-child:only-child {
+  transform: scale(1);
+}
+
+.blogListing .card .media { 
+  background: transparent!important;
+}
+.blogListing .article-card__info {
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0;
+}
+.blogListing .article-card__info a {
+  margin: 10px 0!important;
+  font-size: 25px;
+  text-align: left;
+  color: #000;
+  font-family: freight-big-pro!important;
+  line-height: 22px;
+  min-height: 45px;
+}
+.blogListing .article-card__excerpt {
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0;
+  color: #000;
+}
+.blogListing .card { 
+  border: 0px solid rgba(0,0,0,.125); 
+  background: transparent!important;
+}
+.blogListing .article-card .card__heading { 
+  font-family: freight-big-pro!important;
+  font-size: 20px;
+  height: 50px;
+}
+
+.blogcat {
+  float: left;
+  width: 100%;
+  margin: 0 0 30px 0;
+}
+.blogcat ul{
+  margin: 0;
+  padding: 0;
+}
+.blogcat ul li{
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 24px;
+ 
+}
+.blogcat ul li a{ color: #515151;}
+.blogcat a.active {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+/* blog end */
+
+
 /* homepage */
 .custom-font {
   font-family: freight-big-pro;

@@ -17,11 +17,25 @@
 {%- endstyle -%}
 
 {%- paginate blog.articles by 6 -%}
+<div class="blogListing">
   <div class="main-blog page-width section-{{ section.id }}-padding">
+  
     <h1 class="title--primary">{{ blog.title | escape }}</h1>
+
+<div class="blogcat">
+<ul>
+<li> <a href="">All</a></li>
+<li> <a href=""> Open Space</a></li>
+<li> <a href="" class="active"> Slow Content</a></li>
+<li> <a href=""> Slow Experiences</a></li>
+<li> <a href=""> Slow Journalism</a></li> 
+</ul>
+</div>
+
 
     <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
       {%- for article in blog.articles -%}
+        
         <div class="blog-articles__article article">
           {%- render 'article-card',
             article: article,
@@ -32,7 +46,8 @@
             show_author: section.settings.show_author,
             show_excerpt: true 
           -%}
-        </div>
+       
+      </div>
       {%- endfor -%}
     </div>
 
@@ -40,8 +55,9 @@
       {%- render 'pagination', paginate: paginate -%}
     {%- endif -%}
   </div>
+ 
 {%- endpaginate -%}
-
+</div>
 {% schema %}
 {
   "name": "t:sections.main-blog.name",
