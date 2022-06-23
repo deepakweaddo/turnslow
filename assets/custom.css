@@ -1454,21 +1454,33 @@ h1.page-title {
   line-height: 60px;
   font-family: freight-big-pro;}
 
-.homebtn {
-  font-size: 17px;
-  background-image: url(btb_bg.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  font-family: 'freight-big-pro';
-  color: #fff;
-  margin: 0;
-  background-color: #666666!important;
-  text-transform: capitalize;
-  padding: 10px 10px 10px 15px;
-  width: auto;
-  border: 0px;
-  text-align: center;
-}
+  .homebtn {
+    font-size: 20px;
+    background-image: url(btb_bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: freight-big-pro;
+    color: #fff;
+    margin: 0;
+    background-color: #666!important;
+    text-transform: capitalize;
+    padding: 15px 35px!important;
+    width: auto;
+    border: 0px;
+  }
+  
+  .homerow1 {
+    width: 70%;
+    margin: 80px auto auto!important;
+  }
+  .homerow2 {
+    width: 85%;
+    margin: 0 auto!important;
+  }
+  .homerow3 {
+    width: 43%;
+    margin: 0 auto 45px auto!important;
+  }
 
 /* pagefly home */
 
