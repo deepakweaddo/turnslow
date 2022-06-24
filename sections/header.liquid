@@ -263,11 +263,11 @@ integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLAS
           </span>
         </a>
       {%- endif -%}
-       <a href="#" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
+       <a href="#" class="header__icon header__icon--cart link focus-inset" id="shop-icon-bubble">
        <span class="icon icon-cart-empty"><i class="fal fa-heart"></i></span>
        </a>
 
-      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="shop-icon-bubble">
+      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         <span class="icon icon-cart-empty"><i class="fal fa-shopping-bag"></i></span>
         <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
         {%- if cart != empty -%}
@@ -279,9 +279,7 @@ integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLAS
           </div>
         {%- endif -%}
       </a>
-      <a href="" class="header__icon header__icon--cart link focus-inset" id="user-icon-bubble">
-            <span class="icon icon-cart-empty"><i class="fal fa-user usericon"></i></span>
-      </a>
+
 
       {%- if section.settings.menu != blank -%}
         <header-drawer data-breakpoint="tablet">
