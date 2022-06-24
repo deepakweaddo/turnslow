@@ -485,6 +485,7 @@ nav.header__inline-menu {
   background: url(background_1.png);
   width: 100%; 
   background-size: cover;
+  padding: 0 0 80px 0;
   }
   .categoriesContainer .title--primary {
     font-size: 50px;
@@ -1467,6 +1468,101 @@ h1.page-title {
 
 /* creator page end */
 /* blog */
+
+.commentswrap input.button {
+  font-size: 18px!important;
+  background-image: url(addtocart.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: freight-big-pro;
+  padding: 5px 19px!important;
+  margin: 0;
+  width: auto!important;
+  border: 0!important;
+  min-width: auto!important;
+  background-color: transparent;
+  text-transform: capitalize!important;
+  letter-spacing: 0!important;
+  font-weight: normal!important;
+  color: #000;
+}
+
+
+.article-template__comment-fields > * {
+  margin-bottom: 1rem!important;
+}
+.field__label, .customer .field label {
+  font-size: 14px;
+  letter-spacing: 0;
+  font-family: 'Poppins', sans-serif;
+  padding: 3px 10px;
+}
+.commentswrap {
+  width: 67%;
+}
+.commentswrap h2 {
+  font-size: 30px;
+  font-family: freight-big-pro;
+  color: #000;
+  margin: 0 0 30px 0;
+}
+
+.field__input:focus-visible, .select__select:focus-visible, .customer .field input:focus-visible, .customer select:focus-visible, .localization-form__select:focus-visible.localization-form__select:after {
+  box-shadow: none; 
+}
+.field__input:focus, .select__select:focus, .customer .field input:focus, .customer select:focus, .localization-form__select:focus.localization-form__select:after {
+    box-shadow: none;
+}
+.field:hover.field:after, .select:hover.select:after, .select__select:hover.select__select:after, .customer .field:hover.field:after, .customer select:hover.select:after, .localization-form__select:hover.localization-form__select:after {
+  box-shadow: none;}
+  .field:after, .select:after, .customer .field:after, .customer select:after, .localization-form__select:after {
+     box-shadow: none;
+  }
+.field input {
+  background: #d0c9c7;
+  border-left: 0px;
+  color: #000;
+  font-size: 14px;
+  width:100%; 
+  background-image: url(inputBg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border: 0;
+  font-family: 'Poppins', sans-serif;
+  padding: 25px 10px;
+}
+.field textarea {
+  background: #d0c9c7;
+  border-left: 0px;
+  color: #000;
+  font-size: 14px;
+  width:100%; 
+  background-image: url(textareaBg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border: 0; font-family: 'Poppins', sans-serif;
+}
+ 
+.rb_continue_button {
+  font-size: 18px!important;
+  background-image: url(addtocart.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: freight-big-pro;
+  padding: 5px 19px!important;
+  margin: 0;
+  width: auto!important;
+  border: 0!important;
+  min-width: auto!important;
+  background-color: transparent;
+  text-transform: capitalize!important;
+  letter-spacing: 0!important;
+  font-weight: normal!important;
+}
+.article-template__back  a{ font-size: 18px;
+  font-family: freight-big-pro;
+  color: #000;
+  float: left;}
 .rb_blog-grid img {
   width: 100%;
 }
@@ -1474,7 +1570,7 @@ h1.page-title {
   font-size: 30px;
   font-family: freight-big-pro;
   color: #000;
-  margin: 0 0 30px 0;
+  margin: 30px 0 30px 0;
 }
 #relatedblogs h5.rb_title {
   font-size: 20px;
@@ -1571,6 +1667,7 @@ header .caption-with-letter-spacing {
     display: block;
     background: url(blogBg1.jpg); 
     background-size: cover;
+    padding: 0 0 20px 0;
 }
 .blogListing .card__inner {
   background: #ffffff3d;

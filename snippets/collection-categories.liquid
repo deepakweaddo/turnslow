@@ -6,6 +6,7 @@
 <li class="collection-list__item grid__item">
 
   <div class="product test">
+    <div class="card">
   {% comment %}
  You can connect collections, products, pages, & even blogs. By default it will use the first product that appears on a collection or you can pick a featured image.
   {% endcomment %}
@@ -60,8 +61,20 @@
       {% endif %}
     {% endif %}
   {% endif %}
-    
-<a href="{{ link_item.url }}" title="{{ link_title }}">
+  <div class="card__content">
+    <div class="card__information">
+      <h3 class="card__heading">
+        <a href="{{ link_item.url }}" class="full-unstyled-link">  {{ link_title }}
+         <span class="btn1">Explore Product </span>
+         </a> 
+      </h3> 
+    </div>
+  </div>
+
+  <div class="card__inner color-background-2 gradient ratio" style="--ratio-percent: 100%;"><div class="card__media">
+    <div class=" media--transparent media--hover-effect">
+
+<a href="{{ link_item.url }}" title="">
 <!--   //Here is where it all comes together make the link_item.url click-able and link to the content and add the title using link_title  -->
     <span class="thumbnail">
       {% if link_image != '' %} 
@@ -71,13 +84,14 @@
       {% endif %}
     </span> 
   </a> 
+ </div>
   </div>
-  <a href="{{ link_item.url }}" title="{{ link_title }}">
-    <span class="product-title">
-      {{ link_title }}
-  <!--       //add the link title  (it's click-able) -->
-    </span>
-  </a>
+</div>
+
+
+  </div>
+  
+</div>
 </li>
 {% endfor %}
 </ul>
