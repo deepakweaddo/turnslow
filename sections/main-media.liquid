@@ -37,7 +37,7 @@
       {%- for article in blog.articles -%}
         
         <div class="blog-articles__article article">
-          {%- render 'article-card',
+          {%- render 'media-card',
             article: article,
             media_height: section.settings.image_height,
             media_aspect_ratio: article.image.aspect_ratio,
