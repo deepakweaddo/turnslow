@@ -1,6 +1,7 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
-
+<div class="blogdetail">
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="page-width">
   {%- for block in section.blocks -%}
     {%- case block.type -%}
       {%- when '@app' -%}
@@ -31,9 +32,10 @@
             </div>
           </div>
         {%- endif -%}
+         
 
         {%- when 'title'-%}
-          <header class="page-width page-width--narrow" {{ block.shopify_attributes }}>
+          <header class="" {{ block.shopify_attributes }}>
             <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
             {%- if block.settings.blog_show_date -%}
               <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">{{ article.published_at | time_tag: format: 'date' }}</span>
@@ -46,13 +48,62 @@
           </header>
 
         {%- when 'content'-%}
-          <div class="article-template__content page-width page-width--narrow rte" itemprop="articleBody" {{ block.shopify_attributes }}>
+        <div class='row'>
+          <div class="col-md-8">
+            <div class="article-template__content page-width page-width--narrow rte" itemprop="articleBody" {{ block.shopify_attributes }}>
+              <img class="iconquotes img-fluid" src="{{'quotes_left.png' | asset_url}}">
+      
               {{ article.content }}
-            {% include 'relatedblogs' %} 
+             
+            </div>
           </div>
+ <!-- custom  -->         
+<div class='col-md-4'>
+  <div class="blogaside">
+    <div class="recentpost">
+      <h2>Recent Posts</h2>
+      <ul>
 
+      <li> <a href="">
+      The Date physician: Jaimy Blazynski Trains, Matches & Empowers 
+       Singles regarding East Coast
+      <span class="authorname"> by kartikey </span>
+      </a>
+      </li>
+
+      <li><a href="">
+      The Date physician: Jaimy Blazynski Trains, Matches & Empowers 
+      Singles regarding East Coast
+      <span class="authorname"> by kartikey </span>
+      </a>
+      </li>
+
+      </ul> 
+    </div> 
+    <div class="gallerblog"> <a href=""> <img class="img-fluid" src="{{'gallery.jpg' | asset_url}}"> </a> </div>
+  
+    <div class="Categorypost">
+      <h2>Category</h2>
+      <ul>
+
+      <li> <a href="">Open Space </a> </li> 
+      <li><a href="">Slow Content </a> </li>
+      <li> <a href="">Slow Experience </a> </li> 
+      <li><a href="">Slow Journalism </a> </li>
+
+
+      </ul> 
+    </div> 
+
+
+  
+  </div>
+ </div>
+  <!-- custom  -->  
+        </div>
+        {% include 'relatedblogs' %}
         {%- when 'share' -%}
-          <div class="article-template__social-sharing page-width page-width--narrow" {{ block.shopify_attributes }}>
+          <div class="article-template__social-sharing" {{ block.shopify_attributes }}>
             <share-button class="share-button" {{ block.shopify_attributes }}>
               <button class="share-button__button hidden">
                 {% render 'icon-share' %}
@@ -246,8 +297,10 @@
       </div>
   </div>
   {%- endif -%}
+</div>
 </article>
 
+</div>
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",

@@ -2,9 +2,23 @@
 {% assign collections_per_row = settings.frontpage_collections_per_row %}
 
 <div class="twelve columns collection-list background_1">
+<!-- custom banner -->
+<div class="commonbanner">
+  <div class="bannerImage"> 
+  <img class="img-fluid" src="{{'creatorbanner.jpg' | asset_url}}">
+</div>
+<div class="captionInner">
+<h2>Introducing the 10,000 <br>Creators Project by Slow Bazaar </h2>
+</div>
+
+</div>
+<!-- custom banner -->
   <div class="page-width">
+   <div class="creatorContainer">
+     {% render 'breadcrumbs' %}  
   <h1 class="page-title">{{page.title | escape}}</h1>
     {{ page.content }}
     {% include 'collection-within-collection' %}
+</div>
 </div>
 </div>
