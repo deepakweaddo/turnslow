@@ -1,0 +1,10 @@
+{% assign linklist = linklists["categories"] %}
+{% assign collections_per_row = settings.frontpage_collections_per_row %}
+
+<div class="twelve columns collection-list background_1">
+  <div class="page-width">
+  <h1 class="page-title">{{page.title | escape}}</h1>
+    {{ page.content }}
+    {% include 'collection-within-collection' %}
+</div>
+</div>
