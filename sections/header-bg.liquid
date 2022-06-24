@@ -262,11 +262,11 @@
           </span>
         </a>
       {%- endif -%}
-       <a href="#" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
+       <a href="#" class="header__icon header__icon--cart link focus-inset" id="shop-icon-bubble">
        <span class="icon icon-cart-empty"><i class="fal fa-heart"></i></span>
        </a>
 
-      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="shop-icon-bubble">
+      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         <span class="icon icon-cart-empty"><i class="fal fa-shopping-bag"></i></span>
         <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
         {%- if cart != empty -%}
