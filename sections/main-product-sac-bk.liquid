@@ -1,9 +1,4 @@
-<!-- SAC START -->
-<script>
-  var sacProdId = '{{product.id}}';
-  var sacProdTitle = '{{product.title}}';
-</script>
-<!-- SAC END --><div class="background_1"> 
+<div class="background_1"> 
 <section id="MainProduct-{{ section.id }}" class="page-width section-{{ section.id }}-padding" data-section="{{ section.id }}">
   {% render 'breadcrumbs' %} 
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
