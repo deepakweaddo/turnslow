@@ -131,14 +131,14 @@
             "type": "link_list",
             "settings": {
               "heading": "Quick link",
-              "menu": "main-menu"
+              "menu": "footer"
             }
           },
           "2f082082-23bc-47e6-9496-d9753eecd249": {
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
-              "menu": "footer"
+              "menu": "footer-menu-2"
             }
           },
           "0118616c-5d16-4b0b-9c6e-c04a4ff9656f": {
