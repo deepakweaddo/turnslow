@@ -204,6 +204,14 @@
           </slider-component>
         {%- endif -%}
       </media-gallery>
+
+      <!-- custom -->
+      <div class="newventure">
+      <h2>Support Neelesh Misra’s New Venture</h2>
+      <img class="img-fluid" src="{{'pdp_vid1.png' | asset_url}}"> 
+      </div>
+       <!-- custom -->
+
     </div>
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}">
       <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
@@ -222,9 +230,9 @@
             <div class="innerposition">  
             <span class="icon icon-cart-empty"><i class="fas fa-share-alt"></i></span>
 <!--             <span class="icon icon-cart-empty"><i class="fal fa-heart"></i></span> -->
-              
+               
               <!-- Swym button on product pages -->
-        		<div class="swym-wishlist-button-bar"></div>
+        		<span class="swym-wishlist-button-bar"></span>
 				<!-- Swym button on product pages -->
               
           </div> </div>
@@ -437,7 +445,11 @@
           {%- when 'buy_buttons' -%}
 <!--             <div {{ block.shopify_attributes }}> -->
             <!-- custom  --> 
-<!--             <div class="instock">
+       <div class="instock">
+            <p> In stock! Usually ships within 24 hours. </p>
+            <hr class="linehr2">  </div> 
+
+<!--     <div class="instock">
             <p> In stock! Usually ships within 24 hours. </p>
             <hr class="linehr2"> 
             <form class="pincodewrap">
@@ -453,7 +465,7 @@
      
             </div> -->
                 <!-- custom  -->
-            
+                 
               <product-form class="product-form" data-cart-type="{{ settings.cart_type }}">
                 <div class="product-form__error-message-wrapper" role="alert" hidden>
                   <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-error" viewBox="0 0 13 13">
@@ -464,8 +476,18 @@
                   </svg>
                   <span class="product-form__error-message"></span>
                 </div>
-
+                 
                 {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
+                 
+                     <div class="instock"> 
+              <div class="estimateddelivery">
+                <p>   Estimated Delivery:  <br>
+                Thursday May 5th - Monday May 9th </p> 
+              </div>
+                  <div class="supportmsg"><p>2000 people have supported Jelina </p></div>
+             
+                    </div>
+  
                   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
                   <div class="product-form__buttons">
                     <button
@@ -492,8 +514,76 @@
                     {%- endif -%}
                   </div>
                 {%- endform -%}
-              </product-form>
+              </product-form> 
+              <!-- custom -->
               <hr class="linehr2">
+     <div class="divexTab2">
+      <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <button class="nav-link active" id="nav-description-tab" data-bs-toggle="tab" data-bs-target="#nav-description" type="button" role="tab" aria-controls="nav-description" aria-selected="true">Description</button>
+          <button class="nav-link" id="nav-story-tab" data-bs-toggle="tab" data-bs-target="#nav-story" type="button" role="tab" aria-controls="nav-story" aria-selected="false">Creator’s Story</button>
+          <button class="nav-link" id="nav-meghalaya-tab" data-bs-toggle="tab" data-bs-target="#nav-meghalaya" type="button" role="tab" aria-controls="nav-meghalaya" aria-selected="false">Meghalaya</button>
+         </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-description" role="tabpanel" aria-labelledby="nav-description-tab" tabindex="0">
+        <p>
+          At the foothills of west Jaintia Hills, in the state of Meghalaya, a tiny hamlet Lakadong is fuelling a silent revolution. The turmeric grown here has found a place of high value across the globe for its nutritive value. It has a higher circumin content up to 7% as compared to ordinary turmeric which has only 2 to 3%.
+          <br><br>
+          Slow Bazaar has brought for you this gem grown in our own country in its purest form.
+          <br><br>
+          Lakadong turmeric is known for its amazing anti-bacterial, anti-viral and anti-microbial properties. It is also anti-inflammatory in nature.
+          <br><br>
+          It not only spices up your delicacies but also helps in maintaining healthy skin.
+          <br><br>
+          Its antiseptic properties reduce acne, blemishes and keep your skin glowing.
+          <br><br>
+          So when are you getting this wonder spice?
+        </p>
+        </div>
+        <div class="tab-pane fade" id="nav-story" role="tabpanel" aria-labelledby="nav-story-tab" tabindex="0">
+          <p>
+            At the foothills of west Jaintia Hills, in the state of Meghalaya, a tiny hamlet Lakadong is fuelling a silent revolution. The turmeric grown here has found a place of high value across the globe for its nutritive value. It has a higher circumin content up to 7% as compared to ordinary turmeric which has only 2 to 3%.
+            <br><br>
+            Slow Bazaar has brought for you this gem grown in our own country in its purest form.
+            <br><br>
+            Lakadong turmeric is known for its amazing anti-bacterial, anti-viral and anti-microbial properties. It is also anti-inflammatory in nature.
+            <br><br>
+            It not only spices up your delicacies but also helps in maintaining healthy skin.
+            <br><br>
+            Its antiseptic properties reduce acne, blemishes and keep your skin glowing.
+            <br><br>
+            So when are you getting this wonder spice?
+          </p>
+        </div>
+        <div class="tab-pane fade" id="nav-meghalaya" role="tabpanel" aria-labelledby="nav-meghalaya-tab" tabindex="0">
+          <ul>
+            <li>
+             <a href="">
+               <img class="img-fluid" src="{{'pdp_vid.png' | asset_url}}"> 
+               <span class="">  Hear the sights and sounds of Meghalaya </span>
+                 <p>Maecenas mollis est at mauris tincidunt, feugiat dignissim nisi sagittis.</p>
+               </a>  
+               </li>
+
+               <li>
+                <a href="">
+                  <img class="img-fluid" src="{{'pdp_vid.png' | asset_url}}"> 
+                  <span class="">  Hear the sights and sounds of Meghalaya </span>
+                    <p>Maecenas mollis est at mauris tincidunt, feugiat dignissim nisi sagittis.</p>
+                  </a>  
+                  </li>
+
+
+             </ul>
+        </div>
+     
+      </div>
+       </div>
+  <hr class="linehr2">
+              <!-- custom -->
+              
+
               {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
               {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
