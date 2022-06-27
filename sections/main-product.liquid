@@ -258,13 +258,7 @@
                 {%- endif -%}
               </div>
             {%- endif -%}
-            <div {{ block.shopify_attributes }}>
-              {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
-              {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
-                <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-                {{ form | payment_terms }}
-              {%- endform -%}
-            </div>
+            
           {%- when 'description' -%}
             {%- if product.description != blank -%}
               <div class="product__description rte quick-add-hidden">
@@ -445,9 +439,9 @@
           {%- when 'buy_buttons' -%}
 <!--             <div {{ block.shopify_attributes }}> -->
             <!-- custom  --> 
-<!--        <div class="instock">
+       <div class="instock">
             <p> In stock! Usually ships within 24 hours. </p>
-            <hr class="linehr2">  </div>  -->
+            <hr class="linehr2">  </div> 
 
 <!--     <div class="instock">
             <p> In stock! Usually ships within 24 hours. </p>
