@@ -2421,8 +2421,18 @@ h1.article-template__title {
   font-family: freight-big-pro;
 }
 .parag{color: #000;}
- 
-
+.bloghome h3 a {
+  font-size: 20px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.bloghome h3  {
+  font-size: 20px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
 /* shopify end css */
 
 /* pagefly home */
@@ -2449,8 +2459,13 @@ h1.article-template__title {
     width: auto;
     border: 0px;
   }
-  
-  
+  .bloghome h3 a {
+    font-size: 20px;
+    color: #000;
+}
+.bloghome h3 a:hover { 
+  color: #000;
+}
   .homerow1 {
     width: 80%;
     margin: 80px auto auto!important;
