@@ -2347,13 +2347,20 @@ h1.article-template__title {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   border: 0!important;
-  position: relative;
-  z-index: 999999;
+  position: relative; 
   height: 400px;
 }
 
 
 /* contact us end */
+
+/* pp */
+
+.section-template--14418486231109__main-padding .p{
+  font-size: 15px;
+    color: #000;
+    font-family: Poppins,sans-serif;
+}
 
 /* homepage */
 .custom-font {
