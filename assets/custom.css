@@ -2368,6 +2368,28 @@ h1.article-template__title {
     font-family: Poppins,sans-serif;
 }
 
+.tp-link{
+  margin-top: 25px;
+}
+.tp-link a{
+  color: #000;
+  font-family: freight-big-pro;
+
+  font-size: 16px;
+  padding-right: 10px;
+  font-weight: 500;
+}
+
+.tp-link a:first-child{
+  border-right: 1px solid #000;
+}
+
+.tp-link a:last-child{
+  padding-left: 10px;
+}
+
+
+
 /* homepage */
 .custom-font {
   font-family: freight-big-pro;
