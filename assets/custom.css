@@ -2459,6 +2459,10 @@ h1.article-template__title {
     width: auto;
     border: 0px;
   }
+  .bloghome h3 {
+    padding: 0;
+    margin: 0 0 7px 0!important;
+}
   .bloghome h3 a {
     font-size: 20px;
     color: #000;
