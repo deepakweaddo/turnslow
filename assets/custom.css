@@ -343,7 +343,7 @@ header-drawer a {
   width: 112px;
 }
 .mobile-view {
-  margin-top: 70px; 
+  margin-top: 130px; 
 }
 .search-field { 
   background-image: url(btb_bg.png);
@@ -2368,7 +2368,7 @@ h1.article-template__title {
     font-family: Poppins,sans-serif;
 }
 .tp-link{
-  margin-bottom: 25px;
+  margin-bottom: 6px;
 }
 .tp-link a {
   color: #000;
@@ -2386,7 +2386,12 @@ h1.article-template__title {
 .tp-link a:last-child {
   /* padding-left: 10px; */
 }
-
+.tp-link a:hover {
+  color: #e1680f;
+}
+.social-icon a:hover {
+  color: #e1680f;
+}
 
 
 /* homepage */
