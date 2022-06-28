@@ -449,7 +449,7 @@ details[open] .modal-overlay::after {
   border: 0px;
   text-align: center;
 }
-.slowbtn1:hover{ background-color: #e1680f;}
+.slowbtn1:hover{ background-color:#e1680f!important;}
 
 .search__button {
   right: 0!important;
