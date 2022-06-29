@@ -101,7 +101,7 @@
                 {{ 'products.facets.product_count' | t: product_count: collection.products_count, count: collection.all_products_count }}
               {%- endif -%}
             </span>
-          found in Food and Beverages</p></div>
+          found</p></div>
       {%- paginate collection.products by section.settings.products_per_page -%}
         {%- if collection.products.size == 0 -%}
           <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
