@@ -4,6 +4,12 @@
 
   src: url(https://use.typekit.net/tcn4pid.css);
 }
+.site-header-transparent { 
+  width: 100%;
+  left: 0%;
+  transform: translateX(0%);
+}
+
 
 #preloader {
 	position: fixed;
@@ -2436,6 +2442,21 @@ h1.article-template__title {
 /* shopify end css */
 
 /* pagefly home */
+.exp-btn:hover {
+  background-color: #eeece5;
+  color: #000;
+}
+.btn_art:hover {
+  background-color: #eeece5;
+  color: #000;
+}
+.btnart1:hover{
+  color: #e1680f;
+}
+.btn_story:hover {
+  background-color: #f5f2eb;
+  color: #000;
+}
 
 .homecaption {
   text-align: center;
@@ -2486,6 +2507,77 @@ h1.article-template__title {
 
 /* pagefly home */
 
+/*wishlist */
+#swym-wishlist-render-container {
+  background: url(background_1.png);
+  width: 100%;
+  background-size: cover;
+  background-color: transparent!important;
+}
+
+.swym-ui-component .swym-wishlist-grid .swym-wishlist-item { 
+  background-image: url(productframe_bg1.png)!important;
+  width: 33.3%!important;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  border-radius: 0!important;
+  background-size: 100% 100%!important;
+  background-position: center;
+  background: transparent; padding: 20px 20px;
+}
+.swym-ui-component .swym-wishlist-grid .swym-wishlist-image-wrapper { 
+  text-align: center;
+  padding: 30px 10px; 
+}
+.swym-ui-component .swym-wishlist-grid .swym-wishlist-item .swym-title {
+  font-family: 'freight-big-pro';
+  font-size: 20px;
+  color: #000;
+}
+.swym-ui-component .swym-product-price .swym-product-final-price { 
+  font-family: 'Poppins', sans-serif;
+}
+
+.swym-ui-component .swym-wishlist-grid .swym-wishlist-item .swym-add-to-cart-btn {
+  font-size: 17px;
+    background-image: url(addtocart.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: freight-big-pro;
+    color: #000; 
+    background-color: transparent;
+    text-transform: capitalize;
+    padding: 10px 10px 10px 15px;
+    width: 150px;
+    border: 0px;
+    text-align: center;
+    /* border: 1px solid #000; */
+    margin: 20px auto 20px auto;
+}
+.swym-ui-component .swym-wishlist-grid .swym-wishlist-item .swym-delete-btn { 
+  right: 18px;
+  top: 18px; 
+  color: #000;
+}
+ 
+.swym-ui-component.swym-wishlist-page .swym-wishlist-container-title-bar .swym-wishlist-main-title {
+    font-weight: 600; 
+    font-family: 'freight-big-pro';
+    font-size: 40px;
+    color: #000;
+    letter-spacing: 0;
+    margin: 30px 0 0 0;
+}
+.swym-wishlist-detail-header {
+  position: absolute;
+  right: 0;
+}
+ 
+.swym-ui-component.swym-wishlist-page .swym-wishlist-container-title-bar {
+  
+    border-bottom: 0px solid #c4c4c4;
+    padding: 0; 
+}
 /* responsive */
 
 @media (min-width:320px) and (max-width:767px){
