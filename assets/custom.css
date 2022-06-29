@@ -2465,6 +2465,18 @@ h2.cart__empty-text {
 .jdgm-carousel-wrapper { 
   float: left;
 }
+.template-search__header h1.h2 {
+  font-family: freight-big-pro;
+  font-size: 35px;
+  text-transform: capitalize;
+}
+
+.template-search{
+  width: 100%;
+  background: url(background_2.png) 0% 0% / cover;  
+  background-position: top;
+}
+
 /* homepage */
 .custom-font {
   font-family: freight-big-pro;
