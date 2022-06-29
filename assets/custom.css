@@ -5,12 +5,9 @@
   src: url(https://use.typekit.net/tcn4pid.css);
 }
 .site-header-transparent { 
-  width: 100%;
-  left: 0%;
-  transform: translateX(0%);
+  max-width: 100%;
 }
-
-
+ 
 #preloader {
 	position: fixed;
 	top: 0;
