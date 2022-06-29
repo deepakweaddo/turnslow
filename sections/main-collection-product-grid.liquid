@@ -92,7 +92,6 @@
     <div id="ProductGridContainer">
        <!--custom html -->
        <div class="page-width"><p class="productcount">
-          <h2 class="product-count__text">
             <span id="ProductCountDesktop">
               {%- if collection.results_count -%}
                 {{ 'templates.search.results_with_count' | t: terms: collection.terms, count: collection.results_count }}
@@ -102,7 +101,7 @@
                 {{ 'products.facets.product_count' | t: product_count: collection.products_count, count: collection.all_products_count }}
               {%- endif -%}
             </span>
-          </h2>found in Food and Beverages</p></div>
+          found in Food and Beverages</p></div>
       {%- paginate collection.products by section.settings.products_per_page -%}
         {%- if collection.products.size == 0 -%}
           <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
