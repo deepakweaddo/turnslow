@@ -1231,7 +1231,15 @@ min-height: 500px;
   width: 100%;
   background: url(background_2.png) 0% 0% / cover;
 }
- 
+.creator_pdp {
+  color: #000;
+  font-family: freight-big-pro!important;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+  line-height: 10px;
+}
 .creator_pdp h3{    color: #000;
   font-family: freight-big-pro!important;}
   .creator_pdp p {
@@ -1345,7 +1353,7 @@ min-height: 500px;
 .product__info-wrapper .product-form__input .form__label {
   display: inline-block;
   float: left;
-  padding: 0px 22px 0 0;
+  padding: 0 10px 0 0;
   font-size: 18px;
   font-family: freight-big-pro!important;
 }
@@ -1501,13 +1509,26 @@ h5.sac_h5 {
 }
 .sac_embed {
   text-align: left;
-  width: 60%;
+  width: 100%;
   display: inline-block;
+  float: left;
+}
+div#sac-noavailable {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  margin: 0;
+  float: left;
+  width: 100%;
+}
+a.sac_diff_check {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  color: #000;
   float: left;
 }
 .sac_embed input[type=text] {
   display: inline-block;
-  width: 70%;
+  width: 56%;
   margin-right: 5px;
   border-top: 0;
   background: transparent;
@@ -1517,7 +1538,7 @@ h5.sac_h5 {
   color: #000;
   font-size: 15px;
   padding: 10px 7px;
-  width: 90px;
+ /* width: 90px;*/
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   float: left;
@@ -2421,7 +2442,29 @@ h1.article-template__title {
   color: #e1680f;
 }
 
-
+.cart-drawer__empty-content .button {
+  font-size: 17px;
+  background-image: url(btb_bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: 'freight-big-pro';
+  color: #fff;
+  margin: 0;
+  background-color: #000;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  border: 0px;
+  text-align: center;
+}
+.cart-drawer__empty-content .button { background-color: #e1680f;
+}
+h2.cart__empty-text {
+  font-family: 'freight-big-pro';
+  font-size: 25px;
+}
+.jdgm-carousel-wrapper { 
+  float: left;
+}
 /* homepage */
 .custom-font {
   font-family: freight-big-pro;
