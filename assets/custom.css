@@ -2630,6 +2630,14 @@ h2.cart__empty-text {
     border-bottom: 0px solid #c4c4c4;
     padding: 0; 
 }
+
+
+#product-grid .card__content {
+  min-height: 340px;
+}
+
+
+
 /* responsive */
 
 @media (min-width:320px) and (max-width:767px){
