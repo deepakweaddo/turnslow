@@ -4,11 +4,10 @@
 
   src: url(https://use.typekit.net/tcn4pid.css);
 }
-.site-header-transparent { 
-  max-width: 100%;
+header.mainheader.site-header-transparent { 
+  max-width: 100%;   padding: 20px 80px;
 }
- 
-#preloader {
+  #preloader {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -683,6 +682,10 @@ nav.header__inline-menu {
   background-size: 100% 100%!important;
   background-position: center;
   background: transparent; 
+  height: 330px;
+}
+.product-grid .card .media { 
+  top: 50px;
 }
 .product-grid .card { 
   background-color: transparent; 
@@ -690,7 +693,7 @@ nav.header__inline-menu {
   border-radius: 0;    margin: 0 0 40px 0;
 }
 .product-grid .card__media {
-  width: 50%;
+  width: 50%; z-index: 1!important;
   margin: 0 auto!important;
   text-align: center;
   left: 0;
