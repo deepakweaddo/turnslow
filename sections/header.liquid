@@ -133,8 +133,8 @@ integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLAS
   </symbol>
 </svg>
 <{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} {% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
-  <header id="site-header" class="mainheader header header--{{ section.settings.logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %} {% if section.settings.transparent_header %}{% endif %}">
-    <a href="" class="slowbtn"><i class="far fa-long-arrow-left"></i> Discover The Slow Movement</a>
+ <header id="site-header" class="mainheader header header--{{ section.settings.logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %} {% if section.settings.transparent_header %}site-header-transparent{% endif %}">
+  <a href="" class="slowbtn"><i class="far fa-long-arrow-left"></i> Discover The Slow Movement</a>
  
     {%- if section.settings.logo_position == 'top-center' or section.settings.menu == blank -%}
    <!-- <form class="search search-field" action="/search">
