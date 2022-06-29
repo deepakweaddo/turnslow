@@ -1350,7 +1350,7 @@ min-height: 500px;
 .product__info-wrapper .product-form__input .form__label {
   display: inline-block;
   float: left;
-  padding: 0 10px 0 0;
+  padding:3px 10px 0 0;
   font-size: 18px;
   font-family: freight-big-pro!important;
 }
@@ -1377,7 +1377,7 @@ min-height: 500px;
   padding: 0;
 }
 .sizepdp {
-  width: 28%;
+  width: 35%;
   float: left;
 }
 
@@ -1591,9 +1591,17 @@ a.sac_diff_check {
   border-bottom: 1px solid #495057;
 }
 .divexTab2 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins,sans-serif!important;
   color: #000;
   font-size: 15px;
+  background: transparent!important;
+}
+
+.divexTab2 span{
+  font-family: Poppins,sans-serif!important;
+  color: #000;
+  font-size: 15px;
+  background: transparent!important;
 }
 .divexTab2 .tab-content {
   padding: 20px 0;
