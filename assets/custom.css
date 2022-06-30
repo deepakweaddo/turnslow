@@ -2805,7 +2805,24 @@ h2.cart__empty-text {
   background-position: left;
   padding: 30px 20px 30px 30px!important;
 }
-
+.footer-block__details-content .list-menu__item--link { 
+  line-height: 9px; 
+}
+.footer-block__details-content {
+  margin-bottom: 0;
+}
+.tp-link a { 
+  font-size: 16px; 
+  width: 100%; 
+  padding: 3px 0;
+}
+.get-latest {
+  font-weight: 200; 
+  font-size: 20px; 
+}
+.store-logo a {
+  float: left;
+}
 
 }
 
