@@ -1,7 +1,6 @@
 @import url("https://use.typekit.net/tcn4pid.css");
 @font-face {
-  font-family: freight-big-pro;
-
+  font-family: freight-big-pro; 
   src: url(https://use.typekit.net/tcn4pid.css);
 }
 header.mainheader.site-header-transparent { 
@@ -772,7 +771,7 @@ nav.header__inline-menu {
 }
 
 .shoplist{ position: absolute;
-  right: 0;
+  right: 0;z-index: 9;
   width: 20px;
   font-size: 20px;
   top: 20px;}
@@ -824,6 +823,14 @@ form#FacetSortForm {
 .facet-filters__sort + .icon-caret {
   right: 15px;
 }
+.product .price--sold-out .price__badge-sold-out {
+  background: #e1680f!important;
+  color: #fff!important;
+  font-family: Poppins,sans-serif;
+  font-size: 11px;
+  padding: 3px 5px;
+}
+ 
 /* product end */
 
 /* breadcrumb */
@@ -2571,6 +2578,38 @@ h2.cart__empty-text {
 /* pagefly home */
 
 /*wishlist */
+.swym-ui-component .swym-empty-wishlist-container .swym-empty-wishlist-continue-btn {
+  font-size: 17px;
+  background-image: url(btb_bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: 'freight-big-pro';
+  color: #fff;
+  margin: 30px 0 0 0;
+  background-color: #000;
+  text-transform: capitalize;
+  padding: 14px 30px;
+  width: auto;
+  border: 0px;
+  text-align: center;
+}
+
+.swym-ui-component .swym-empty-wishlist-container .swym-empty-wishlist-continue-btn:hover {
+  background-color: #e1680f;
+}
+
+.swym-ui-component .swym-empty-wishlist-container .swym-empty-wishlist-title { 
+  font-size: 23px;    color: #000; 
+  font-family: 'freight-big-pro';
+}
+.swym-ui-component .swym-empty-wishlist-container .swym-empty-wishlist-text {
+  font-weight: normal; 
+  letter-spacing: 0;
+  color: #000; 
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
 #swym-wishlist-render-container {
   background: url(background_1.png);
   width: 100%;
@@ -2647,7 +2686,76 @@ h2.cart__empty-text {
   min-height: 340px;
 }
 
+.pagination-wrapper .pagination {
+  display: block;
+}
+.pagination__list > li { 
+  max-width: 20px;
+}
+.pagination__item {
+  background: #fff;
+  width: 20px;
+  height: 20px;
+}
+.pagination__item--current::after, .pagination__item:hover::after { 
+  bottom: 0; 
+  height: 20px;
+}
 
+/* login */
+.customer { 
+  margin: 0px auto!important;
+}
+
+.loginpage {
+  background: url(background_1.png);
+  width: 100%;
+  background-size: cover;
+  padding: 60px 0px;
+}
+
+.customer h1 {
+  font-size: 50px; 
+  color: #000;
+  font-family: freight-big-pro!important;
+}
+
+.login p { 
+  color: #000;
+  font-size: 14px;
+}
+
+.field__input, .customer .field input {
+  background: #fff;
+  border-left: 0px;
+  color: #000;
+  font-size: 14px;
+  width: 100%;
+  background-image: url(contactinput.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border: 0;
+  font-family: 'Poppins', sans-serif;
+  padding: 35px 30px 15px 30px!important;
+}
+
+.customer button {
+  background-image: url(addtocart.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: freight-big-pro;
+  padding: 10px 19px!important;
+  margin: 0;
+  border: 0!important;
+  min-width: auto!important;
+  background-color: transparent;
+  text-transform: capitalize!important;
+  letter-spacing: 0!important;
+  font-weight: normal!important;
+  color: #000;
+  width: 200px!important;
+  font-size: 20px!important;
+}
 
 /* responsive */
 
