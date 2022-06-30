@@ -771,7 +771,7 @@ nav.header__inline-menu {
 }
 
 .shoplist{ position: absolute;
-  right: 0;z-index: 9;
+  right: 0;z-index:6;
   width: 20px;
   font-size: 20px;
   top: 20px;}
@@ -2779,6 +2779,34 @@ h2.cart__empty-text {
 .btn1 { 
   text-align: center;
 }
+.collection-hero__title { 
+  font-size: 25px;}
+  nav.breadcrumb { 
+    font-size: 15px; 
+}
+.product-grid .card__inner { 
+  height: 200px;
+}
+.product-grid .card__heading a {
+  font-size: 18px; 
+  line-height: 20px; 
+}
+.price .price-item {
+  font-size: 20px;
+  font-weight: 500;
+}
+.product-grid .quick-add__submit { 
+  padding: 6px 13px!important;}
+  .menu-drawer {
+    width: 100%; ;
+}
+.menu-drawer__navigation-container { 
+  background-size: cover!important;
+  background-position: left;
+  padding: 30px 20px 30px 30px!important;
+}
+
+
 }
 
 /* responsive end css */
