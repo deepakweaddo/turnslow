@@ -4,7 +4,11 @@
   src: url(https://use.typekit.net/tcn4pid.css);
 }
 header.mainheader.site-header-transparent { 
-  max-width: 100%;   padding: 20px 80px;
+ /* max-width: 100%;   padding: 20px 80px;*/
+}
+
+sticky-header.mainheader {
+   
 }
   #preloader {
 	position: fixed;
@@ -31,6 +35,7 @@ header.mainheader.site-header-transparent {
 	animation: animate-preloader 1s linear infinite;
 }
 
+
 @-webkit-keyframes animate-preloader {
 	0 {
 		-webkit-transform: rotate(0);
@@ -54,6 +59,7 @@ header.mainheader.site-header-transparent {
 		transform: rotate(360deg);
 	}
 }
+
 *:focus-visible {
   outline: none;
   outline-offset: inherit;
@@ -660,6 +666,30 @@ nav.header__inline-menu {
 }
 
 /* product start */
+.innerbanner {
+  width: 100%;
+  position: relative;
+}
+.textContain {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.textContain h2 {
+  margin: 0px 0 10px 0!important;
+  font-size: 50px;
+  text-align: left;
+  color: #fff;
+  font-family: freight-big-pro!important;
+}
+.textContain p {
+  font-size: 24px;
+  text-align: left;
+  color: #fff;
+  font-family: freight-big-pro!important;
+}
 .productBanner .collection-hero__description {
   max-width: 100%;  width: 100%;
 }
@@ -2693,9 +2723,9 @@ h2.cart__empty-text {
   max-width: 20px!important;
 }
 .pagination__item {
-  background: #fff;
-  width: 20px!important;
-  height: 20px!important;
+  background: transparent;
+  width: 10px!important;
+  height: 10px!important;
 }
 .pagination__item--current::after, .pagination__item:hover::after { 
   bottom: 0; 
