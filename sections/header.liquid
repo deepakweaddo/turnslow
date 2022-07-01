@@ -133,7 +133,7 @@ integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLAS
   </symbol>
 </svg>
 <{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} {% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
- <div class="{% if section.settings.transparent_header %}site-header-transparent{% endif %}" >
+ <div id="site-header-div" class="{% if section.settings.transparent_header %}site-header-transparent{% endif %}" >
   <header id="site-header" class="mainheader header header--{{ section.settings.logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %} ">
   <a href="" class="slowbtn"><i class="far fa-long-arrow-left"></i> Discover The Slow Movement</a>
  
@@ -722,13 +722,13 @@ margin-top: var(--header-height);
 <!--- Coded by jotting.com --->
 <script>
 document.addEventListener("DOMContentLoaded", function(event) {
-var headerHeight = document.getElementById('site-header').offsetHeight;
+var headerHeight = document.getElementById('site-header-div').offsetHeight;
 document.getElementById('MainContent').style.setProperty('--header-height', '-'+ headerHeight + 'px');
 });
 window.onscroll = function() {
-var header = document.getElementById('site-header');
+var header = document.getElementById('site-header-div');
 var main = document.getElementById('MainContent');
-var height = document.getElementById('site-header').offsetHeight;
+var height = document.getElementById('site-header-div').offsetHeight;
 if ( window.pageYOffset > height ) {
 header.classList.remove('site-header-transparent');
 main.classList.add('site-header-transition');
@@ -739,8 +739,8 @@ main.classList.remove('site-header-transition');
 }
 document.getElementById("header-menu").addEventListener('click',function () {
 var sideMenu = document.getElementById('Details-menu-drawer-container');
-var header = document.getElementById('site-header');
-var height = document.getElementById('site-header').offsetHeight;
+var header = document.getElementById('site-header-div');
+var height = document.getElementById('site-header-div').offsetHeight;
 if ( window.pageYOffset < height ) {
 if (!sideMenu.classList.contains('menu-opening')) {
 header.classList.remove('site-header-transparent');
@@ -751,9 +751,9 @@ header.classList.add('site-header-transparent');
 });
 document.getElementById("header-search").addEventListener('click',function () {
 var search = document.getElementById('template-index');
-var header = document.getElementById('site-header');
+var header = document.getElementById('site-header-div');
 var main = document.getElementById('MainContent');
-var height = document.getElementById('site-header').offsetHeight;
+var height = document.getElementById('site-header-div').offsetHeight;
 if ( window.pageYOffset < height ) {
 if (search.classList.contains('overflow-hidden')) {
 header.classList.remove('site-header-transparent');
