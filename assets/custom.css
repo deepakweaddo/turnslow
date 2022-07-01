@@ -2429,6 +2429,11 @@ h1.article-template__title {
   font-family: freight-big-pro!important;
   padding: 10px 0 25px 0;
 }
+
+.contact__button button:hover {
+  background-color:#eeece5;
+}
+
 .address {
   padding: 80px 20px;
 }
@@ -2726,12 +2731,19 @@ h2.cart__empty-text {
   background: transparent;
   width: 10px!important;
   height: 10px!important;
+  font-size: 12px!important
 }
 .pagination__item--current::after, .pagination__item:hover::after { 
   bottom: 0; 
   height: 20px!important;
 }
-
+.pagination__item--current::after, .pagination__item:hover::after { 
+  width: 19px!important;
+  bottom: -7px!important;
+  left: 5px!important; 
+  background-color: #e1680f!important; 
+  height: 2px!important;
+}
 /* login */
 .customer { 
   margin: 0px auto!important;
@@ -2788,19 +2800,19 @@ h2.cart__empty-text {
 }
 
 .facets__display {
-  -webkit-box-shadow: 0 8px 8px -4px rgb(40 44 63 / 4%);
-  box-shadow: 0 8px 8px -4px rgb(40 44 63 / 4%);
-  border: 0;
-  background-color: #f6f6f6;
+  -webkit-box-shadow: 0 8px 8px -4px rgb(40 44 63 / 4%)!important;
+  box-shadow: 0 8px 8px -4px rgb(40 44 63 / 4%)!important;
+  border: 0!important;
+  background-color: #f6f6f6!important;
 }
 .facets__header {
-  background-color: #ccc;
+  background-color: #ccc!important;
 }
 .facets__summary {
-  color: rgba(var(--color-foreground),.75);
-  font-size: 1.4rem;
-  padding: 0 1.75rem 0 0;
-  margin-bottom: 0;
+  color: rgba(var(--color-foreground),.75)!important;
+  font-size: 1.4rem!important;
+  padding: 0 1.75rem 0 0!important;
+  margin-bottom: 0!important;
 }
 
 /* responsive */
