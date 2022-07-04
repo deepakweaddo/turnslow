@@ -2956,6 +2956,16 @@ a.slowbtn {
 #product-grid .card__content {
   min-height: auto;
 }
+.get-latest { 
+  padding: 20px 0 0 0;
+  text-align: left;
+}
+.mobile-view {
+  margin-top: 35px;
+}
+.footer-block.grid__item { 
+  margin: 0 0 0 0!important; 
+}
 }
 
 /* responsive end css */
