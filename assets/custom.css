@@ -2859,6 +2859,11 @@ h2.cart__empty-text {
     padding: 3px 0px;
     margin: 0;
 }
+.useraccount{
+padding: 9px 0px 0 2px;
+width: 18px!important;
+margin: 0 0 0 9px;
+}
 
 /* responsive */
 
@@ -3078,7 +3083,17 @@ h2.product-recommendations__heading.h2 {
 .footer-div .footer__content-top { 
 padding: 0 20px;
 }
+.categoriesContainer .title--primary {
+  font-size: 30px; 
+}
 
+.categoriesContainer li.collection-list__item.grid__item {
+  width: 100%;
+  max-width: 100%;
+}
+.categoriesContainer .card__content {
+  width: 100%!important;     padding: 0 20px 0 20px!important;
+}
 }
 
 /* responsive end css */
