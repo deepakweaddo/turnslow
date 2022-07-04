@@ -3057,24 +3057,7 @@ h2.product-recommendations__heading.h2 {
   padding: 30px;
 }
 
-aside {
-  width: 380px!important;
-  top: 0!important;
-  right: 0!important;
-  z-index: 1001!important;
-  position: fixed!important;
-  -webkit-transform: translateX(100%)!important;
-  -ms-transform: translateX(100%)!important;
-  transform: translateX(100%)!important;
-  color: #fff!important;
-  background-color: #6e5f4f!important;
-  -webkit-transition: 1s -webkit-transform cubic-bezier(.23,1,.32,1)!important;
-  transition: 1s-webkit-transform cubic-bezier(.23,1,.32,1)!important;
-  -o-transition: 1s transform cubic-bezier(.23,1,.32,1)!important;
-  transition: 1stransformcubic-bezier(.23,1,.32,1)!important;
-  transition: 1stransformcubic-bezier(.23,1,.32,1) , 1s -webkit-transform cubic-bezier(.23,1,.32,1)!important;
-}
-
+ 
 
 }
 
