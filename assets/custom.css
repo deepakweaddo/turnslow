@@ -2844,10 +2844,12 @@ h2.cart__empty-text {
   background-color: #ccc!important;
 }
 .facets__summary {
+  /*
   color: rgba(var(--color-foreground),.75)!important;
   font-size: 1.4rem!important;
   padding: 0 1.75rem 0 0!important;
   margin-bottom: 0!important;
+  */
 }
 
 .btnauthhome {
