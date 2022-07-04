@@ -2547,6 +2547,43 @@ h2.cart__empty-text {
 /* shopify end css */
 
 /* pagefly home */
+.homabannercreator {
+	width: 292px!important;
+	height: 406px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	right: -50px;
+	position: absolute;
+	top: -240px;
+}
+.homabannercreator img{
+	padding: 27px 0 0 0px;
+	float: right;
+}
+.homabannercreator h3{
+	font-size: 20px;
+	padding-bottom: 0;
+	font-family: freight-big-pro;
+	color: #fff;
+	line-height: 24px;
+}
+.homabannercreator p{
+	font-size: 16px;
+	padding-top: 35px;
+	font-family: freight-big-pro;
+	color: #fff;
+	line-height: 21px;
+}
+.btnauthhome {
+    background-color: rgba(145, 157, 169, 0);
+    color: #fff;
+    font-size: 20px;
+    font-family: freight-big-pro;
+    border-bottom: 1px solid;
+    padding: 3px 0px;
+    margin: 0;
+}
+
 .exp-btn:hover {
   background-color: #eeece5;
   color: #000;
@@ -2813,6 +2850,16 @@ h2.cart__empty-text {
   font-size: 1.4rem!important;
   padding: 0 1.75rem 0 0!important;
   margin-bottom: 0!important;
+}
+
+.btnauthhome {
+    background-color: rgba(145, 157, 169, 0);
+    color: #fff;
+    font-size: 20px;
+    font-family: freight-big-pro;
+    border-bottom: 1px solid;
+    padding: 3px 0px;
+    margin: 0;
 }
 
 /* responsive */
