@@ -2999,6 +2999,54 @@ cart-remove-button .button {
 .header__heading-logo {
   max-width: 80px!important;
 }
+.sizepdp {
+  width: 50%; 
+}
+.creatorWrap h4 { 
+  padding: 10px 0 0 0; 
+}
+.sac_checker { 
+  top: 0;
+}
+.sac_embed input[type=text] { 
+  width: 65%;}
+  .supportmsg p {
+    font-size: 16px;}
+    .product-form__submit { 
+      margin: 0px 3px 0 0; 
+      padding: 4px 15px!important; 
+  }
+  .divexTab2 .nav button { 
+    font-size: 15px; 
+    margin: 10px 9px 10px 0; 
+}
+.divexTab2 img {
+  width: 100%; 
+  margin: 0;
+}
+.faqContainer {
+  width: 100%;
+  padding: 30px 0;
+}
+.faqContainer .accordion__title { 
+  font-size: 19px; 
+}
+.faqContainer p { 
+  padding: 10px 0;
+}
+h2.product-recommendations__heading.h2 {
+  margin: 0;
+  margin-bottom: 3rem;
+  font-size: 22px; 
+  line-height: 25px;
+}
+
+.product-recommendations .product-grid .card__inner {
+  height: auto;
+}
+.product-recommendations .product-grid .card .media {
+  top: 30px;
+}
 
 }
 
