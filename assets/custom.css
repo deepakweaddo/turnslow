@@ -247,9 +247,7 @@ sticky-header.mainheader {
 .menuicon {
   margin: 0 0 0 28px;
 }
-.header__heading-logo {
-  max-width:80px!important;
-}
+ 
 .header {
   padding-top: 10px!important;
   padding-bottom: 10px!important;
