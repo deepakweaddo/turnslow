@@ -2948,7 +2948,7 @@ a.slowbtn {
   width: 3.8rem!important;
 }
 .innerpagelayout {
-  margin: 65px 0 0 0;
+  margin:65px 0 0 0;
 }
 .textContain { 
   display: none;
@@ -2973,7 +2973,7 @@ a.slowbtn {
   justify-self: left;
 }
 .footer-block__details-content {
-  margin-bottom: 0;
+  margin-bottom: 0!important;
 }
 .drawer__inner { 
   max-width: calc(100vw - 0rem);
@@ -2993,7 +2993,9 @@ a.slowbtn {
 cart-remove-button .button { 
   margin: 0 -0.4rem 0.1rem 0;
 }
-
+.header__heading-logo {
+  max-width: 80px!important;
+}
 
 }
 
