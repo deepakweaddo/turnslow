@@ -2972,7 +2972,9 @@ a.slowbtn {
 .header__heading, .header__heading-link { 
   justify-self: left;
 }
-
+.footer-block__details-content {
+  margin-bottom: 0;
+}
 }
 
 /* responsive end css */
