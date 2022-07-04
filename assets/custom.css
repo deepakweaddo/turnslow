@@ -3057,7 +3057,27 @@ h2.product-recommendations__heading.h2 {
   padding: 30px;
 }
 
- 
+.contact h2 {
+  font-size: 30px; 
+}
+.contact p {
+  font-size: 16px; 
+}
+.conatctaddress .address h2 {
+  font-size: 20px; 
+}
+.address {
+  padding: 20px 20px;
+}
+.conatctaddress .address p {
+  font-size: 20px; 
+}
+.footer-div { 
+  padding-top: 30px!important;}
+
+.footer-div .footer__content-top { 
+padding: 0 20px;
+}
 
 }
 
