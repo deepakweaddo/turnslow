@@ -2976,10 +2976,13 @@ a.slowbtn {
   margin-bottom: 0!important;
 }
 .drawer__inner { 
-  max-width: calc(100vw - 0rem);
+  max-width: calc(100vw - 0rem)!important;
 }
 .cart-drawer .cart-item__image {
   padding: 3px;}
+  .menu-drawer__inner-submenu { 
+    padding: 30px 20px 30px 30px!important;
+}
 
   .cart-drawer .cart-item>td+td {
     padding-left: 0;
