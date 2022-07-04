@@ -2948,7 +2948,7 @@ a.slowbtn {
   width: 3.8rem!important;
 }
 .innerpagelayout {
-  margin: 85px 0 0 0;
+  margin: 75px 0 0 0;
 }
 .textContain { 
   display: none;
@@ -2966,6 +2966,13 @@ a.slowbtn {
 .footer-block.grid__item { 
   margin: 0 0 0 0!important; 
 }
+.header__heading-link { 
+  padding: 0; 
+}
+.header__heading, .header__heading-link { 
+  justify-self: left;
+}
+
 }
 
 /* responsive end css */
