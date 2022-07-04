@@ -2840,16 +2840,14 @@ h2.cart__empty-text {
   border: 0!important;
   background-color: #f6f6f6!important;
 }
-.facets__header {
+.facets__display .facets__header {
   background-color: #ccc!important;
 }
-.facets__summary {
-  /*
+.facets__display .facets__summary {
   color: rgba(var(--color-foreground),.75)!important;
   font-size: 1.4rem!important;
   padding: 0 1.75rem 0 0!important;
   margin-bottom: 0!important;
-  */
 }
 
 .btnauthhome {
