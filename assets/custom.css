@@ -248,7 +248,7 @@ sticky-header.mainheader {
   margin: 0 0 0 28px;
 }
 .header__heading-logo {
-  max-width: 120px!important;
+  max-width:80px!important;
 }
 .header {
   padding-top: 10px!important;
@@ -2906,8 +2906,8 @@ h2.cart__empty-text {
   .menu-drawer {
     width: 100%; ;
 }
-.menu-drawer__navigation-container { 
-  background-size: cover!important;
+.menu-drawer__navigation-container {
+  /* background-size: cover!important; */
   background-position: left;
   padding: 30px 20px 30px 30px!important;
 }
@@ -2948,7 +2948,7 @@ a.slowbtn {
   width: 3.8rem!important;
 }
 .innerpagelayout {
-  margin: 75px 0 0 0;
+  margin: 65px 0 0 0;
 }
 .textContain { 
   display: none;
@@ -2975,6 +2975,26 @@ a.slowbtn {
 .footer-block__details-content {
   margin-bottom: 0;
 }
+.drawer__inner { 
+  max-width: calc(100vw - 0rem);
+}
+.cart-drawer .cart-item__image {
+  padding: 3px;}
+
+  .cart-drawer .cart-item>td+td {
+    padding-left: 0;
+}
+.cart-item__details a {
+    font-size: 16px; 
+}
+.drawer__inner { 
+  padding: 30px 20px 30px 30px!important;
+}
+cart-remove-button .button { 
+  margin: 0 -0.4rem 0.1rem 0;
+}
+
+
 }
 
 /* responsive end css */
