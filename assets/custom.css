@@ -3122,6 +3122,15 @@ padding: 0 20px;
   margin: 0 0 20px 0;
 }
 .dokra-art{display: none;}
+.footer-block__details-content li {
+  display: block;
+  float: left;
+  width: 50%;
+}
+.footer .grid { 
+  float: left;
+}
+
 }
 
 /* responsive end css */
