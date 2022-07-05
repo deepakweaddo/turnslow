@@ -2931,6 +2931,23 @@ quick-add-modal .product:not(.featured-product) .product__view-details {
   float: left;
   line-height: 37px;
 }
+
+.customer h2.form__message {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0;
+}
+.errors { 
+  padding: 0;
+  margin: 0;
+  float: left; 
+}
+.errors li {
+  font-size: 12px;
+  display: block; 
+}
+
+
 /* responsive */
 
 @media (min-width:320px) and (max-width:767px){
