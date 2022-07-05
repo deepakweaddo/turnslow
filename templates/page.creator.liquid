@@ -15,7 +15,8 @@
 <!-- custom banner -->
   <div class="page-width">
    <div class="creatorContainer">
-     {% render 'breadcrumbs' %}  
+     {% render 'breadcrumbs' %} 
+     {{pageUrl}}
      
   <h1 class="page-title">{{page.title | escape}}</h1>
     {{ page.content }}
