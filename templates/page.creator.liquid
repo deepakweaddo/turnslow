@@ -37,8 +37,13 @@
 </div>
 
 <script>
-  var q = document.URL.split('?location=')[1];
+  var urllocation = document.URL.split('?location=')[1];
   console.log(q);
+  if(urllocation)
+  {
+  		jQuery(".creatorli").hide();
+    	jQuery("."+urllocation).show();
+  }
 
   jQuery('select[name="location"]').change(function()
     {
