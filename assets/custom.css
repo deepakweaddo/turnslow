@@ -3108,20 +3108,20 @@ padding: 0 20px;
   line-height: 40px; 
 }
 .bloghome h2 { 
-  font-size: 30px;
+  font-size: 30px!important;
 }
 .bloghome h3 { 
-  line-height: 23px;
+  line-height: 23px!important;
 }
 .bloghome h3 a {
-  font-size: 16px; 
+  font-size: 16px!important;
 }
 .btn_art { 
   font-size: 17px;
   padding: 10px 17px;
   margin: 0 0 20px 0;
 }
-.dokra-art{display: none;}
+.dokra-art{display: none!important;}
 .footer-block__details-content li {
   display: block;
   float: left;
