@@ -1,7 +1,8 @@
 <ul class="collection-list block-grid mobile four-up product-collection">    
 {% for link in linklist.links %} 
 <!--   //Here we are saying use the links in the linklist we created and assign them to the below code -->
-<li class="collection-list__item grid__item">
+{%if link_item.metafields.custom.location != "" %}
+  <li class="collection-list__item grid__item">
   <div class="product test">
   {% comment %}
  You can connect collections, products, pages, & even blogs. By default it will use the first product that appears on a collection or you can pick a featured image.
@@ -60,7 +61,7 @@
     {% endif %}
   {% endif %}
 
-   {%if link_item.metafields.custom.location == "kerala" %}
+   
 <a href="{{ link_item.url }}" title="{{ link_title }}">
 <!--   //Here is where it all comes together make the link_item.url click-able and link to the content and add the title using link_title  -->
     <span class="thumbnail">
@@ -83,7 +84,8 @@
     </span>
     
   </a>
-  {% endif %}
+  
 </li>
+{% endif %}
 {% endfor %}
 </ul>
