@@ -347,6 +347,30 @@
         })
       });
       
+      $("#main-cart-link").hover(function(){
+jQuery.getJSON('/cart.js', function (cart, textStatus) {
+  if(cart.item_count>0){
+    var cartshipnote="";
+//if the cart total is close to free shipping add a note
+    if(cart.total_price>5000){
+      var leftover="$"+((7500-cart.total_price)/100).toFixed( 2 );
+      cartshipnote="<div style='padding:4px 0; font-style:italic; text-align:right'>Only "+leftover+" away from free shipping!</div>";
+    }
+//if the cart total is over free shipping requirement add a note
+   if(cart.total_price>7500){
+     cartshipnote="<div style='padding:4px 0; font-weight:bold; text-align:right'>You've qualified for free shipping!!</div>";
+    }
+//show cart total price in US dollars with 2 decimals
+  var carttotal="$"+(cart.total_price/100).toFixed( 2 );
+//add html to the cart hover div
+    jQuery("#ccbody").html("<div id='ccount'>Items in cart: "+cart.item_count+"</div><div id='carttotal'>Total: "+carttotal+"</div>"+cartshipnote); 
+  }
+});
+},function(){
+//on hover-out empty the cart div
+  jQuery("#ccbody").empty();
+});
+      
 //       	var stored = localStorage['sliderid'];
 // 		if (stored) myVar = JSON.parse(stored);
 // 		else myVar = {slide: [1, 2]};
