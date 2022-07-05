@@ -15,7 +15,8 @@
 
     {%- if section.settings.show_collection_image and collection.image -%}
       <div class="collection-hero__image-container media gradient">
-        <img
+        {{ collection.metafields.custom.profilepic | img_tag }}
+<!--         <img
           srcset="{%- if collection.image.width >= 165 -%}{{ collection.image | image_url: width: 165 }} 165w,{%- endif -%}
             {%- if collection.image.width >= 360 -%}{{ collection.image | image_url: width: 360 }} 360w,{%- endif -%}
             {%- if collection.image.width >= 535 -%}{{ collection.image | image_url: width: 535 }} 535w,{%- endif -%}
@@ -28,7 +29,7 @@
           alt="{{ collection.title | escape }}"
           width="{{ collection.image.width }}"
           height="{{ collection.image.height }}"
-        >
+        > -->
       </div>
     {%- endif -%}
 
