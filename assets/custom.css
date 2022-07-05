@@ -2912,8 +2912,25 @@ margin: 0 0 0 9px;
   background-color: darkgrey!important;
   outline: 1px solid slategrey!important;
 }
-
-
+.creatorHistory img{ width: 100%;}
+quick-add-modal .product:not(.featured-product) .product__view-details {
+  display: block;
+  font-size: 19px;
+  background-image: url(addtocart.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: freight-big-pro;
+  margin: 0 10px 0 0px;
+  background-color: transparent;
+  text-transform: capitalize;
+  padding: 4px 26px !important;
+  width: auto !important;
+  border: 0px !important;
+  height: 45px;
+  letter-spacing: 0;
+  float: left;
+  line-height: 37px;
+}
 /* responsive */
 
 @media (min-width:320px) and (max-width:767px){
@@ -3052,10 +3069,10 @@ cart-remove-button .button {
   max-width: 80px!important;
 }
 .sizepdp {
-  width: 50%; 
+  width: 100%!important;
 }
 .creatorWrap h4 { 
-  padding: 10px 0 0 0; 
+  padding: 10px 0 0 0; text-align: left;
 }
 .sac_checker { 
   top: 0;
@@ -3068,9 +3085,9 @@ cart-remove-button .button {
       margin: 0px 3px 0 0; 
       padding: 4px 15px!important; 
   }
-  .divexTab2 .nav button { 
-    font-size: 15px; 
-    margin: 10px 9px 10px 0; 
+  .divexTab2 .nav button {
+    font-size: 15px;
+    margin: 10px 6px 10px 0;
 }
 .divexTab2 img {
   width: 100%; 
@@ -3232,8 +3249,50 @@ h1.article-template__title {
   margin: 0 auto; 
   text-align: center;
 }
-
-
+.creatorSummery {
+  width: 100%;
+  padding: 0 10px;
 }
+.creatorSummery h1 { 
+  font-size: 25px; 
+}
+.creatorSummery ul li {
+  font-size: 14px; 
+  line-height: 20px;
+}
+.creatorSummery ul li span i {
+  font-size: 15px; 
+  width: 20px;}
+
+  .collection-hero--with-image .collection-hero__text-wrapper {
+    padding: 3rem 0 1rem;
+}
+.creatorTab2 { 
+    padding: 10px 0 0 0;
+}
+.creatorTab2 .nav button { 
+  font-size: 18px; 
+  margin: 0;
+  padding: 10px 13px;
+}
+.scrollbar { 
+  width: 100%;}
+  .creatorHistory {
+    padding: 50px 10px 0px 10px;}
+.quick-add-modal__content-info .product__media { 
+      height: auto;
+      min-height: auto;
+  }
+
+.quick-add-modal__content-info .product__media img {
+    padding: 30px;
+}
+.quick-add-modal__content-info  .newventure {
+  padding: 0 0 20px 0;
+  float: left;
+}
+}
+
+
 
 /* responsive end css */
