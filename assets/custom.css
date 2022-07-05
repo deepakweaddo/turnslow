@@ -3107,7 +3107,21 @@ padding: 0 20px;
   font-size: 40px; 
   line-height: 40px; 
 }
-
+.bloghome h2 { 
+  font-size: 30px;
+}
+.bloghome h3 { 
+  line-height: 23px;
+}
+.bloghome h3 a {
+  font-size: 16px; 
+}
+.btn_art { 
+  font-size: 17px;
+  padding: 10px 17px;
+  margin: 0 0 20px 0;
+}
+.dokra-art{display: none;}
 }
 
 /* responsive end css */
