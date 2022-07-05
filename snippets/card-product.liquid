@@ -136,7 +136,7 @@
               <div class="caption-with-letter-spacing">by {{ card_product.vendor }}</div>
             {%- endif -%}
 
-            <span class="caption-large">{{ card_product.description | escape }}</span>
+            <span class="caption-large">{{ card_product.description | truncate:30 }}</span>
 
             {%- if show_rating and card_product.metafields.reviews.rating.value != blank -%}
               {% liquid
