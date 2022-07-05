@@ -161,7 +161,7 @@
             {%- endif -%}
             <!-- customized description  start-->
             <div class="shortdescp">
-              {{ card_product.description  }}
+              {{ card_product.description | truncate: 20  }}
           </div>
             <!-- customized description end-->
             {% render 'price', product: card_product, price_class: '' %}
