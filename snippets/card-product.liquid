@@ -161,7 +161,7 @@
             {%- endif -%}
             <!-- customized description  start-->
             <div class="shortdescp">
-              <p> Lorem ipsum is a placeholder text commonly used to demonstrate the visual</p>
+              <p>{{ card_product.title | escape }}</p>
           </div>
             <!-- customized description end-->
             {% render 'price', product: card_product, price_class: '' %}
