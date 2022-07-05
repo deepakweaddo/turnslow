@@ -7,7 +7,7 @@
  You can connect collections, products, pages, & even blogs. By default it will use the first product that appears on a collection or you can pick a featured image.
   {% endcomment %}
 
-  {% assign link_item = link.object | where: "location", "kerala" %} 
+  {% assign link_item = link.object %} 
     
      
 <!--     //Creates a new variable for link_item using link.object which in-turn can access any of the attributes that are available (product, collection, page or blog) -->
@@ -60,7 +60,7 @@
     {% endif %}
   {% endif %}
 
-   
+   {%if link_item.metafields.custom.location == "kerala" %}
 <a href="{{ link_item.url }}" title="{{ link_title }}">
 <!--   //Here is where it all comes together make the link_item.url click-able and link to the content and add the title using link_title  -->
     <span class="thumbnail">
@@ -83,6 +83,7 @@
     </span>
     
   </a>
+  {% endif %}
 </li>
 {% endfor %}
 </ul>
