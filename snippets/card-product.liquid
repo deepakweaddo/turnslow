@@ -136,7 +136,7 @@
               <div class="caption-with-letter-spacing">by {{ card_product.vendor }}</div>
             {%- endif -%}
 
-            <span class="caption-large">{{ block.settings.description | escape }}</span>
+            <span class="caption-large">{{ card_product.description | escape }}</span>
 
             {%- if show_rating and card_product.metafields.reviews.rating.value != blank -%}
               {% liquid
@@ -161,7 +161,7 @@
             {%- endif -%}
             <!-- customized description  start-->
             <div class="shortdescp">
-              {{ card_product.description | truncate: 20  }}
+              
           </div>
             <!-- customized description end-->
             {% render 'price', product: card_product, price_class: '' %}
