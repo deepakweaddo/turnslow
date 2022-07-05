@@ -34,3 +34,15 @@
 </div>
 </div>
 </div>
+
+<script>
+
+  jQuery('select[name="location"]').change(function()
+    {
+        var option = jQuery(this).find('option:selected').val();
+        //var color = option.replace(" ", "_");            
+        alert(color);
+
+        
+    });
+</script>
