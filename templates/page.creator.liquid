@@ -16,8 +16,18 @@
   <div class="page-width">
    <div class="creatorContainer">
      {% render 'breadcrumbs' %}  
+     
   <h1 class="page-title">{{page.title | escape}}</h1>
     {{ page.content }}
+     <select id="location" name="location" >
+     
+     {% for link in linklist.links %} 
+     
+     {% assign link_item = link.object %}
+       <option >{{ link_item.metafields.custom.location }}</option>
+     
+     {% endfor %}
+     </select>
     {% include 'collection-within-collection' %}
 </div>
 </div>
