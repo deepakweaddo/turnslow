@@ -30,6 +30,7 @@
     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     {{ content_for_header }}
 
     {%- liquid
@@ -39,6 +40,55 @@
     %}
 
     {% style %}
+    
+      #preloader1 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	overflow: hidden;
+	background: #fff;
+}
+
+#preloader1:before {
+	content: "";
+	position: fixed;
+	top: calc(50% - 30px);
+	left: calc(50% - 30px);
+	border: 6px solid #f2f2f2;
+	border-top: 6px solid #2db2bc;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	-webkit-animation: animate-preloader 1s linear infinite;
+	animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+	0 {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes animate-preloader {
+	0 {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
       {{ settings.type_body_font | font_face: font_display: 'swap' }}
       {{ body_font_bold | font_face: font_display: 'swap' }}
       {{ body_font_italic | font_face: font_display: 'swap' }}
@@ -230,7 +280,7 @@
 	{% endif %}
     
     <main id="MainContent" class="content-for-layout focus-none {% unless template contains 'index' %} innerpagelayout {% endunless %}" role="main" tabindex="-1">
-      <span id="preloader"></span>
+      <span id="preloader1"></span>
       {% if template == 'cart' %}
       <div class="cartBg">
         <div class="page-width">
@@ -280,7 +330,7 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"  crossorigin="anonymous"></script>
 
     <script> 
@@ -292,7 +342,7 @@
       });
 
       $(window).on("load", function() {
-        $("#preloader").length && $("#preloader").delay(100).fadeOut("slow", function() {
+        $("#preloader1").length && $("#preloader1").delay(100).fadeOut("slow", function() {
           $(this).remove()
         })
       });
