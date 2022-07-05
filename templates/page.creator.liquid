@@ -23,8 +23,10 @@
      
      {% for link in linklist.links %} 
      
-     {% assign link_item = link.object %}
+     {% assign link_item = link.object %} 
+       {% if link_item.metafields.custom.location != "" %}
        <option >{{ link_item.metafields.custom.location }}</option>
+       {%endif%}
      
      {% endfor %}
      </select>
