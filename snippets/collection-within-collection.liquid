@@ -1,8 +1,8 @@
 <ul class="collection-list block-grid mobile four-up product-collection">    
 {% for link in linklist.links %} 
 <!--   //Here we are saying use the links in the linklist we created and assign them to the below code -->
-{% if link_item.metafields.custom.location %}
-  <li class=" creatorli collection-list__item grid__item {{ link_item.metafields.custom.location }}">
+{% if link.object.metafields.custom.location %}
+  <li class=" creatorli collection-list__item grid__item {{ link.object.metafields.custom.location }}">
   <div class="product test">
   {% comment %}
  You can connect collections, products, pages, & even blogs. By default it will use the first product that appears on a collection or you can pick a featured image.
