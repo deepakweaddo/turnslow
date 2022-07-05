@@ -3130,6 +3130,21 @@ padding: 0 20px;
 .footer .grid { 
   float: left;
 }
+.blog-articles__article.article {
+  width: 100%; 
+}
+.blogListing .article-card .card__heading { 
+  height: auto;
+}
+.blogListing h1 {
+  margin: 10px 0px!important;
+  font-size: 25px; 
+}
+.blogcat ul li { 
+  padding: 5px 0;
+  font-size: 18px;
+  width: 49%;
+}
 
 }
 
