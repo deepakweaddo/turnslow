@@ -21,7 +21,7 @@
   <h1 class="page-title">{{page.title | escape}}</h1>
     {{ page.content }}
      <select id="location" name="location" >
-     
+       <option>Select Location</option>
      {% for link in linklist.links %} 
      
      {% assign link_item = link.object %} 
