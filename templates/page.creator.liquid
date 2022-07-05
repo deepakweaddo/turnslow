@@ -19,8 +19,11 @@
      {{pageUrl}}
      
   <h1 class="page-title">{{page.title | escape}}</h1>
+
+  <h2 class="headingcreator">Filter:</h2>
+
     {{ page.content }}
-     <select id="location" name="location" >
+     <select id="location" class="location" name="location" >
        <option>Select Location</option>
      {% for link in linklist.links %} 
      
