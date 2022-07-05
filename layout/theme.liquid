@@ -369,9 +369,7 @@ jQuery.getJSON('/cart.js', function (cart, textStatus) {
     jQuery("#ccbody").html("<div id='ccount'>Items in cart: "+cart.item_count+"</div><div id='carttotal'>Total: "+carttotal+"</div>"+cartshipnote); 
   }
 });
-},function(){
-//on hover-out empty the cart div
-  jQuery("#ccbody").empty();
+
 });
       
 //       	var stored = localStorage['sliderid'];
