@@ -2,7 +2,7 @@
 {% for link in linklist.links %} 
 <!--   //Here we are saying use the links in the linklist we created and assign them to the below code -->
 {%if link_item.metafields.custom.location != "" %}
-  <li id="creatorli" class="collection-list__item grid__item">
+  <li id="{{ link_item.metafields.custom.location }}" class="collection-list__item grid__item">
   <div class="product test">
   {% comment %}
  You can connect collections, products, pages, & even blogs. By default it will use the first product that appears on a collection or you can pick a featured image.
