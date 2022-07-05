@@ -349,6 +349,8 @@
       
       $(window).on("load",function(){
 jQuery.getJSON('/cart.js', function (cart, textStatus) {
+  
+  console.log("dpk");
   if(cart.item_count>0){
     var cartshipnote="";
 //if the cart total is close to free shipping add a note
