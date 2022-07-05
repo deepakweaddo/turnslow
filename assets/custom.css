@@ -3094,8 +3094,18 @@ padding: 0 20px;
 .categoriesContainer .card__content {
   width: 100%!important;     padding: 0 20px 0 20px!important;
 }
-.homebtn { 
+.homerow1 { 
   display: none!important;
+}
+.homerow2 { 
+  display: none!important;
+}
+.homerow3 { 
+  display: none!important;
+}
+.homecaption h2 {
+  font-size: 40px; 
+  line-height: 40px; 
 }
 
 }
