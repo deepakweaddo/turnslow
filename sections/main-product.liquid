@@ -240,6 +240,9 @@
               	<button data-with-epi="true" class="swym-button swym-add-to-wishlist-view-product product_{{product.id}}" data-swaction="addToWishlist" data-product-id="{{product.id | json}}" data-variant-id="{{product.variants[0].id}}" data-product-url="{{ shop.url }}{{ product.url }}"></button>
              <!-- Swym Wishlist Plus EPI Button-->
               
+              {%- assign current_variant = product.selected_or_first_available_variant -%}
+<span>{{ current_variant.sku }}</span>
+              
           </div> </div>
             <div class="product__title" {{ block.shopify_attributes }}>
               <h1>{{ product.title | escape }}</h1>
