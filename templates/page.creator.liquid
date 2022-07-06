@@ -51,10 +51,13 @@
   jQuery('select[name="location"]').change(function()
     {
         var locationoption = jQuery(this).find('option:selected').val();
+    if(locationoption == "")
+        {jQuery(".creatorli").show();}
+    else
+    	{
     	jQuery(".creatorli").hide();
     	jQuery("."+locationoption).show();
-        //var color = option.replace(" ", "_");            
-        //alert(locationoption);
+    	}
 
         
     });
