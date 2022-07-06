@@ -227,9 +227,17 @@
             </p> 
           {%- when 'title' -%}
             <div class="iconCartpdp"> 
-            <div class="innerposition">  
-              <div class="sharethis-inline-share-buttons"></div>
-<!--             <span class="icon icon-cart-empty"><i class="fas fa-share-alt"></i></span> -->
+            <div class="innerposition"> 
+
+
+           
+  <span class="icon icon-cart-empty but"><i class="fas fa-share-alt"></i></span> 
+              <div class="contentshare">
+                <h2>Share on
+              </h2> <div class="sharethis-inline-share-buttons"></div> </div>
+              
+ 
+           
 <!--             <span class="icon icon-cart-empty"><i class="fal fa-heart"></i></span> -->
                
               <!-- Swym button on product pages -->
@@ -748,6 +756,26 @@
   </script>
 </section>
 </div>
+
+<script>
+$(function(){
+  $(".but").click (function(){
+    // Close all open windows
+    $(".contentshare").stop().slideUp(300); 
+    // Toggle this window open/close
+    $(this).next(".contentshare").stop().slideToggle(300);
+    //hitter test// 
+    $(".hitter").show()
+  });
+  
+  $(".hitter").click (function(){
+    // Close all open windows
+    $(".contentshare").stop().slideUp(300); 
+  });
+});
+</script>
+
+
 {% schema %}
 {
   "name": "t:sections.main-product.name",
