@@ -200,16 +200,16 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "Explore More Creations By Jelina",
+        "heading": "Explore More Creations By {{ product.vendor }}",
         "heading_size": "h2",
-        "products_to_show": 3,
-        "columns_desktop": 3,
+        "products_to_show": 5,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
+        "show_vendor": true,
+        "show_rating": true,
+        "columns_mobile": "1",
         "padding_top": 36,
         "padding_bottom": 28
       }
