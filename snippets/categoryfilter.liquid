@@ -34,7 +34,7 @@
     </div>
   </div>
   
-  {% if collection.all_tags.size > 0 and section.settings.sb_filters != 'none' %}
+  {% if collection.all_tags.size < 0 and section.settings.sb_filters != 'none' %}
   <div class="sb-widget filter-sidebar no-sidebar {{ section.settings.sb_filters_style }}">
     <h2 class="sb-title">Filter By:</h2>
     
