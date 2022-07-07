@@ -5,19 +5,27 @@
         {% unless section.settings.sb_categories_title == blank %}
           <h5 class="sb-title">{{ section.settings.sb_categories_title }}</h5>
         {% endunless %}
-
-        <ul class="categories-menu">
-          
-
+ 
+<div class="dropdown categories-menu">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    {% for collection in collections limit: section.settings.sb_categories_limit %}
+      {% unless collection.handle == 'frontpage' or collection.handle == 'all' %} 
+      <a href="{{ collection.url }}">{{ collection.title }}</a>
+  {% endunless %}
+{% endfor %} 
+  </div>
+</div>
+  
+<!-- 
+  <ul class="categories-menu"> 
             {% for collection in collections limit: section.settings.sb_categories_limit %}
               {% unless collection.handle == 'frontpage' or collection.handle == 'all' %}
                 <li><a href="{{ collection.url }}">{{ collection.title }}</a></li>
               {% endunless %}
-            {% endfor %}
-
-          
-        </ul>
-
+            {% endfor %}  
+  </ul>
+-->
       {% endunless %}
     </div>
   </div>
@@ -148,4 +156,23 @@
     </div>
   </div>
 {% endif %}
+
+<script> 
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  } 
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
 

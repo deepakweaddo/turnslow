@@ -1917,7 +1917,60 @@ a.sac_diff_check {
     border-color: #d1cece;box-shadow: none;
 }
 
+.dropdown.categories-menu {
+  margin: -14px 0 0 0;
+}
+.dropbtn {
+  width: 145px;
+  background-image: url(input_bg1.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border: 0;
+  font-family: freight-big-pro;
+  position: relative;
+  padding: 8px 25px 8px 15px!important;
+  font-size: 18px!important;
+  color: #000!important;
+  background-color: transparent!important;
+  text-align: left;
+}
 
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;  
+  position: absolute;
+  background-color: #b1a08f;
+  min-width: 240px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none!important;
+  font-family: 'Poppins', sans-serif;
+}
+
+.dropdown a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.show {display: block;}
+ 
 
 /* PDP end */
 
@@ -2764,6 +2817,48 @@ h2.cart__empty-text {
   text-transform: capitalize;
 }
 
+.jdgm-notification {
+  font-weight: normal;
+  border-top: 1px solid #eee;
+  padding-top: 16px;
+  margin-top: 16px;
+  font-family: Poppins,sans-serif;
+  color: #000;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+jdgm-notification a {
+  color: #000;
+}
+jdgm-notification a:hover{
+  color: #000;
+}
+.jdgm-sort-dropdown.jdgm-sort-dropdown{
+  width: 145px!important;
+  background-image: url(input_bg1.png)!important;
+  background-size: 100% 100%!important;
+  background-repeat: no-repeat!important;
+  border: 0!important;
+  font-family: freight-big-pro!important;
+  position: relative;
+  padding: 1px 25px 1px 15px!important;
+  font-size: 16px!important;
+  color: #000!important;
+}
+
+.jdgm-rev__body>p { 
+  font-family: Poppins,sans-serif;
+  color: #000;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+
+.jdgm-rev__title {
+  font-family: freight-big-pro!important;
+  font-size: 25px!important;
+  text-transform: capitalize;
+  padding: 20px 0 6px 0;
+}
 .template-search{
   width: 100%;
   background: url(background_2.png) 0% 0% / cover;  
