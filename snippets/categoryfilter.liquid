@@ -7,7 +7,7 @@
         {% endunless %}
 
         <ul class="categories-menu">
-          {% if section.settings.sb_categories_type == 'categories' %}
+          
 
             {% for collection in collections limit: section.settings.sb_categories_limit %}
               {% unless collection.handle == 'frontpage' or collection.handle == 'all' %}
@@ -15,19 +15,7 @@
               {% endunless %}
             {% endfor %}
 
-          {% else %}
-            {% for l in linklists[section.settings.sb_categories_menu].links %}
-              {% assign submenu = l.title | handleize %}
-
-              {% if linklists[submenu].links.size > 0 %}
-                {% include 'sb-dropdown-menu' %}
-              {% else %}
-                <li{% if l.active %} class="active"{% endif %}><a href="{{ l.url }}">{{ l.title }}</a></li>
-              {% endif %}
-
-            {% endfor %}
-
-          {% endif %}
+          
         </ul>
 
       {% endunless %}
