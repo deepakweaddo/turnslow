@@ -1912,6 +1912,13 @@ a.sac_diff_check {
   line-height: 35px;
   text-align: center;}
 
+
+  .product--thumbnail_slider .thumbnail-slider .thumbnail[aria-current] { 
+    border-color: #d1cece;
+}
+
+
+
 /* PDP end */
 
 /* checkout page */
