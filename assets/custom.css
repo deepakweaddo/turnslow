@@ -1914,7 +1914,7 @@ a.sac_diff_check {
 
 
   .product--thumbnail_slider .thumbnail-slider .thumbnail[aria-current] { 
-    border-color: #d1cece;
+    border-color: #d1cece;box-shadow: none;
 }
 
 
