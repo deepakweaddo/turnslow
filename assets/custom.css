@@ -2864,6 +2864,29 @@ h2.cart__empty-text {
   }
 .homebtn:hover{background-color: #e1680f!important;}
 
+.btncommon {
+  background-color: rgba(255, 255, 255, 0);
+  color: #000!important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: freight-big-pro;
+  font-size: 18px;
+  padding: 8px 15px;
+  margin: 20px 0;
+  background-image: url(btn01.png);
+  width: 150px!important;
+  text-align: center!important;
+  font-weight: 400;
+}
+
+.tabhome h3 {
+  text-align: left;
+  padding: 0;
+  margin: 11px 0 0 0!important;
+  font-size: 25px!important;
+  font-weight: 300;
+}
+
 /* pagefly home */
 
 /*wishlist */
