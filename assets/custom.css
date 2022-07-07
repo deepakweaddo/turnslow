@@ -1893,6 +1893,18 @@ a.sac_diff_check {
 .collapsible-content summary:hover .accordion__title {
   text-decoration: none!important; 
 }
+
+.creatorWrap {
+  background-image: url(pdpcreator_bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 70px!important;
+  padding-bottom: 0!important;
+  border: 0px;
+  background-position: bottom;
+}
+
+
 /* PDP end */
 
 /* checkout page */
