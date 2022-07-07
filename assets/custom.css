@@ -1893,17 +1893,22 @@ a.sac_diff_check {
 .collapsible-content summary:hover .accordion__title {
   text-decoration: none!important; 
 }
-
 .creatorWrapfooter {
   background-image: url(pdpcreator_bg.png);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 70px!important;
-  padding-bottom: 0!important;
+  padding: 110px 0;
   border: 0px;
-  background-position: bottom;
+  background-position: center;
 }
 
+.creatorWrapfooter h2 {   margin: 0;
+  margin-bottom: 6rem;
+  font-size: 35px;
+  color: #000;
+  font-family: freight-big-pro!important;
+  line-height: 35px;
+  text-align: center;}
 
 /* PDP end */
 
