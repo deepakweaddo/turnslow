@@ -709,7 +709,7 @@ nav.header__inline-menu {
   background-size: 100% 100%!important;
   background-position: center;
   background: transparent; 
-  height: 330px;
+  height: 300px;
 }
 .product-grid .card .media { 
   top: 50px;
@@ -719,8 +719,17 @@ nav.header__inline-menu {
   border: 0px solid rgba(0,0,0,.125);
   border-radius: 0;    margin: 0 0 40px 0;
 }
+/*
 .product-grid .card__media {
-  width: 50%;     /* z-index: 1!important;*/
+  width: 50%;      z-index: 1!important;
+  margin: 0 auto!important;
+  text-align: center;
+  left: 0;
+  right: 0;
+}*/
+
+.product-grid .card__media {
+  width: 80%;
   margin: 0 auto!important;
   text-align: center;
   left: 0;
@@ -3438,7 +3447,7 @@ quick-add-modal .product:not(.featured-product) .product__view-details {
   right: 1.5rem;
   top: calc(50% - 0.2rem);}
 
-  
+
 .freetrial_dropdown {
   -webkit-appearance: none;
   -moz-appearance: window;
