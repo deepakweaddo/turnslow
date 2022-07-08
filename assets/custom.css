@@ -1933,6 +1933,7 @@ a.sac_diff_check {
   color: #000!important;
   background-color: transparent!important;
   text-align: left;
+  cursor: pointer;
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -3185,6 +3186,30 @@ jdgm-notification a:hover{
   padding: 35px 30px 15px 30px!important;
 }
 
+#AddAddress .select__select, .customer select {
+  background: #fff;
+  border-left: 0px;
+  color: #000;
+  font-size: 14px;
+  width: 100%;
+  background-image: url(contactinput.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  padding: 15px 30px 15px 30px!important;
+  height: 50px;
+  margin: 0;
+}
+
+.address_default_address_new{font-size: 15px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    top: -11px;
+    position: relative;
+}
+
+
 .customer button {
   background-image: url(addtocart.png);
   background-size: 100% 100%;
@@ -3342,6 +3367,87 @@ quick-add-modal .product:not(.featured-product) .product__view-details {
   right: 50px;
   top: 10px;
 } 
+
+.customer.account p {
+  font-size: 15px;
+  color: #000;
+  font-family: Poppins,sans-serif;
+}
+
+.addressedit .customer.addresses {
+  max-width: 100%!important;
+  text-align: left!important;
+}
+
+.addressedit .defaultwrap {
+  text-align: left!important;
+}
+.addressedit .addresses ul { 
+  text-align: left!important;
+}
+
+.addressedit .addresses h2 {
+  text-align: left!important;
+  font-size: 30px;
+  color: #000;
+  font-family: freight-big-pro!important;
+  padding: 40px 0 0 0;
+}
+
+.addressedit li[data-address] {
+  margin-top: 0;
+}
+
+.addresses ul p {
+  margin-bottom: 0;
+  font-size: 15px;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+.addresses form > div:nth-of-type(1), .addresses form > div:nth-of-type(2), .addresses form > div:nth-of-type(3) {
+  flex-basis: calc(31.3% - 1rem)!important;
+  margin: 0 10px;
+}
+
+.addresses form > div:nth-of-type(4), 
+.addresses form > div:nth-of-type(5), 
+.addresses form > div:nth-of-type(6), 
+.addresses form > div:nth-of-type(7),
+.addresses form > div:nth-of-type(8), 
+.addresses form > div:nth-of-type(9),
+.addresses form > div:nth-of-type(10)
+{
+  flex-basis: calc(47.9% - 1rem)!important;
+  margin: 20px 10px;
+}
+
+
+.drawer__cart-items-wrapper .baglist .swym-button.swym-add-to-wishlist-view-product {
+  font-size: 16px;
+  float: right;
+  width: 60px;
+  text-align: right;
+  padding: 0 10px 0 0;
+}
+.cart-item__details a:hover{ 
+  color: #000; 
+}
+
+.dropbtn svg{position: absolute;
+  height: 0.6rem;
+  right: 1.5rem;
+  top: calc(50% - 0.2rem);}
+
+  
+.freetrial_dropdown {
+  -webkit-appearance: none;
+  -moz-appearance: window;
+  border: 0;
+  background-image: url(free_dropdown.png);
+  background-repeat: no-repeat;
+  background-position: right 13px center;
+}
+
 /* responsive */
 
 @media (min-width:320px) and (max-width:767px){
