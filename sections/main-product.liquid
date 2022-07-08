@@ -227,29 +227,23 @@
             </p> 
           {%- when 'title' -%}
             <div class="iconCartpdp"> 
-            <div class="innerposition"> 
+              	<div class="innerposition">            
+              		<span class="icon icon-cart-empty but"><i class="fas fa-share-alt"></i></span> 
+                    <div class="contentshare">
+                      <div>
+                      <h2>Share on</h2> 
+                      <div class="sharethis-inline-share-buttons"></div>
+                      </div>
+                     </div>               
+                  	<!-- Swym button on product pages -->
+    				<!--<span class="swym-wishlist-button-bar"></span> -->
+                    <!-- Swym button on product pages -->
 
-
-           
-  <span class="icon icon-cart-empty but"><i class="fas fa-share-alt"></i></span> 
-              <div class="contentshare">
-                <h2>Share on
-              </h2> <div class="sharethis-inline-share-buttons"></div> </div>
-              
- 
-           
-<!--             <span class="icon icon-cart-empty"><i class="fal fa-heart"></i></span> -->
-               
-              <!-- Swym button on product pages -->
-<!--         		<span class="swym-wishlist-button-bar"></span> -->
-				<!-- Swym button on product pages -->
-              
-              <!-- Swym Wishlist Plus EPI Button-->
-              	<button data-with-epi="true" class="swym-button swym-add-to-wishlist-view-product product_{{product.id}}" data-swaction="addToWishlist" data-product-id="{{product.id | json}}" data-variant-id="{{product.variants[0].id}}" data-product-url="{{ shop.url }}{{ product.url }}"></button>
-             <!-- Swym Wishlist Plus EPI Button-->
-              
-              
-          </div> </div>
+                  <!-- Swym Wishlist Plus EPI Button-->
+                  <button data-with-epi="true" class="swym-button swym-add-to-wishlist-view-product product_{{product.id}}" data-swaction="addToWishlist" data-product-id="{{product.id | json}}" data-variant-id="{{product.variants[0].id}}" data-product-url="{{ shop.url }}{{ product.url }}"></button>
+               	<!-- Swym Wishlist Plus EPI Button-->
+            	</div>
+        	</div>
             <div class="product__title" {{ block.shopify_attributes }}>
               <h1>{{ product.title | escape }}</h1>
               <a href="{{ product.url }}" class="product__title">
@@ -537,7 +531,7 @@
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
           <button class="nav-link active" id="nav-description-tab" data-bs-toggle="tab" data-bs-target="#nav-description" type="button" role="tab" aria-controls="nav-description" aria-selected="true">Description</button>
           <button class="nav-link" id="nav-story-tab" data-bs-toggle="tab" data-bs-target="#nav-story" type="button" role="tab" aria-controls="nav-story" aria-selected="false">Creator’s Story</button>
-          <button class="nav-link" id="nav-meghalaya-tab" data-bs-toggle="tab" data-bs-target="#nav-meghalaya" type="button" role="tab" aria-controls="nav-meghalaya" aria-selected="false">Meghalaya</button>
+          <button class="nav-link" id="nav-meghalaya-tab" data-bs-toggle="tab" data-bs-target="#nav-meghalaya" type="button" role="tab" aria-controls="nav-meghalaya" aria-selected="false">From {{product.metafields.custom.pdplocation.value.title }}</button>
          </div>
       </nav>
       <div class="tab-content" id="nav-tabContent">
@@ -546,19 +540,7 @@
           
         </div>
         <div class="tab-pane fade" id="nav-story" role="tabpanel" aria-labelledby="nav-story-tab" tabindex="0">
-          <p>
-            At the foothills of west Jaintia Hills, in the state of Meghalaya, a tiny hamlet Lakadong is fuelling a silent revolution. The turmeric grown here has found a place of high value across the globe for its nutritive value. It has a higher circumin content up to 7% as compared to ordinary turmeric which has only 2 to 3%.
-            <br><br>
-            Slow Bazaar has brought for you this gem grown in our own country in its purest form.
-            <br><br>
-            Lakadong turmeric is known for its amazing anti-bacterial, anti-viral and anti-microbial properties. It is also anti-inflammatory in nature.
-            <br><br>
-            It not only spices up your delicacies but also helps in maintaining healthy skin.
-            <br><br>
-            Its antiseptic properties reduce acne, blemishes and keep your skin glowing.
-            <br><br>
-            So when are you getting this wonder spice?
-          </p>
+          {{product.metafields.custom.creators_story}}
         </div>
         <div class="tab-pane fade" id="nav-meghalaya" role="tabpanel" aria-labelledby="nav-meghalaya-tab" tabindex="0">
           {{product.metafields.custom.pdplocation.value.content }}
@@ -756,25 +738,6 @@
   </script>
 </section>
 </div>
-
-<script>
-$(function(){
-  $(".but").click (function(){
-    // Close all open windows
-    $(".contentshare").stop().slideUp(300); 
-    // Toggle this window open/close
-    $(this).next(".contentshare").stop().slideToggle(300);
-    //hitter test// 
-    $(".hitter").show()
-  });
-  
-  $(".hitter").click (function(){
-    // Close all open windows
-    $(".contentshare").stop().slideUp(300); 
-  });
-});
-</script>
-
 
 {% schema %}
 {
