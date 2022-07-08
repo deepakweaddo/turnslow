@@ -7,7 +7,7 @@
         {% endunless %}
  
         <div class="dropdown categories-menu">
-          <button class="dropbtn">Dropdown</button>
+          <div onclick="myFunction()" class="dropbtn">Dropdown</div>
           <div id="myDropdown" class="dropdown-content">
             {% for collection in collections limit: section.settings.sb_categories_limit %}
               {% unless collection.handle == 'frontpage' or collection.handle == 'all' %} 
