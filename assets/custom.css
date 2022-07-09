@@ -782,7 +782,7 @@ nav.header__inline-menu {
 }
 .product-grid .shortdescp{ height: 40px;}
 .product-grid .shortdescp p {
-  color: #444;
+  color: #000;
   font-size: 17px;
   line-height: 20px;
   font-weight: 100;
