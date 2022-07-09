@@ -3092,7 +3092,11 @@ jdgm-notification a:hover{
   text-align: center!important;
   font-weight: 400;
 }
-
+.btncommonhome:hover {
+  background-color: #e1680f;
+  background-image: url(btb_bg.png)!important;
+  color: #fff!important;
+}
 .tabhome h3 {
   text-align: left;
   padding: 0;
