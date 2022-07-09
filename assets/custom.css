@@ -3073,6 +3073,20 @@ jdgm-notification a:hover{
   font-size: 18px;
   padding: 9px 25px;
   margin: 20px 20px;
+  background-image: url(btn01.png); 
+  text-align: center!important;
+  font-weight: 400;
+}
+
+.btncommonhome{
+  background-color: rgba(255, 255, 255, 0);
+  color: #000!important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: freight-big-pro;
+  font-size: 18px;
+  padding: 9px 25px;
+  margin: 20px 0;
   background-image: url(btn01.png);
   width: 175px!important;
   text-align: center!important;
