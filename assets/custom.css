@@ -2390,7 +2390,7 @@ box-shadow: 6px 10px 25px -14px rgba(0,0,0,0.75);
   background-color: #e1680f!important; 
 }
 
-.product-grid .quick-add__submit:hover { 
+.product-grid .quick-add__submit:hover { background-image: url(btb_bg.png);
   background: #e1680f; color: #fff;    background-size: 100% 100%;
   background-repeat: no-repeat;
 }
