@@ -3227,8 +3227,30 @@ jdgm-notification a:hover{
 #swym-wishlist-render-container {
   background: url(background_1.png);
   width: 100%;
-  background-size: cover;
-  background-color: transparent!important;
+  background-size: 100%;
+  background-color: transparent!important; 
+  padding: 40px 0; 
+}
+.swym-ui-component .swym-wishlist-product-detail-content .swym-wishlist-product-detail-image-container .swym-image-thumbnails {
+  display: none;
+}
+
+.swym-ui-component .swym-wishlist-product-detail-content .swym-wishlist-product-detail-image-container .swym-image-full {
+  background-image: url(pdp_framebg1.png)!important; 
+  max-width: 100%;
+  background-repeat: no-repeat;
+  border-radius: 0!important;
+  background-size: 100% 100%!important;
+  background-position: center;
+  background: transparent; 
+}
+
+.swym-ui-component .swym-wishlist-product-detail-content .swym-wishlist-product-detail-image-container .swym-image-full img {
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 35px;
+  display: block;
 }
 
 .swym-ui-component .swym-wishlist-grid .swym-wishlist-item {
@@ -3241,21 +3263,22 @@ jdgm-notification a:hover{
   background-position: center;
   background: transparent;
   padding: 20px;
-  margin: 0 10px 20px 10px;
+  margin: 0 10px 20px 10px;border: 0;
 }
 .swym-ui-component .swym-wishlist-grid .swym-wishlist-image-wrapper { 
   text-align: center;
   padding: 30px 10px; 
 }
 .swym-ui-component .swym-wishlist-grid .swym-wishlist-item .swym-title {
-  font-family: 'freight-big-pro';
+  font-family: freight-big-pro;
   font-size: 20px;
   color: #000;
+  font-weight: 100;
 }
-.swym-ui-component .swym-product-price .swym-product-final-price { 
-  font-family: 'Poppins', sans-serif;
+.swym-ui-component .swym-product-price .swym-product-final-price {
+  font-family: Poppins,sans-serif;
+  font-weight: 300;
 }
-
 .swym-ui-component .swym-wishlist-grid .swym-wishlist-item .swym-add-to-cart-btn {
   font-size: 17px;
     background-image: url(addtocart.png);
@@ -3271,7 +3294,10 @@ jdgm-notification a:hover{
     text-align: center;
     /* border: 1px solid #000; */
     margin: 20px auto 20px auto;
+    font-weight: 100;
 }
+.swym-ui-component .swym-wishlist-grid .swym-wishlist-item .swym-add-to-cart-btn:hover{ background: #e1680f;
+  color: #fff;}
 .swym-ui-component .swym-wishlist-grid .swym-wishlist-item .swym-delete-btn { 
   right: 18px;
   top: 18px; 
@@ -3290,17 +3316,116 @@ jdgm-notification a:hover{
   position: absolute;
   right: 0;
 }
- 
+.swym-ui-component .swym-wishlist-product-detail-content .swym-wishlist-product-title {
+  font-family: freight-big-pro;
+  font-size: 35px;
+  color: #000;
+  font-weight: 100;margin: 0;
+} 
 .swym-ui-component.swym-wishlist-page .swym-wishlist-container-title-bar {
   
     border-bottom: 0px solid #c4c4c4;
     padding: 0; 
 }
-  
+
+.swym-ui-component .swym-wishlist-product-detail-content .swym-wishlist-add-to-cart-btn {
+  font-size: 17px;
+  background-image: url(addtocart.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: freight-big-pro;
+  color: #000;
+  background-color: transparent;
+  text-transform: capitalize;
+  padding: 10px 10px 10px 15px;
+  width: 150px;
+  border: 0px;
+  text-align: center;
+  /* border: 1px solid #000; */
+  font-weight: 100;    margin: 0 15px 0 0;
+}
+.swym-ui-component .swym-wishlist-product-detail-content .swym-wishlist-add-to-cart-btn:hover {
+  background: #e1680f;
+  color: #fff;
+}
+
+.swym-ui-component .swym-wishlist-product-detail-content .swym-action-button-container { 
+  justify-content: start;
+}
+
+
+.swym-ui-component .swym-wishlist-product-detail-content .swym-more-details-btn {
+ 
+  cursor: pointer;
+  font-size: 17px;
+  background-image: url(addtocart.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: freight-big-pro;
+  color: #000;
+  background-color: transparent;
+  text-transform: capitalize;
+  padding: 12px 10px 10px 15px;
+  width: 150px;
+  border: 0px;
+  text-align: center;
+  /* border: 1px solid #000; */
+  font-weight: 100;
+}
+.swym-ui-component .swym-wishlist-product-detail-content .swym-more-details-btn:hover {
+  background: #e1680f;
+  color: #fff;
+}
+.swym-ui-component .swym-wishlist-product-detail-tab-bar { 
+  background: transparent; 
+}
+
+.swym-ui-component .swym-wishlist-product-detail-tab-bar {
+  background: transparent;
+  box-shadow: none!important;
+  position: absolute;
+  top: 50%;
+  padding: 0;
+}
+.swym-wishlist-product-detail-tabs {
+  display: none;
+}
+
+button.swym-back-btn.swym-nav.swym-nav-1.swym-is-button {
+  font-family: Poppins,sans-serif;
+  font-size: 35px;
+  color: #000;
+  font-weight: 100;
+  margin: 0;
+  text-transform: capitalize;
+  position: relative;
+  top: -39px;
+}
+.swym-user-text {
+  font-family: Poppins,sans-serif;
+  font-weight: 300;
+}
+.swym-ui-component .swym-user-login-status.swym-has-user::before { 
+  font-size: 13px;
+}
+
+.swym-ui-component .swym-wishlist-context-menu { 
+  color: #fff;
+  top: -30px;
+  background: #e1680f;
+  border-radius: 5px;
+}
+
+.swym-ui-component .swym-wishlist-context-menu .swym-wishlist-context-menu-bg {
+  background: rgb(0 0 0 / 50%); 
+}
+
 #product-grid .card__content {
   min-height: 280px;
 }
-
+.swym-ui-component .swym-wishlist-detail-content {
+  margin-top: 50px; 
+}
 .pagination-wrapper .pagination {
   display: block;
 }
@@ -3340,7 +3465,7 @@ jdgm-notification a:hover{
 .loginpage {
   background: url(background_1.png);
   width: 100%;
-  background-size: cover;
+  background-size: 100%;
   padding: 60px 0px;
 }
 
@@ -3402,7 +3527,7 @@ jdgm-notification a:hover{
   margin: 0;
   border: 0!important;
   min-width: auto!important;
-  background-color: transparent;
+  background-color: transparent!important;
   text-transform: capitalize!important;
   letter-spacing: 0!important;
   font-weight: normal!important;
@@ -3410,7 +3535,14 @@ jdgm-notification a:hover{
   width: 200px!important;
   font-size: 20px!important;
 }
-
+.customer button:hover {
+  color: #fff!important;
+  background-color: #e1680f!important;
+  background-image: url(btb_bg.png);
+}
+.customer label[for='AddressCountryNew'], .customer label[for='AddressProvinceNew'] { 
+  display: none;
+}
 .btnauthhome {
     background-color: rgba(145, 157, 169, 0);
     color: #fff;
@@ -3420,6 +3552,10 @@ jdgm-notification a:hover{
     padding: 3px 0px;
     margin: 0;
 }
+.field__input, .customer .field input {
+  background-color: transparent;
+}
+.select__select, .customer select{ background-color: transparent;}
 .useraccount{
 padding: 9px 0px 0 2px;
 width: 18px!important;
