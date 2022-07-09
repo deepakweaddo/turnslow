@@ -23,11 +23,12 @@
   <h2 class="headingcreator">Filter:</h2>
 
     {{ page.content }}
-     <select id="location" class="location" name="location" >
-      
-       <option value="">Select Location</option>
+    <div class="s-select"> 
+    
+    <select id="location" class="location" name="location" >  
+       <option value="">Select Location</option> 
      {% for link in linklist.links %} 
-     
+   
      {% assign link_item = link.object %} 
        {% if link_item.metafields.custom.location != "" %}
        <option >{{ link_item.metafields.custom.location }}</option>
@@ -35,6 +36,7 @@
      
      {% endfor %}
      </select>
+    </div>
     {% include 'collection-within-collection' %}
 </div>
 </div>
