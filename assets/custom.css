@@ -2024,7 +2024,7 @@ a.sac_diff_check {
 .cartleft .cart__warnings {
   text-align: left;
 }
-.cartleft .cart__warnings .cart-drawer__empty-content .button {
+.cartleft .cart__warnings .button {
   font-size: 17px;
   background-image: url(btb_bg.png);
   background-size: 100% 100%;
@@ -2039,7 +2039,7 @@ a.sac_diff_check {
   text-align: center;
 }
 
-.cartleft .cart__warnings h2.cart__empty-text {
+.cartleft .cart__warnings .cart__empty-text {
   font-family: freight-big-pro;
   font-size: 25px;
 }
