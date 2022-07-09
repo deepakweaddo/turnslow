@@ -757,7 +757,7 @@ nav.header__inline-menu {
   line-height: 22px;
   min-height: 50px;
   width: 85%;
-  font-weight: 100;
+  font-weight: 300;
 }
 .product-grid .price {
   font-size: 25px;
@@ -2011,8 +2011,8 @@ a.sac_diff_check {
 }
 
 .dropdown a:hover {
-  background-color: #fff;
-  color: #000;
+  background-color: #e1680f;
+  color: #fff;
 }
 
 .show {display: block;}
@@ -2387,14 +2387,14 @@ box-shadow: 6px 10px 25px -14px rgba(0,0,0,0.75);
   text-transform: capitalize;
 }
 #FacetFiltersForm .facet-checkbox > svg {
-  background-color: #e1680f!important; 
+  background-color: #e1680f!important;     background-image: url(btb_bg.png);
 }
 
 .product-grid .quick-add__submit:hover { 
-  background: #e1680f; color: #fff;
+  background: #e1680f; color: #fff;    background-image: url(btb_bg.png);
 }
 .button:not([disabled]):hover::after, .shopify-challenge__button:hover::after, .customer button:hover::after, .shopify-payment-button__button--unbranded:hover::after {
-  --border-offset: none;
+  --border-offset: none;    background-image: url(btb_bg.png);
   box-shadow: none;
 }
 
