@@ -3074,7 +3074,7 @@ jdgm-notification a:hover{
   padding: 9px 25px;
   margin: 20px 20px;
   background-image: url(btn01.png);
-  /* width: 150px!important; */
+  width: 175px!important;
   text-align: center!important;
   font-weight: 400;
 }
