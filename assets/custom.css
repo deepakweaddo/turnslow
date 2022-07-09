@@ -2387,14 +2387,15 @@ box-shadow: 6px 10px 25px -14px rgba(0,0,0,0.75);
   text-transform: capitalize;
 }
 #FacetFiltersForm .facet-checkbox > svg {
-  background-color: #e1680f!important;     background-image: url(btb_bg.png);
+  background-color: #e1680f!important; 
 }
 
 .product-grid .quick-add__submit:hover { 
-  background: #e1680f; color: #fff;    background-image: url(btb_bg.png);
+  background: #e1680f; color: #fff;    background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 .button:not([disabled]):hover::after, .shopify-challenge__button:hover::after, .customer button:hover::after, .shopify-payment-button__button--unbranded:hover::after {
-  --border-offset: none;    background-image: url(btb_bg.png);
+  --border-offset: none;
   box-shadow: none;
 }
 
