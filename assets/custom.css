@@ -3705,8 +3705,8 @@ quick-add-modal .product:not(.featured-product) .product__view-details {
 .accountwrap a:hover{color: #fff;}
 .accountwrap p {
   width: 100%;
-  color: #fff;
-  font-size: 17px!important;
+  color: #fff!important;
+  font-size: 15px!important;
   font-family: 'Poppins', sans-serif;
   text-transform: capitalize;
 }
