@@ -3000,7 +3000,9 @@ jdgm-notification a:hover{
     padding: 3px 0px!important;
     margin: 0;
 }
-
+.btnauthhome:hover {
+  color: #e1680f!important;
+}
 .exp-btn:hover {
   background-color: #e1680f;    background-image: url(btb_bg.png)!important;
   color: #fff;
@@ -3832,6 +3834,24 @@ quick-add-modal .product:not(.featured-product) .product__view-details {
   background-repeat: no-repeat;
   background-position: right 13px center;
 }
+cart-remove-button#CartDrawer-Remove-1 {
+  margin: 0 10px 0 0;
+}
+
+.tab-content>.tab-pane { 
+  font-family: Poppins,sans-serif!important;
+  color: #000;
+  font-size: 15px;
+  background: transparent!important;
+  font-weight: 400;
+}
+.pagination-wrapper { 
+  float: left;
+  display: inline;
+  width: 100%;
+}
+
+
 
 /* responsive */
 
