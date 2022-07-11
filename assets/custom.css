@@ -3850,7 +3850,9 @@ cart-remove-button#CartDrawer-Remove-1 {
   display: inline;
   width: 100%;
 }
- 
+.customer.account td {
+  padding-right:1em!important;
+}
 
 /* responsive */
 
