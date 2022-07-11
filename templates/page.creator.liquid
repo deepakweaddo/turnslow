@@ -31,7 +31,7 @@
    
      {% assign link_item = link.object %} 
        {% if link_item.metafields.custom.location != "" %}
-       <option >{{ link_item.metafields.custom.location | downward }}</option>
+       <option >{{ link_item.metafields.custom.location | downcase }}</option>
        {%endif%}
      
      {% endfor %}
