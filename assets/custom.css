@@ -2997,7 +2997,7 @@ jdgm-notification a:hover{
     font-size: 20px;
     font-family: freight-big-pro;
     border-bottom: 1px solid;
-    padding: 3px 0px;
+    padding: 3px 0px!important;
     margin: 0;
 }
 
