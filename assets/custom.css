@@ -716,8 +716,8 @@ nav.header__inline-menu {
   background: transparent; 
   height: 300px;
 }
-.product-grid .card .media { 
-  top: 50px;
+.product-grid .card .media {
+  /* top: 50px; */
 }
 .product-grid .card { 
   background-color: transparent; 
