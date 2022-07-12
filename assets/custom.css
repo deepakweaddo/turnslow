@@ -739,6 +739,7 @@ nav.header__inline-menu {
   text-align: center;
   left: 0;
   right: 0;
+  z-index: 1!important;
 }
 .product-grid .card__media .media img {
   /* height: auto; */
