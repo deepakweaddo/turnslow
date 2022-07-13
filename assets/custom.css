@@ -4422,6 +4422,14 @@ h1.article-template__title {
 .swym-ui-component .swym-simple-wishlist-container .swym-wishlist-container-title-bar .swym-user-login-status {
    right: 5px;
 }
+.swym-ui-component .swym-wishlist-product-detail-content .swym-wishlist-product-title {
+  font-size: 25px; 
+  margin: 10px 0;
+}
+.swym-ui-component .swym-wishlist-product-detail-content .swym-wishlist-product-detail-text-container {
+  padding: 0 20px;
+}
+
 }
 
 
