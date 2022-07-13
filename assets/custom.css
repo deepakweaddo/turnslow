@@ -4352,7 +4352,8 @@ h1.article-template__title {
 .facets-container .mobile-facets__label {
   padding: 14px 25px; 
 }
-
+.mobile-facets__sort .select__select:focus-visible { 
+  outline-offset: 0;}
 
 }
 
