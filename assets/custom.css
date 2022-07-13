@@ -4455,7 +4455,7 @@ h1.article-template__title {
    margin-left: 30px!important;
 }
 
-.cartfooterpage { 
+.cartfooterpage { width: 100%;
   padding: 0 10px!important;
 }
 .cart__footer { margin: 20px 0 0!important;
@@ -4468,8 +4468,14 @@ h1.article-template__title {
 .title-wrapper-with-link .title {
   font-size: 25px; 
 }
-
-
+td.cart-item__totals.right.medium-hide.large-up-hide {
+  display: none;
+}
+.cart-item__price-wrapper span.price.price--end {
+  font-size: 15px; 
+  padding: 10px 0 10px 0!important;
+  float: left;
+}
 }
 
 
