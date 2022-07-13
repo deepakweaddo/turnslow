@@ -4476,6 +4476,16 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
   padding: 10px 0 10px 0!important;
   float: left;
 }
+.accountwrap { 
+  padding: 30px; 
+}
+.accountwrap h2 {
+  font-size: 25px; 
+  padding: 0 0 15px;
+  margin: 0!important;
+}
+
+
 }
 
 
