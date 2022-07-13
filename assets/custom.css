@@ -4454,7 +4454,21 @@ h1.article-template__title {
 .swym-ui-component .swym-wishlist-product-detail-content .swym-wishlist-product-detail-image-container .swym-image-full {
    margin-left: 30px!important;
 }
- 
+
+.cartfooterpage { 
+  padding: 0 10px!important;
+}
+.cart__footer { margin: 20px 0 0!important;
+  padding: 30px 20px!important; 
+}
+.cartleft {
+  width: 100%; 
+  padding: 0 0!important;
+}
+.title-wrapper-with-link .title {
+  font-size: 25px; 
+}
+
 
 }
 
