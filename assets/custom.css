@@ -4432,6 +4432,16 @@ h1.article-template__title {
 .swym-ui-component .swym-wishlist-product-detail-content .swym-action-button-container {
   flex-direction: row;
 }
+.swym-ui-component .swym-wishlist-product-detail-content .swym-more-details-btn {
+ padding: 10px;
+  width: auto; 
+  margin-top: 0!important;
+}
+.swym-ui-component .swym-wishlist-product-detail-content .swym-wishlist-add-to-cart-btn {
+   
+  padding: 10px;
+  width: auto;  
+}
 
 }
 
