@@ -4452,9 +4452,9 @@ h1.article-template__title {
    right: 10px; 
 }
 .swym-ui-component .swym-wishlist-product-detail-content .swym-wishlist-product-detail-image-container .swym-image-full {
-   margin-left: 30px;
+   margin-left: 30px!important;
 }
-
+ 
 
 }
 
