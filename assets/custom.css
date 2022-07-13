@@ -4484,6 +4484,16 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
   padding: 0 0 15px;
   margin: 0!important;
 }
+.loginpage .customer button {
+  width: auto!important;
+}
+.addressedit .addresses h2 { 
+  font-size: 25px; 
+  padding: 30px 0 0;
+}
+.customer form {
+  margin-top: 1rem;
+}
 
 
 }
