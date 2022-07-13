@@ -4469,7 +4469,7 @@ h1.article-template__title {
   font-size: 25px; 
 }
 td.cart-item__totals.right.medium-hide.large-up-hide {
-  display: none;
+  display: none!important;
 }
 .cart-item__price-wrapper span.price.price--end {
   font-size: 15px; 
