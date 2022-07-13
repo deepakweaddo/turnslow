@@ -4402,9 +4402,17 @@ h1.article-template__title {
 }
 .swym-ui-component.swym-wishlist-page .swym-wishlist-detail .swym-wishlist-detail-header {
   border-top: 0px solid #c4c4c4;
-  border-bottom: 0px solid #c4c4c4; 
+  border-bottom: 0px solid #c4c4c4;
+  background: transparent;
+  color: #000;
 }
 
+.swym-ui-component .swym-simple-wishlist-container .swym-wishlist-detail .swym-wishlist-context-menu {
+   top: 0;
+}
+.swym-ui-component .swym-wishlist-context-menu::before { 
+  width: 20px; 
+}
 }
 
 
