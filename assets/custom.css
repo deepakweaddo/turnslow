@@ -4314,6 +4314,19 @@ h1.article-template__title {
   letter-spacing: 0;
 }
 
+.menu-opening .mobile-facets__inner { 
+  background-image: url(sidecart_Bg1.jpg)!important;
+  background-repeat: no-repeat;
+  border-radius: 0!important;
+  background-size: 100% 100%!important;
+  background-position: center;
+}
+.mobile-facets__main { 
+  background: transparent;}
+  .mobile-facets__footer button.no-js-hidden.button.button--primary {
+    background-color: #e1680f!important;
+}
+
 }
 
 
