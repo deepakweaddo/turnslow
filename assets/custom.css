@@ -4249,7 +4249,7 @@ h1.article-template__title {
 .mobile-facets__heading {
   color: #000;
   font-family: freight-big-pro!important;
-  font-size: 25px;
+  font-size: 25px!important;
   text-align: left;
 }
 .mobile-facets__count { 
@@ -4258,6 +4258,47 @@ h1.article-template__title {
 .mobile-facets__summary > div, .facets__summary > div {
   font-size: 13px;
   border-bottom: 1px solid #d7d7d7;
+}
+
+.facets-container {
+  background: #fbfbfb;
+  width: 100%;
+  padding: 5px 10px;
+  position: fixed;
+  bottom: 0;
+  z-index: 9;
+  left: 0;
+  right: 0;
+  text-align: center;
+  -webkit-box-shadow: 3px -1px 14px -7px rgb(0 0 0 / 75%);
+  -moz-box-shadow: 3px -1px 14px -7px rgb(0 0 0 / 75%);
+  box-shadow: 3px -1px 14px -7px rgb(0 0 0 / 75%);
+}
+
+.facets-container .mobile-facets__wrapper { 
+  display: block;
+}
+.mobile-facets__open-label { 
+  font-family: freight-big-pro!important;
+  font-size: 18px; 
+}
+#FacetFiltersFormMobile .mobile-facets__sort .select { 
+  background-image: none!important;
+}
+#FacetFiltersFormMobile .mobile-facets__footer { 
+  padding: 0!important;
+  font-size: 14px;
+  font-family: Poppins;
+  letter-spacing: 0;
+}
+#FacetFiltersFormMobile .mobile-facets__summary { 
+  font-size: 16px;
+  font-family: Poppins;
+}
+#FacetFiltersFormMobile .mobile-facets__footer > * { 
+  font-size: 14px;
+  font-family: Poppins;
+  letter-spacing: 0;
 }
 
 }
