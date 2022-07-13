@@ -905,7 +905,7 @@ nav.breadcrumb span {
 }
 
 
-/* filter product start */
+/* filter product start  
 aside { 
   height: auto!important;
   min-height: auto!important;
@@ -923,7 +923,7 @@ aside {
     outline-offset: 0!important;
     box-shadow: none!important;
 }
-
+*/
 .facets__heading { 
   font-size: 25px!important;
   width: 100%;
