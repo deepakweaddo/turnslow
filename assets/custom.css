@@ -4429,6 +4429,9 @@ h1.article-template__title {
 .swym-ui-component .swym-wishlist-product-detail-content .swym-wishlist-product-detail-text-container {
   padding: 0 20px;
 }
+.swym-ui-component .swym-wishlist-product-detail-content .swym-action-button-container {
+  flex-direction: row;
+}
 
 }
 
