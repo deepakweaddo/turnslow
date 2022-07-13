@@ -4243,7 +4243,7 @@ h1.article-template__title {
   width: 117px!important;
 }
 .jdgm-write-rev-link { 
-  width: 50%!important;
+  width: 50%!important;padding: 7px 10px!important;
   margin: 10px 0;}
 
   .jdgm-sort-dropdown-wrapper {
