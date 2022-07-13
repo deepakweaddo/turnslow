@@ -3885,7 +3885,9 @@ cart-remove-button#CartDrawer-Remove-1 {
   margin: 20px 0 0;
 }
 
- 
+.collection-list .collection-list__item .card { 
+  padding: 40px 20px 40px 30px; 
+}
 .collection-hero__title { 
   font-size: 25px;}
   nav.breadcrumb { 
@@ -4092,7 +4094,7 @@ padding: 0 20px;
 }
 .categoriesContainer .card__content {
     /* width: 100%!important; */
-    padding: 0 0px!important;
+    padding:0 10px 0 0!important;
 }
 .homerow1 { 
   display: none!important;
