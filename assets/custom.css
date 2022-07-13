@@ -4237,6 +4237,15 @@ h1.article-template__title {
     float: left; 
 }
 
+.blogcat ul { 
+  /* overflow-x: scroll; */
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+}
+
 }
 
 
