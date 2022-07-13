@@ -4320,12 +4320,39 @@ h1.article-template__title {
   border-radius: 0!important;
   background-size: 100% 100%!important;
   background-position: center;
+  width: calc(100% - 0rem);padding: 0 0 0 10px;
 }
 .mobile-facets__main { 
   background: transparent;}
-  .mobile-facets__footer button.no-js-hidden.button.button--primary {
+.facets-container .mobile-facets__footer button.no-js-hidden.button.button--primary {
     background-color: #e1680f!important;
 }
+.facets-container .js details[open].menu-opening>.mobile-facets__submenu { 
+  background: transparent;
+}
+.facets-container .facets__price .field-currency { 
+  font-size: 20px;
+}
+.facets-container .facets__price { 
+  padding: 0rem 1rem 0rem 2rem;
+}
+.facets-container .mobile-facets__info { 
+  color: #000;
+  font-size: 14px;
+}
+.facets-container .mobile-facets__close-button { 
+  font-size: 16px!important;  
+  font-weight: 500;
+  letter-spacing: 0;
+}
+.facets-container .mobile-facets__label span {
+  font-family: Poppins;
+  font-size: 13px;
+}
+.facets-container .mobile-facets__label {
+  padding: 14px 25px; 
+}
+
 
 }
 
