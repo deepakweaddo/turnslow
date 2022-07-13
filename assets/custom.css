@@ -4085,7 +4085,8 @@ h2.product-recommendations__heading.h2 {
 padding: 0 20px;
 }
 .categoriesContainer .title--primary {
-  font-size: 30px; 
+  font-size: 25px;
+  margin: 30px 0 25px 10px;
 }
 
 .categoriesContainer li.collection-list__item.grid__item {
