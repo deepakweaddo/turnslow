@@ -4129,7 +4129,9 @@ padding: 0 20px;
   padding: 10px 17px;
   margin: 0 0 20px 0;
 }
-.dokra-art{display: none!important;}
+.dokra-art {
+  /* display: none!important; */
+}
 .footer-block__details-content li {
   display: block;
   float: left;
