@@ -4335,6 +4335,9 @@ h1.article-template__title {
   background-position: center;
   width: calc(100% - 0rem);padding: 0 0 0 10px;
 }
+.mobile-facets__submenu {
+  background: transparent!important;
+}
 .mobile-facets__main { 
   background: transparent!important;}
 .facets-container .mobile-facets__footer button.no-js-hidden.button.button--primary {
