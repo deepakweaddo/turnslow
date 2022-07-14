@@ -4510,7 +4510,7 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
 .mobilebtn {
   background-color: transparent!important;
   background: transparent;
-  padding: 10px 0!important;
+  padding: 10px 0 0 0!important;
   color: #000!important;
 }
 
@@ -4518,6 +4518,15 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
   font-family: freight-big-pro;
   font-size: 15px;
   color: #000;
+}
+.creatorparg h2 { 
+  font-size: 20px;
+  padding-bottom: 18px;
+  line-height: 25px;
+}
+.creatorparg p { 
+  font-size: 14px; 
+  line-height: 20px;
 }
 
 }
