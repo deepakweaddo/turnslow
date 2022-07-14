@@ -4531,7 +4531,12 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
 .creator-pro {
   padding: 10px 10px!important;
 }
-
+.creatorlogo img {
+  padding: 0 80px!important;
+}
+.creatorimg img { 
+  display: none!important;
+}
 
 }
 
