@@ -4504,7 +4504,7 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
   max-width: 33.3%!important;
 }
 .mobilebannerwrap img {
-  width: 80%;
+  width: 80%!important;
 }
 
 .mobilebtn {
