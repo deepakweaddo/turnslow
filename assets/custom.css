@@ -4613,6 +4613,15 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
 .mainheader header-drawer p { 
   display: none;
 }
+.mediahome {
+  width: 100%!important;
+  max-width: 100%!important;
+  display: block;
+}
+.mediahome .pf-c {
+  width: 100%!important;
+  max-width: 100%!important;
+}
 
 }
 
