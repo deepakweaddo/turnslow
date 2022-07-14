@@ -4112,8 +4112,9 @@ padding: 0 20px;
   display: none!important;
 }
 .homecaption h2 {
-  font-size: 40px; 
-  line-height: 40px; 
+  font-size: 35px;
+  line-height: 35px;
+  font-weight: 600;
 }
 .bloghome h2 { 
   font-size: 30px!important;
