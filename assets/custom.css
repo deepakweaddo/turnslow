@@ -4546,19 +4546,19 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
 }
 
 .dokra-art h2 { 
-  line-height: 24px;
+  line-height: 24px!important;
   font-size: 25px!important;
 }
 
 
 .dokra-art h3 { 
-  line-height: 24px;
+  line-height: 24px!important;
   font-size: 20px!important;
 }
 
 
 .dokra-art h4 { 
-  line-height: 24px;
+  line-height: 24px!important;
   font-size: 20px!important;
 }
 
