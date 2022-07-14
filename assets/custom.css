@@ -4506,7 +4506,8 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
 .mobilebtn {
   background-color: transparent!important;
   background: transparent;
-  padding: 10px 0;
+  padding: 10px 0!important;
+  color: #000!important;
 }
 
 .mobilebtn span {
