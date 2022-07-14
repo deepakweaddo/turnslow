@@ -4590,7 +4590,27 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
   width: 50%!important;
 }
  
-.tabhome [data-pf-type=TabHeader][data-pf-tab-active=true]:after{display: none!important;}
+.tabhome [data-pf-type=TabHeader][data-pf-tab-active=true]:after
+{display: none!important;}
+
+.tabdetail .pf-c {
+  padding: 100%!important;
+  padding: 0 6px!important;
+}
+.btncommonhome { 
+  font-size: 18px;
+  padding: 9px 10px;
+  margin: 20px 0; 
+  width: auto!important; 
+  font-weight: 400;line-height: 18px;
+}
+.tabhome h3 { 
+  margin: 10px 0 0!important;
+  font-size: 18px!important;
+  font-weight: 300;
+  line-height: 20px;
+}
+
 }
 
 
