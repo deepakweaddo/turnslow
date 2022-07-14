@@ -4336,7 +4336,7 @@ h1.article-template__title {
   width: calc(100% - 0rem);padding: 0 0 0 10px;
 }
 .mobile-facets__main { 
-  background: transparent;}
+  background: transparent!important;}
 .facets-container .mobile-facets__footer button.no-js-hidden.button.button--primary {
     background-color: #e1680f!important;
 }
