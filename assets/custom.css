@@ -4575,7 +4575,22 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
   padding: 3px 0px;
   margin: 6px 12px;
 }
-
+.tabhome [data-pf-type=TabHeader][data-pf-tab-active=true] {
+  font-size: 25px!important;
+}
+.navwarpper {
+  font-size: 25px!important;
+}
+.stories { 
+  font-size: 25px!important;
+  position: relative!important;
+  top: 0!important; 
+}
+.tabhome .navwarpper {
+  width: 50%!important;
+}
+ 
+.tabhome [data-pf-type=TabHeader][data-pf-tab-active=true]:after{display: none!important;}
 }
 
 
