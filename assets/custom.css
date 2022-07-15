@@ -4633,7 +4633,14 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
 .homecaption { 
   margin: 60px 0 0 0;
 }
-
+.tabdetail .sc-eVmaCL.bwgVBX {
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+}
 }
 
 
