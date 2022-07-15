@@ -3096,6 +3096,7 @@ jdgm-notification a:hover{
   width: 175px!important;
   text-align: center!important;
   font-weight: 400;
+  white-space: normal;
 }
 .btncommonhome:hover {
   background-color: #e1680f;
@@ -3108,6 +3109,7 @@ jdgm-notification a:hover{
   margin: 11px 0 0 0!important;
   font-size: 25px!important;
   font-weight: 300;
+  white-space: normal;
 }
 
 
