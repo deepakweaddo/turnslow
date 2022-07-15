@@ -4626,7 +4626,7 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
   max-width: 100%!important;
   display: block!important;
   padding: 0!important;
-  
+  margin: 0 10px 20px 0!important;
 }
 .mediahome .pf-c {
   width: 100%!important;
