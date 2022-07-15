@@ -350,10 +350,8 @@
       });
       
       $(window).on("load",function(){
-        console.log("dpk");
 jQuery.getJSON('/cart.js', function (cart, textStatus) {
   
-  console.log(cart.item_count);
   if(cart.item_count>0){
     var cartshipnote="";
 //if the cart total is close to free shipping add a note
