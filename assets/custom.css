@@ -4745,7 +4745,13 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
   -webkit-overflow-scrolling: touch;
   overflow-x: auto;}
 
-  
+  .recommendations_bg .product-grid .card {
+    background-color: transparent;
+    border: 0pxsolidrgba(0,0,0,.125);
+    border-radius: 0;
+    margin: 0 0 0 0;
+}
+
 
 }
 
