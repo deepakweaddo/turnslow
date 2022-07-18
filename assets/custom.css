@@ -4758,16 +4758,7 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
 .blogdetail .contentshare {
   top: 0; 
 }
-#relatedblogs .rb_blog-grid {
-  width: 85%;
-  margin-right: 0px;
-  overflow-y: hidden;
-  white-space: nowrap;
-  display: flex;
-  flex-wrap: nowrap;
-  -webkit-overflow-scrolling: touch;
-  overflow-x: auto;
-}
+ 
 
 }
 
