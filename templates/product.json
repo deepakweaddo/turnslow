@@ -219,7 +219,7 @@
       "settings": {
         "custom_liquid": "<div class=\"center\"><a href=\"\" class=\"btnexplore\">Explore More<\/a><\/div>",
         "color_scheme": "background-1",
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 52
       }
     },
