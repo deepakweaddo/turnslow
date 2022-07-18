@@ -4751,7 +4751,10 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
     border-radius: 0;
     margin: 0 0 0 0;
 }
-
+.recommendations_bg ul li {
+  width: 85%!important;
+  max-width: 85%!important;
+}
 
 }
 
