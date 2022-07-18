@@ -48,6 +48,59 @@
   </div>
 </div>
 
+<div class="creatorHistory">
+  <div class="container-fluid">
+    <div class="row">
+
+    <div class="col-md-6 pull-left">
+      <img class="img-fluid" src="{{ collection.metafields.custom.creator_video | img_url: '900x900' }}">
+  </div>
+  <div class="col-md-6 float-left">  
+       <div class="creatorTab2">
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-about-tab" data-bs-toggle="tab" data-bs-target="#nav-about" type="button" role="tab" aria-controls="nav-about" aria-selected="true">About</button>
+            <button class="nav-link" id="nav-history-tab" data-bs-toggle="tab" data-bs-target="#nav-history" type="button" role="tab" aria-controls="nav-history" aria-selected="false">History</button>
+            <button class="nav-link" id="nav-recognition-tab" data-bs-toggle="tab" data-bs-target="#nav-recognition" type="button" role="tab" aria-controls="nav-recognition " aria-selected="false">Recognition </button>
+           </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab" tabindex="0">
+            <div class="scrollbar" id="style-2">
+              <div class="force-overflow">
+                <p>
+                {{ collection.metafields.custom.about }}
+                </p>
+                </div>
+            </div> 
+          </div>
+          <div class="tab-pane fade" id="nav-history" role="tabpanel" aria-labelledby="nav-history-tab" tabindex="0">
+            <div class="scrollbar" id="style-2">
+              <div class="force-overflow">
+                <p>
+                {{ collection.metafields.custom.history }}
+                </p>
+                </div>
+            </div> 
+          </div>
+          <div class="tab-pane fade" id="nav-recognition" role="tabpanel" aria-labelledby="nav-recognition-tab" tabindex="0">
+            <div class="scrollbar" id="style-2">
+              <div class="force-overflow">
+                <p>
+                {{ collection.metafields.custom.recognition }}
+                </p>
+                </div>
+            </div> 
+          </div>
+       
+        </div>
+    </div> 
+
+</div> 
+
+</div>
+</div>
+</div>
 {% schema %}
 {
   "name": "t:sections.main-collection-banner.name",
