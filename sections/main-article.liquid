@@ -70,6 +70,16 @@
       <h2>Recent Posts</h2>
       
 
+      <ul>
+      {% for article in blogs.slow-living-blogs.articles limit:3 %}
+
+      <li> <a href="{{ article.url }}">{{ article.title }}
+      <span class="authorname"> by {{ article.author }} </span>
+      </a>
+      </li>
+        {% endfor %}
+
+      </ul> 
     </div> 
     <div class="gallerblog"> <a href=""> <img class="img-fluid" src="{{'gallery.jpg' | asset_url}}"> </a> </div>
   
