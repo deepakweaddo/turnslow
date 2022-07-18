@@ -3550,9 +3550,11 @@ button.swym-back-btn.swym-nav.swym-nav-1.swym-is-button {
   background: url(background_1.png);
   width: 100%;
   background-size: 100%;
-  padding: 60px 0px;
+  padding: 60px 0px; 
 }
-
+.customer.account p {
+  font-size: 12px!important; 
+}
 .customer h1 {
   font-size: 50px; 
   color: #000;
@@ -3953,6 +3955,151 @@ cart-remove-button#CartDrawer-Remove-1 {
 
 
 /* responsive */
+
+@media (min-width:768px) and (max-width:1000px){
+  .slowbtn {
+    font-size: 13px;
+    line-height: 12px;
+}
+  .homabannercreator {
+    display: none!important;
+  }
+  .homebtn { 
+    padding: 15px 25px!important; 
+}
+.innerpagelayout {
+  margin: 95px 0 0 0;
+}
+.innerposition { 
+  top: -52px;
+}
+.faqContainer {
+  width: 100%; 
+}
+
+.recommendations_bg ul {
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+}
+
+.recommendations_bg ul li {
+  width: 45%!important;
+  max-width: 45%!important;
+}
+.footer-block__details-content .list-menu__item--link {
+  font-size: 11px!important;
+  line-height: 14px;
+  padding-top: 2px!important;
+  padding-bottom: 2px!important;
+}
+.tp-link a { 
+  font-size: 13px;  
+  width: 50%; 
+  padding: 0px 10px;
+}
+.footerheading {
+  font-size: 20px;
+  padding: 0 0 6px 0;
+}
+.hr-line { 
+  margin: 10px 0;
+}
+.mobile-view {
+  margin-top: 60px;
+}
+.pdpFaqs { 
+  height: 510px; 
+}
+.divexTab2 .nav button { 
+  font-size: 14.5px; 
+  margin: 10px 0px 7px 0;
+  padding: 6px 4px;
+}
+.supportmsg p {
+  font-size: 14px;  
+}
+.product-form__submit {
+  font-size: 18px;
+  margin: 0 2px 0 0px;
+  padding: 0!important;
+}
+.newventure h2 { 
+  font-size: 20px; 
+  padding: 10px 0 10px 0;
+}
+.sac_embed input[type=text] { 
+  width: 65%; 
+  padding: 14px 7px 7px 7px; 
+}
+.instock p { 
+  font-size: 15px;
+}
+.product__title h1 {
+  margin: 0 0 20px 0; 
+  font-size: 30px; 
+  width: 100%;
+}
+.product__info-wrapper .price .price-item {
+  font-size: 22px; 
+}
+.swym-ui-component .swym-wishlist-grid .swym-wishlist-item { 
+  width: 48.5%!important;}
+  .swym-ui-component .swym-wishlist-grid .swym-wishlist-image-wrapper {
+    max-height: 38vw;
+    height: 38vw;
+}
+.customer.account .col-md-7{
+  float: left;  margin: 0 20px 0 0 ;flex: 0 0 auto;
+  width: 63.333333%;
+}
+.customer.account .col-md-4{
+  float: left;
+
+}
+
+.accountwrap { 
+  padding: 15px; 
+}
+.accountwrap h2 {
+  font-size: 20px; 
+  padding: 0 0 0 0;
+  margin: 10px 0!important;
+}
+.customer h1 {
+  font-size: 30px; 
+}
+.customer thead th {
+  font-size: 12px;
+  letter-spacing: 0;
+  text-transform: capitalize;
+}
+.customer.account td { 
+  font-size: 12px;
+}
+.account table td:first-of-type a {
+  padding: 1rem 0.5rem; 
+  font-size: 12px;
+}
+.customer th:first-of-type, .customer td:first-of-type {
+  padding-left: 1.2rem;
+}
+.customer thead th, .customer tbody td {
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+}
+.customer.account h2 {
+  font-size: 16px;
+}
+.loginpage { 
+  float: left;
+  min-height: 50vh;
+}
+
+}
 
 @media (min-width:320px) and (max-width:767px){
   .card__content {
