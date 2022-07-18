@@ -442,7 +442,19 @@
   }
 
   customElements.define('localization-form', LocalizationForm);
+
 {% endjavascript %}
+
+<script>
+// $(function(){
+  $('.but').click(function(){
+    if ( $('.contentshare').css('visibility') == 'hidden' )
+      $('.contentshare').css('visibility','visible');
+    else
+      $('.contentshare').css('visibility','hidden');
+	});
+// });
+</script>
 
 {% schema %}
 {
