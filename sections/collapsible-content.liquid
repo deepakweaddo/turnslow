@@ -37,6 +37,8 @@
           <h2 class="visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
         {% endif %}
       </div>
+<div class="scrollbar1" id="style-4">
+<div class="force-overflow">
       <div class="grid grid--1-col grid--2-col-tablet collapsible-content__grid{% if section.settings.desktop_layout == 'image_second' %} collapsible-content__grid--reverse{% endif %}">
         {%- if section.settings.image != blank -%}
           <div class="grid__item collapsible-content__grid-item">
@@ -82,7 +84,8 @@
           {%- endfor -%}
         </div>
       </div>
-      
+</div>
+</div> 
     </div>
     </div>
   </div>
