@@ -288,9 +288,11 @@ integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLAS
       {%- if section.settings.menu != blank -%}
         <header-drawer data-breakpoint="tablet">
           <details id="Details-menu-drawer-container" class="menu-drawer-container">
-            <summary id="header-menu1" class="header__icon header__icon--menu header__icon--summary link focus-inset" >
+            <summary id="header-menu" class="header__icon header__icon--menu header__icon--summary link focus-inset" >
               <span>
                {% render 'icon-hamburger' %}
+                       {% render 'icon-close' %}       
+
                 <p>Menu</p>
               </span>
             </summary>
