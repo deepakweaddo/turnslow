@@ -217,7 +217,7 @@
     "165814091823c5e9cb": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<a href=\"\" class=\"btnexplore\">Explore More<\/a>",
+        "custom_liquid": "<div class=\"centre\"><a href=\"\" class=\"btnexplore\">Explore More<\/a><\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
