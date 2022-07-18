@@ -4738,6 +4738,15 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
 .scrollbar1 { 
   width: 85%; 
 }
+.recommendations_bg ul{    overflow-y: hidden;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;}
+
+  
+
 }
 
 
