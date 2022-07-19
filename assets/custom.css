@@ -4807,6 +4807,10 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
 .vidhome iframe {
   height: auto!important;
 }
+.artdhokra {
+  padding: 0 0 0 30px;
+} 
+
 .artdhokra .btn_art { 
   font-size: 16px;
   padding: 11px 15px;
