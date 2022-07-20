@@ -4191,8 +4191,9 @@ cart-remove-button#CartDrawer-Remove-1 {
   flex-basis: 100%!important;
 } 
 .creator-pro {
-  padding: 5px 45px;
+  padding: 5px 45px!important;
 }
+
 }
 
 @media (min-width:320px) and (max-width:767px){
