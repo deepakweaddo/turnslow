@@ -5029,7 +5029,10 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
 .blogdetail .contentshare {
   top: 0; 
 }
- 
+.swym-ui-component.swym-wishlist-page .swym-wishlist-container-title-bar { 
+  right: 30px;
+  position: absolute;
+}
 
 }
 
