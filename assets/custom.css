@@ -4243,9 +4243,12 @@ h2.swym-wishlist-main-title.swym-heading.swym-heading-1.swym-is-heading {
   font-size: 40px;
   color: #000;
   letter-spacing: 0;
-  margin: 0 0 0 51px;
+  margin: 0 0 0 20px;
 }
 
+.swym-ui-component .swym-wishlist-grid {
+  padding: 0 2vw;
+}
 
 }
 
