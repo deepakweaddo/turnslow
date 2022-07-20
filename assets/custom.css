@@ -4219,6 +4219,11 @@ cart-remove-button#CartDrawer-Remove-1 {
 .addresses form>div:nth-of-type(2) {
   margin-right: 1rem!important;
 }
+.swym-ui-component.swym-wishlist-page .swym-simple-wishlist-detail .swym-wishlist-detail-header {
+   background: transparent;
+  border: 0!important;
+}
+
 
 
 }
