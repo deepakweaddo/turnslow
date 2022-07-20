@@ -176,7 +176,9 @@ sticky-header.mainheader {
   padding: 0 0!important;
 }
  
- 
+.artdhokra {
+  padding: 0 0 0 25px;
+} 
 .header__inline-menu .header__submenu {
   margin: 0;
   padding: 0!important;
@@ -2633,12 +2635,11 @@ header .caption-with-letter-spacing {
   color: #000;     line-height: 16px;
 }
 
-
-
 .blog-articles {
   width: 100%;
   float: left;
   display: block!important;
+  padding: 0 10px;
 } 
 
 .blog-articles__article.article {
@@ -3956,7 +3957,7 @@ cart-remove-button#CartDrawer-Remove-1 {
 
 /* responsive */
 
-@media (min-width:768px) and (max-width:1000px){
+@media (min-width:768px) and (max-width:1024px){
   .slowbtn {
     font-size: 13px;
     line-height: 12px;
@@ -4098,6 +4099,48 @@ cart-remove-button#CartDrawer-Remove-1 {
   float: left;
   min-height: 50vh;
 }
+.captionInner h2 {
+  font-size: 30px; 
+}
+.textContain h2 { 
+  font-size: 30px; 
+}
+.textContain p {
+  font-size: 18px; 
+}
+.sizepdp {
+  width: 64%; 
+}
+
+.jdgm-widget-actions-wrapper {
+  float: left; 
+  margin: 10px 0 0 0;
+}
+.jdgm-sort-dropdown-wrapper {
+  float: left; 
+}
+.creatorWrap h4 { 
+  font-size: 11px; 
+}
+.jdgm-rev__title { 
+  font-size: 20px!important;
+}
+.blogcat ul li { 
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+}
+.article-template__content.page-width--narrow {
+  padding: 0 0;
+}
+.article-template__comment-wrapper {
+  margin-top: 1rem; 
+}
+#relatedblogs .rb_blog-grid {
+  width: 33.3%; 
+}
+.rb_contents { 
+  min-height: 135px;}
+
 
 }
 
@@ -4807,9 +4850,7 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
 .vidhome iframe {
   height: auto!important;
 }
-.artdhokra {
-  padding: 0 0 0 30px;
-} 
+
 
 .artdhokra .btn_art { 
   font-size: 16px;
