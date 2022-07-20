@@ -4193,6 +4193,28 @@ cart-remove-button#CartDrawer-Remove-1 {
 .creator-pro {
   padding: 5px 45px!important;
 }
+#product-grid li.grid__item {
+  width: 49%;
+  max-width: 49%;
+}
+.drawer__cart-items-wrapper .baglist .swym-button.swym-add-to-wishlist-view-product { 
+  padding: 0 19px 0 0;
+}
+.creatorSummery {
+  width: 100%;
+  padding: 0 10px;
+}
+.creatorTab2 .nav button { 
+  margin: 6px;
+  padding: 12px 6px;
+}
+
+.scrollbar { 
+  height: 160px;
+  width: 98%; 
+}
+
+
 
 }
 
