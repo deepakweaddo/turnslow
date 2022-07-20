@@ -4157,16 +4157,35 @@ cart-remove-button#CartDrawer-Remove-1 {
   font-size: 13px;
   padding: 9px 10px; 
   width: auto!important; 
+  margin: 4px 0;
 }
-.tabhome h3 { 
-  font-size: 18px!important; 
-  line-height: 24px;
+.tabhome h3 {
+  font-size: 16px!important;
+  line-height: 20px;
+  min-height: 45px;
 }
 .tabdetail .pf-c {
   width: 100%!important;
   max-width: 100%!important;
 }
-
+.bloghome h2 {
+  color: #000;
+  font-family: freight-big-pro;
+  font-size: 25px;
+}
+.mediahome .pf-c {
+  width: 100%!important;
+  max-width: 100%!important;
+}
+.mediahome .pf-c {
+  width: 100%!important;
+  max-width: 100%!important;
+  flex-basis: 100%!important;
+  padding:10px 10px 0px 10px!important;
+}
+.bloghome .btn_art { 
+  margin: 10px 0 20px 0;
+}
 
 }
 
