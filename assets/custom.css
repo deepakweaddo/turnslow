@@ -4249,6 +4249,12 @@ h2.swym-wishlist-main-title.swym-heading.swym-heading-1.swym-is-heading {
 .swym-ui-component .swym-wishlist-grid {
   padding: 0 2vw;
 }
+.swym-ui-component .swym-wishlist-product-detail-content .swym-wishlist-product-detail-image-container {
+ 
+  width: 50%;
+  float: left;
+}
+
 
 }
 
