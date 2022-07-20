@@ -4186,6 +4186,10 @@ cart-remove-button#CartDrawer-Remove-1 {
 .bloghome .btn_art { 
   margin: 10px 0 20px 0;
 }
+.creatorhome .pf-c {
+  max-width: 100%;
+  flex-basis: 100%;
+}
 
 }
 
