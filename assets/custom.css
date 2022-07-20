@@ -4187,8 +4187,8 @@ cart-remove-button#CartDrawer-Remove-1 {
   margin: 10px 0 20px 0;
 }
 .creatorhome .pf-c {
-  max-width: 100%;
-  flex-basis: 100%;
+  max-width: 100%!important;
+  flex-basis: 100%!important;
 } 
 
 }
