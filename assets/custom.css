@@ -4226,6 +4226,25 @@ cart-remove-button#CartDrawer-Remove-1 {
 .swym-ui-component .swym-simple-wishlist-container .swym-wishlist-detail .swym-wishlist-context-menu {
   top: 0;
 }
+.swym-ui-component .swym-wishlist-context-menu { 
+  top: 0; 
+}
+.swym-ui-component .swym-wishlist-context-menu::before { 
+  width: 21px; 
+}
+
+.swym-ui-component .swym-simple-wishlist-container .swym-wishlist-container-title-bar .swym-user-login-status {
+   top: 53px; 
+  right: 60px;
+}
+h2.swym-wishlist-main-title.swym-heading.swym-heading-1.swym-is-heading {
+  font-weight: 600;
+  font-family: freight-big-pro;
+  font-size: 40px;
+  color: #000;
+  letter-spacing: 0;
+  margin: 0 0 0 51px;
+}
 
 
 }
