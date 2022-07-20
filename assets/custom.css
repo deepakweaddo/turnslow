@@ -4223,7 +4223,9 @@ cart-remove-button#CartDrawer-Remove-1 {
    background: transparent;
   border: 0!important;
 }
-
+.swym-ui-component .swym-simple-wishlist-container .swym-wishlist-detail .swym-wishlist-context-menu {
+  top: 0;
+}
 
 
 }
@@ -4792,7 +4794,8 @@ h1.article-template__title {
   width: 20px; 
 }
 .swym-ui-component .swym-simple-wishlist-container .swym-wishlist-container-title-bar .swym-user-login-status {
-   right: 5px;
+  right: 5px;
+  top: 13px;
 }
 .swym-ui-component .swym-wishlist-product-detail-content .swym-wishlist-product-title {
   font-size: 25px; 
