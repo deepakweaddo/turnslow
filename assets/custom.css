@@ -4141,6 +4141,28 @@ cart-remove-button#CartDrawer-Remove-1 {
 .rb_contents { 
   min-height: 135px;}
 
+  .stories { 
+    font-size: 30px;
+    line-height: 35px; 
+}
+.tabhome [data-pf-type=TabHeader][data-pf-tab-active=true] {
+  font-size: 35px; 
+}
+.navwarpper {
+  font-size: 35px;}
+  .tabhome .navwarpper { 
+    padding: 12px 20px 12px 0;
+}
+.btncommonhome { 
+  font-size: 13px;
+  padding: 9px 10px; 
+  width: auto!important; 
+}
+.tabhome h3 { 
+  font-size: 18px!important; 
+  line-height: 24px;
+}
+
 
 }
 
