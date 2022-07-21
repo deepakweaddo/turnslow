@@ -4264,7 +4264,9 @@ h2.swym-wishlist-main-title.swym-heading.swym-heading-1.swym-is-heading {
    font-size: 30px; 
   line-height: 35px;
 }
-
+.divexTab2 img {
+  width: 100%;     margin: 0 5px 5px 0;
+}
 
 
 }
