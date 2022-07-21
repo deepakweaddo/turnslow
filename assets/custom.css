@@ -3973,7 +3973,9 @@ cart-remove-button#CartDrawer-Remove-1 {
       width: 100%;
   }
 
-
+  .innerpagelayout {
+    margin: 135px 0 0;
+}
 
 }
 
