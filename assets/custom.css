@@ -3963,6 +3963,21 @@ cart-remove-button#CartDrawer-Remove-1 {
 /* responsive */
 
 @media (min-width:768px) and (max-width:1024px){
+  .collection-list .collection-list__item .card__heading a {
+    font-size: 22px; 
+  }
+  .btn1 { 
+    font-size: 14px;
+  }
+  .collection-list .collection-list__item img {
+      width: 100%;
+  }
+
+
+
+}
+
+@media (min-width:768px) and (max-width:1024px){
   .slowbtn {
     font-size: 13px;
     line-height: 12px;
