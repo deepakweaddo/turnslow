@@ -4259,8 +4259,11 @@ h2.swym-wishlist-main-title.swym-heading.swym-heading-1.swym-is-heading {
    font-size: 30px; 
   line-height: 35px;
 }
-
-
+.facets-container .mobile-facets__wrapper .mobile-facets__open {
+  text-align: center; 
+  display: block;
+  align-items: center; 
+}
 
 
 }
