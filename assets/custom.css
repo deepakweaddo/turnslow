@@ -5055,7 +5055,7 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
   overflow-x: auto;
 }
 .scrollbar1 { 
-  width: 85%; 
+  width: 100%; 
 }
 .recommendations_bg ul{    overflow-y: hidden;
   white-space: nowrap;
