@@ -5095,6 +5095,12 @@ td.cart-item__totals.right.medium-hide.large-up-hide {
   -webkit-overflow-scrolling: touch;
   overflow-x: auto;
 }
+.cartfooterpage .cart__ctas button { 
+  font-size: 18px;
+  padding: 7px 31px;
+  margin: 26px auto 0;
+}
+
 }
 
 
