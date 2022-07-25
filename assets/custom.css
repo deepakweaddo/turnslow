@@ -3957,7 +3957,10 @@ cart-remove-button#CartDrawer-Remove-1 {
   background:#e1680f;
   color: #fff!important;
 }
-
+.creatorvid{    width: 55%;
+  display: inline;
+  float: left;
+  margin: 0 15px 20px 0;}
 
 
 /* responsive */
