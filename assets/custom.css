@@ -1722,6 +1722,7 @@ a.sac_diff_check {
   color: #541d50;
   font-size: 16px;
   line-height: 24px;
+  cursor: pointer;
 }
 .divexTab2 img {
   width: 55%;
