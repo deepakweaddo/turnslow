@@ -4385,8 +4385,16 @@ a.slowbtn {
 .innerpagelayout {
   margin:65px 0 0 0;
 }
-.textContain { 
-  display: none;
+.textContain {
+  /* display: none; */
+  width: 60%;
+}
+.textContain h2 {
+  margin: 0 0 0px!important;
+  font-size: 12px; 
+}
+.textContain p {
+  font-size: 10px; 
 }
 #product-grid .card__content {
   min-height: auto;
