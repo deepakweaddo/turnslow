@@ -50,6 +50,7 @@
   {
   		jQuery(".creatorli").hide();
     	jQuery("."+urllocation).show();
+        jQuery('select[name="location"]').val(urllocation);
   }
 
   jQuery('select[name="location"]').change(function()
