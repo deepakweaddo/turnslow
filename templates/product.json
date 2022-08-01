@@ -226,7 +226,7 @@
     "1657136939f699db64": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"creatorWrapfooter\">  \n<div class=\"banner__content banner__content--middle-center page-width\">\n <h2> Other Creators of<br> Meghalaya <\/h2>\n <a href=\"..\/pages\/creator\" class=\"btncommon\">See All Creators<\/a>\n<\/div>\n <\/div>",
+        "custom_liquid": "<div class=\"creatorWrapfooter\">  \n<div class=\"banner__content banner__content--middle-center page-width\">\n <h2> Other Creators of<br> Meghalaya <\/h2>\n <a href=\"..\/pages\/creator\/?location={{product.metafields.custom.pdplocation.value.title }}\" class=\"btncommon\">See All Creators<\/a>\n<\/div>\n <\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
