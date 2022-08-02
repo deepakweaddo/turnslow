@@ -44,10 +44,11 @@
 
 <script>
   var urllocation = document.URL.split('?location=')[1];
-      urllocation = urllocation.toLowerCase();
+      
   console.log(urllocation);
   if(urllocation)
   {
+        urllocation = urllocation.toLowerCase();
   		jQuery(".creatorli").hide();
     	jQuery("."+urllocation).show();
         jQuery('select[name="location"]').val(urllocation);
