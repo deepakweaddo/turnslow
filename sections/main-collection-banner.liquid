@@ -23,7 +23,7 @@
             {{ collection.metafields.custom.banner | image_url }} {{ collection.metafields.custom.banner.width }}w"
           src="{{ collection.metafields.custom.banner | image_url: width: 750 }}"
           sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc(50vw - 130px), calc(50vw - 55px)"
-          alt="{{ collection.title | escape }}"
+          
           width="{{ collection.metafields.custom.banner.width }}"
           height="{{ collection.metafields.custom.banner.height }}"
         >
