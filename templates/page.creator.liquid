@@ -60,8 +60,9 @@
 
   jQuery('select[name="location"]').change(function()
     {
-      console.log("dpk");
+      //console.log("dpk");
         var locationoption = jQuery(this).find('option:selected').val();
+      locationoption = locationoption.toLowerCase();
       console.log(locationoption);
     if(locationoption == "")
         {jQuery(".creatorli").show();}
