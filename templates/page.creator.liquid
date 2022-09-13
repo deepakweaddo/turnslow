@@ -23,16 +23,20 @@
   <h2 class="headingcreator">Filter:</h2>
 
     {{ page.content }}
+    {% assign options = '' %}
+    {% for link in linklist.links %}
+      {% assign variant = link.object %} 
+        {% assign options = options | append: ',' | append: variant.metafields.custom.location %}
+    {% endfor %}
+    {% assign options = options | remove_first: ',' | split: ',' | uniq %}
+    
     <div class="s-select"> 
     
     <select id="location" class="location" name="location" >  
        <option value="">Select Location</option> 
-     {% for link in linklist.links %} 
-   
-     {% assign link_item = link.object %} 
-       {% if link_item.metafields.custom.location != "" %}
-       <option >{{ link_item.metafields.custom.location | downcase }}</option>
-       {%endif%}
+     {% for  option in options %} 
+
+       <option >{{ option | downcase }}</option>
      
      {% endfor %}
      </select>
