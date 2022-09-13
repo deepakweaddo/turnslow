@@ -11,7 +11,7 @@
         "ba055e2f-d02f-4dad-9b43-628bccf155bb": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<!-- custom html -->\n<div class=\"creatorWrap\">\n<div class=\"container\">\n<div class=\"row\"> \n<div class=\"col-12 col-md-9\">\n<div class=\"creator_pdp\">\n<div class=\"creatorImg\"><img class=\"img-fluid\" src=\"{{'creator1.png' | asset_url}}\"><\/div> \n<h3>Creator<\/h3>{{ product.vendor }}\n<\/div><\/div><div class=\"col-12 col-md-3\">\n{%- assign current_variant =product.selected_or_first_available_variant -%}<h4>SKU: {{current_variant.sku}}<\/h4><\/div><\/div><\/div>    \n<\/div>"
+            "custom_liquid": "<!-- custom html -->\n<div class=\"creatorWrap\">\n<div class=\"container\">\n<div class=\"row\"> \n<div class=\"col-12 col-md-9\">\n<div class=\"creator_pdp\">\n<div class=\"creatorImg\">\n{{ collections['slow-bazaar'].metafields.custom.profilepic | img_tag  }}<\/div> \n<h3>Creator<\/h3>{{ product.vendor }}\n<\/div><\/div><div class=\"col-12 col-md-3\">\n{%- assign current_variant =product.selected_or_first_available_variant -%}<h4>SKU: {{current_variant.sku}}<\/h4><\/div><\/div><\/div>    \n<\/div>"
           }
         },
         "vendor": {
