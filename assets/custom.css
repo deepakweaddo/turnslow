@@ -2431,6 +2431,10 @@ box-shadow: 6px 10px 25px -14px rgba(0,0,0,0.75);
   font-family: 'Poppins', sans-serif;
   padding: 26px 10px 11px 10px!important;
 }
+.facets__price .field__label {
+    left: 1.5rem;
+    color: #fff;
+}
 #FacetFiltersForm .facets__list {
   padding:6px 10px 10px 10px;
   background: #b1a08f;
