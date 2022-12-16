@@ -102,6 +102,19 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
+        "blocks": {
+          "0adeaad8-749a-4732-ba07-8ef55de862c9": {
+            "type": "announcement",
+            "settings": {
+              "text": "Free Delivery on orders above ₹ 600\/-",
+              "color_scheme": "inverse",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "0adeaad8-749a-4732-ba07-8ef55de862c9"
+        ],
         "settings": {
         }
       },
