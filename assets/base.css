@@ -2214,7 +2214,6 @@ input[type='checkbox'] {
 /* Main Header Layout */
 .header-wrapper {
   display: block;
-  position: fixed;
   background-color: rgb(var(--color-background));
   width:100%
 }
