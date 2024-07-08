@@ -566,7 +566,7 @@ details[open] .modal-overlay::after {
 .header-wrapper {
   width: 100%;
   background: url(header_bg1.jpg) 0% 0% / cover;
-  
+      position: fixed;
 }
  
 /* header menu start */
