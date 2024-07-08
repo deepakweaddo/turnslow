@@ -88,6 +88,7 @@
 .card--media .card__inner .card__content {
   padding: calc(var(--card-image-padding) + 1rem);
   position: relative;
+  z-index: 11;
 }
 
 .card__content {
