@@ -126,7 +126,7 @@ sticky-header.mainheader {
   margin: 8px 0 0 0;
 }
 .innerpagelayout {
-  margin: 1px 0 0 0;
+  margin: 135px 0 0 0;
 }
 
 .mainheader i {
@@ -568,11 +568,7 @@ details[open] .modal-overlay::after {
   background: url(header_bg1.jpg) 0% 0% / cover;
   
 }
-.section-header {
-    position: sticky;
-    top: 0;
-    z-index: 99;
-}
+ 
 /* header menu start */
 /* .innerpagelayout {
   margin: 162px 0 0 0;
